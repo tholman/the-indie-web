@@ -1,0 +1,236 @@
+---
+---
+
+/*
+ *  Thought Engine CSS
+ *  @author: Tim Holman (timothy.w.holman@gmail.com - @twholman);
+ */
+
+/* 
+ *  Responsive CSS
+ */
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	font-family: Consolas, monaco, monospace;
+	-webkit-font-smoothing: antialiased;
+	background-position: 50% 50%;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+	color: #fff;
+
+	.header-contents {
+		display: block;
+	}
+
+	h1 {
+		text-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+		position: relative;
+		margin-bottom: 0px;
+		text-align: center;
+		padding-top: 100px;
+		margin-top: 0px;
+		font-size: 64px;
+	}
+
+	h2 {
+		border-top: 5px solid #fff;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 15px;
+		margin-top: 20px;
+		max-width: 300px;
+		font-size: 50px;
+	}
+
+	.attribute {
+
+		font-family: helvetica;
+		text-decoration: none;
+		position: absolute;
+		bottom: 6px;
+		color: #fff;
+		right: 7px;
+
+		.icon {
+			font-size: 19px;
+			float: right;
+		}
+	}
+}
+
+.content {
+	font-family: "myriad-pro", sans-serif;
+	line-height: 1.5em;
+	max-width: 620px;
+	font-size: 18px;
+	margin: auto;
+	margin-top: 45px;
+	font-weight: 300;
+	color: rgb(109, 108, 108);
+
+	h2 {
+		color: #000;
+		margin-bottom: 20px;
+		margin-top: 35px;
+		font-size: 30px;
+	}
+}
+
+footer {
+	font-family: "myriad-pro", sans-serif;
+	margin-top: 55px;
+
+	.title {
+		font-family: "myriad-pro", sans-serif;
+		text-transform: uppercase;
+		display: block;
+		text-align: center;
+		-webkit-font-smoothing: antialiased;
+		margin: auto;
+		width: 400px;
+		color: #ddd;
+		font-weight: bold;
+		font-size: 32px;
+		position: relative;
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+		&.about-me {
+			margin-top: 0px;
+		}
+
+		&:before {
+			width: 190px;
+			height: 4px;
+			background: #eee;
+			display: block;
+			content: "";
+			position: absolute;
+			left: -110px;
+			top: 20px;
+		}
+
+		&:after {
+			width: 190px;
+			height: 4px;
+			background: #eee;
+			display: block;
+			content: "";
+			position: absolute;
+			right: -110px;
+			top: 20px;
+		}
+	}
+
+	.discussions {
+		text-align: center;
+
+		a {
+			width: 140px;
+			height: 140px;
+			display: inline-block;
+			margin: 10px;
+			border-radius: 100%;
+			border: 5px solid #eee;
+		}
+	}
+
+	.designer-news {
+		background-image: url('/images/designer-news.png');
+		background-size: 100% auto;
+	}
+
+	.hacker-news {
+		background-image: url('/images/hacker-news.png');
+		background-size: 100% auto;
+	}
+
+	.about {
+		max-width: 620px;
+		margin: auto;
+
+		.image {
+			float: left;
+			border: 5px solid #eee;
+			margin-bottom: 25px;
+			border-radius: 300px;
+			width: 140px;
+			height: 140px;
+		}
+
+		.caption {
+			color: rgb(26, 26, 26);
+			padding-left: 25px;
+			line-height: 1.5em;
+			font-size: 18px;
+			width: 445px;
+			float: left;
+
+			.links {
+				font-weight: bold;
+
+				a {
+					-webkit-font-smoothing: antialiased;
+					color: rgb(23, 131, 202);
+					text-decoration: none;
+					font-weight: normal;
+				}
+			}
+		}
+	}
+}
+
+
+.text-container {
+	display: block;
+
+	&:hover {
+
+		.text-wrapper {
+			max-width: 200px;
+		}
+	}
+
+	.icon-container {
+		overflow: hidden;
+		display: block;
+		float: right;
+		width: 10px;
+
+		&.right .icon{
+			float: left;
+		}
+
+		&.left .icon{
+			float: right;
+		}
+	}
+
+	.text-wrapper {
+		-webkit-transition: max-width 800ms;
+		background: rgba(0,0,0,0.3);
+		white-space: nowrap;
+		overflow: hidden;
+		max-width: 0px;
+		float: right;
+		height: 20px;
+
+		.text {
+			font-family: Helvetica, sans-serif;
+			font-weight: bolder;
+			padding-right: 5px;
+			line-height: 21px;
+			padding-left: 5px;
+			font-size: 11px;
+			float: right;
+		}
+	}
+}

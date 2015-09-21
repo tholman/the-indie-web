@@ -1,0 +1,16 @@
+---
+title: The Design and Dev blog of Tim Holman
+layout: base
+---
+
+<div class="content index">
+	{% for post in site.posts %}	
+		<a href=" {{post.url}} ">
+			<div class="post">
+				<h1>
+				 	<span> {{ post.title }} </span>
+				</h1>
+			</div>
+		 </a>	
+	{% endfor %}
+</div>

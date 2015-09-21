@@ -1,0 +1,17 @@
+permalink:  /:title/
+
+url: 'http://inspiring.online'
+
+# Title tag variables
+title: Inspiring Online
+tagline: Inspiring online tagline
+
+# Links tag variables
+twitter: "twholman"
+github:  "tholman"
+
+# Other external links
+analytics_tracking_id: "UA-22825241-1"
+
+# Misc variables
+highlighter: true
