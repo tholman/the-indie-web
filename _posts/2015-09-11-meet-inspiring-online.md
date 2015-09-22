@@ -4,7 +4,7 @@ title: Inspiring Online
 type: An Idea
 ---
 
-_For a while now, I've been condemplating creating a blog... I'd tried it a few times in the past, but nothing ever stuck. This is an experiment really, a fully open source blog, where anyone can submit posts, edit posts, add to posts. All that jazz. Here's a quick run down of what we've got going on._
+_For a while now Ive been condemplating creating a blog Id tried it a few times in the past, but nothing ever stuck. This is an experiment really, a fully open source blog, where anyone can submit posts, edit posts, add to posts. All that jazz. Heres a quick run down of what weve got going on._
 
 ## Title area
 
