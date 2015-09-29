@@ -21,23 +21,26 @@ header {
 
 	h1 {
 		position: relative;
-		margin-bottom: 0px;
-		padding-top: 100px;
+		margin-bottom: 50px;
 		margin-top: 0px;
 		font-size: 64px;
 	}
 }
 
-.content {
+.post {
 	font-family: "ff-tisa-web-pro", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.5em;
-	max-width: 620px;
+	max-width: 460px;
 	font-size: 18px;
 	margin: auto;
 	margin-top: 45px;
 	font-weight: 300;
-	color: rgb(109, 108, 108);
+	color: #222;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 60px;
+	padding-top: 50px;
 
 	h2 {
 		color: #000;
