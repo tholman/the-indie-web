@@ -2,15 +2,11 @@
 ---
 
 /*
- *  Thought Engine CSS
- *  @author: Tim Holman (timothy.w.holman@gmail.com - @twholman);
- */
-
-/* 
- *  Responsive CSS
+ *  Inspiring Online
  */
 
 body, html {
+	font-family: "ff-tisa-web-pro", sans-serif;
 	padding: 0px;
 	margin: 0px;
 }
@@ -27,8 +23,40 @@ header {
 	}
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav {
+	-webkit-font-smoothing: antialiased;
+	left: calc(50% - 470px);
+	letter-spacing: 1px;
+	font-style: italic;
+	padding-top: 112px;
+	text-align: right;
+	position: fixed;
+	font-size: 16px;
+	line-height: 27px;
+
+	a {
+		transition: opacity 100ms ease;
+		opacity: 0.5;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
+	ul {
+		border-top: 1px solid #eee;
+		padding-top: 10px;
+		list-style: none;
+		margin-top: 5px;
+	}
+}
+
 .post {
-	font-family: "ff-tisa-web-pro", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.5em;
 	max-width: 460px;
@@ -41,6 +69,10 @@ header {
 	padding-right: 20px;
 	padding-bottom: 60px;
 	padding-top: 50px;
+
+	&.has-divider {
+		border-bottom: 1px solid #eee;
+	}
 
 	h2 {
 		color: #000;
