@@ -1,5 +1,5 @@
 ## Inspiring Online
-_Inspiring online is an open source blog, used to share interesting, and inspiring things from the online landscape. _
+_Inspiring online is an open source blog, used to share interesting, and inspiring things from the online landscape._
 
 ### The idea
 _info about the full idea here, open to everyone. Great to get started developing and intro to open source_
