@@ -11,15 +11,15 @@ body, html {
 	margin: 0px;
 }
 
-header {
+.header {
 	font-family: "brandon-grotesque"; /* TODO: Font stack */
 	-webkit-font-smoothing: antialiased;
 
 	h1 {
 		position: relative;
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 		margin-top: 0px;
-		font-size: 64px;
+		font-size: 30px;
 	}
 }
 
@@ -62,7 +62,7 @@ nav {
 	max-width: 460px;
 	font-size: 18px;
 	margin: auto;
-	margin-top: 45px;
+	margin-top: 5px;
 	font-weight: 300;
 	color: #222;
 	padding-left: 20px;
@@ -80,4 +80,18 @@ nav {
 		margin-top: 35px;
 		font-size: 30px;
 	}
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.content a {
+	color: #333;
+	text-decoration: underline;
+}
+
+// Hide text before font loads
+.wf-loading {
+	visibility: hidden;
 }
