@@ -16,6 +16,10 @@ layout: base
         </a>
     {% endif %}
 
+    {% if page.video-id %}
+        <iframe width="100%" height="280" src="https://www.youtube.com/embed/{{ page.video-id }}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+
     <section class="content">
         {{ page.content }}
     </section>
