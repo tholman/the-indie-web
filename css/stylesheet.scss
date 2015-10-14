@@ -70,6 +70,10 @@ nav {
 	padding-bottom: 60px;
 	padding-top: 50px;
 
+	&:nth-child(2) {
+		padding-top: 70px;
+	}
+
 	&.has-divider {
 		border-bottom: 1px solid #eee;
 	}
