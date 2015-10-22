@@ -10,8 +10,8 @@ layout: base
         </h1>
     </a>
 
-    {% if page.image %}
-        <a href="{{ page.url }}">
+    {% if page.image && page.link %}
+        <a href="{{ page.link }}">
             <img src="/assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
         </a>
     {% endif %}

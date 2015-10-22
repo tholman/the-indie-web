@@ -3,6 +3,7 @@ layout: post
 title: Emotions through CSS
 type: Talk
 video-id: C9im1tkit0E
+link: https://www.youtube.com/watch?v=C9im1tkit0E
 ---
 
 _Listen to [Tammie Lister](http://diaryofawebsite.com/) talk about bringing out life-like emotions in your website, with css._

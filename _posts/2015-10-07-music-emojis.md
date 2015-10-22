@@ -3,6 +3,7 @@ layout: post
 title: Music Emojis
 type: Inspiration
 image: music-emojis.png
+link: http://musicemojis.tumblr.com/
 ---
 
 _[This](http://musicemojis.tumblr.com/) little tumblr blog by [Bruno Leo Ribeiro](http://www.brunoleoribeiro.com/#kauko-home) showcases his creative art style, as he shows each band member in the minimal style of emoji!_
