@@ -56,6 +56,16 @@ nav {
 	}
 }
 
+hr {
+	margin-bottom: 50px;
+    background: none;
+    height: 1px;
+    border-bottom: 1px solid #eee;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
 .post {
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.5em;
@@ -80,16 +90,27 @@ nav {
 	}
 
 	h2 {
-		color: #000;
-		margin-bottom: 20px;
-		margin-top: 35px;
-		font-size: 30px;
+	    margin-bottom: 15px;
+	    margin-top: 35px;
+	    font-size: 20px;
 	}
 
 	img {
 		max-width: 100%;
 		border: 10px solid #ddd;
 		box-sizing: border-box;
+	}
+}
+
+.contributors {
+
+	i {
+		color: #999;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #333;
 	}
 }
 
