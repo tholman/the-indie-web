@@ -4,12 +4,25 @@ title: Inspiring Online
 type: An Idea
 ---
 
-_For a while now Ive been condemplating creating a blog Id tried it a few times in the past, but nothing ever stuck. This is an experiment really, a fully open source blog, where anyone can submit posts, edit posts, add to posts. All that jazz. Heres a quick run down of what weve got going on._
+_For a while now Ive been condemplating creating an online space for sharing cool creative thigns online. I'd been a part of the awesome [creative.js](http://creativejs.com) team, while we were active and really enjoyed everything that was happening there... I also have a little bit of writers block when I try to get anything down. I've tried to tackle this, and a few other things with this blog. Hear me out!_
 
-## Title area
+Actually, the little synopsis above doesn't nearly do this project justice. I'm trying to tackle a whole bunch of things here, let me list them out!
 
-Make meme, make cute face lick arm hair intently sniff hand. Paw at your fat belly if it fits, i sits. Roll on the floor purring your whiskers off. Meowzer! hunt anything that moves caticus cuteicus chase mice. Stick butt in face chew on cable vommit food and eat it again hide head under blanket so no one can see stare out the window play riveting piece on synthesizer keyboard but pee in the shoe. Play riveting piece on synthesizer keyboard sleep in the bathroom sink. Meowzer! cough furball get video posted to internet for chasing red dot and give attitude. Scream at teh bath chase ball of string, play time. Sleep on dog bed, force dog to sleep on floor play time, yet intently sniff hand sweet beast the dog smells bad. Flop over ignore the squirrels, you'll never catch them anyway. Claw drapes. Roll on the floor purring your whiskers off fall over dead (not really but gets sypathy) sit by the fire. 
+#### Getting into open source is hard.
+I remember my first commit, that was merged into an open source project. I literally had no idea what was going on. I'd tried to read up on open source worked, and came up fairly short. In the end, I was lucky that the repository owner was nice, and helpful, and got my fixes in, in the end. It felt great.
 
-## Another title area
+It felt really great. I'd love this blog to be an opening point for new developers. If anything, just a little space to experience your first pull request, or first issue. First little taste of the amazing world they're about to get into. 
 
-Meowzer! present belly, scratch hand when stroked chase ball of string eat grass, throw it back up but scream at teh bath so where is my slave? i'm getting hungry. Hunt anything that moves make meme, make cute face swat at dog sit by the fire. Meow. Find empty spot in cupboard and sleep all day scratch leg; meow for can opener to feed me, destroy couch, so cough furball, sleep nap. If it fits, i sits rub face on everything. Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed rub face on owner. Chirp at birds caticus cuteicus so sit by the fire. Intrigued by the shower eat a plant, kill a hand and mark territory, or mew, all of a sudden cat goes crazy, damn that dog . Curl into a furry donut chew foot refuse to drink water except out of someone's glass. Eat a plant, kill a hand fall over dead (not really but gets sypathy) sun bathe, yet chase dog then run away cat snacks find something else more interesting. 
+#### Blogging is hard.
+Inspiring online isn't really about opinions, other than "this is cool!" ... the articles are extremely short form. I guess I picked this up from tumblr, while working there. This helps get things out quickly, and easily. I like moving that way. 
+
+At the very least, this could be a place where you commit one small thing in the morning... as though its a "non complex" way to start the day. Sometimes, once I get commits rolling, I'm hard to stop. It feels great.
+
+#### Community.
+I've really got no idea if this will be picked up or not, but ideally we can get a little crowd of people around this project, proposing new articles, and creating new little posts. Nothing too intense, but community would be nice!
+
+...
+
+I guess, these three points cover the majority of what I'm going for here. Please please please, check out the [contributing](https://github.com/tholman/inspiring-online#user-content-inspiring-online) page, and let me know what you think. Maybe even join in.
+
+It literally can't hurt at all!
