@@ -112,6 +112,11 @@ hr {
 		text-decoration: underline;
 		color: #333;
 	}
+
+	h2 {
+		border-bottom: 3px solid rgba(0,0,0,0.1);
+		padding-bottom: 10px;
+	}
 }
 
 .content a {
