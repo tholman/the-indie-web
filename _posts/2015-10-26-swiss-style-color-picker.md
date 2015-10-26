@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Swoss Color Picker
+title: Swiss Color Picker
 type: Inspiration
 image: swiss-style-color-picker.png
 link: http://swisscolors.net/
