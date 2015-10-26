@@ -17,9 +17,17 @@ body, html {
 
 	h1 {
 		position: relative;
-		margin-bottom: 20px;
 		margin-top: 0px;
 		font-size: 30px;
+		text-align: left;
+		display: inline-block;
+	}
+	p {
+		margin-top: 0px;
+		float: right;
+		font-family: ff-tisa-web-pro, sans-serif;
+		font-size: 16px;
+		font-style: italic;
 	}
 }
 

@@ -9,6 +9,12 @@ layout: base
             <h1>
                 {{ post.title }}
             </h1>
+
+            {% if post.author %}
+                  <p>
+                      {{ post.author }}
+                  </p>
+            {% endif %}
         </a>
 
         {% if post.image %}
