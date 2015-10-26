@@ -4,7 +4,7 @@ title: Inspiring Online
 type: An Idea
 ---
 
-_For a while now Ive been condemplating creating an online space for sharing cool creative thigns online. I'd been a part of the awesome [creative.js](http://creativejs.com) team, while we were active and really enjoyed everything that was happening there... I also have a little bit of writers block when I try to get anything down. I've tried to tackle this, and a few other things with this blog. Hear me out!_
+_For a while now Ive been condemplating creating an online space for sharing cool creative things online. I'd been a part of the awesome [creative.js](http://creativejs.com) team, while we were active and really enjoyed everything that was happening there... I also have a little bit of writers block when I try to get anything down. I've tried to tackle this, and a few other things with this blog. Hear me out!_
 
 Actually, the little synopsis above doesn't nearly do this project justice. I'm trying to tackle a whole bunch of things here, let me list them out!
 
