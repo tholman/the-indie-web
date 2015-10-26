@@ -13,6 +13,8 @@ I remember my first commit, that was merged into an open source project. I liter
 
 It felt really great. I'd love this blog to be an opening point for new developers. If anything, just a little space to experience your first pull request, or first issue. First little taste of the amazing world they're about to get into. 
 
+Check out the <a href="http://github.com/tholman/inspiring-online">github page here.</a>
+
 #### Blogging is hard.
 Inspiring online isn't really about opinions, other than "this is cool!" ... the articles are extremely short form. I guess I picked this up from tumblr, while working there. This helps get things out quickly, and easily. I like moving that way. 
 
