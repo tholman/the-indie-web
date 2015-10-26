@@ -13,6 +13,24 @@ Here are a few ways to get started:
 2. Submit a post from an approved proposal! This means, adding the image, and the markdown file to create the post, as well as writing a little something about it. Not too much (we're not really that wordy) ... Kapow, done!
 3. Fix a spelling mistake! I'm not perfect at all, I must make 100 of these a day. Even if its a small pull request, we'd love to see it!
 
+#### Running locally
+
+Start by installing [Bundler](http://gembundler.com/), if you don't already have it:
+
+```
+gem install bundler
+```
+
+Then just clone the repository down to your local machine:
+
+```
+git clone https://github.com/tholman/inspiring-online
+```
+
+Finally, do a ```bundle install``` to install the required gems.
+
+Run ```jekyll serve``` to see the website running on ```http://localhost:4000```.
+
 ### What we like
 Naturally, for Inspiring Online to keep a good quality, we can't accept any old post. For new people, there should be a bunch of `[proposal]`'s in the projects [issues page](https://github.com/tholman/inspiring-online) ... these are great starting points. Similarly, if you spot a mistake or problem in a post, you can patch that up too! I see so many pull requests fixing readme's ... they're totally welcome here!
 
