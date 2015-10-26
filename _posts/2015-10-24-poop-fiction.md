@@ -5,7 +5,6 @@ type: Inspiration
 image: poop-fiction.png
 link: http://readpoopfiction.com/
 author: tholman
-authorLink: http://tholman.com/
 ---
 _Got nowhere to be? Got a little time? Sitting on the toilet?_
 
