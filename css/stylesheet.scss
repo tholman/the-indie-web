@@ -12,14 +12,22 @@ body, html {
 }
 
 .header {
-	font-family: "brandon-grotesque"; /* TODO: Font stack */
+	font-family: "brandon-grotesque", sans-serif; /* TODO: Font stack */
 	-webkit-font-smoothing: antialiased;
 
 	h1 {
 		position: relative;
-		margin-bottom: 20px;
 		margin-top: 0px;
 		font-size: 30px;
+		text-align: left;
+		display: inline-block;
+	}
+	p {
+		margin-top: 0px;
+		float: right;
+		font-family: "brandon-grotesque", sans-serif;;
+		font-size: 16px;
+		font-style: italic;
 	}
 }
 
