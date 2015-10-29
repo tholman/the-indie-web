@@ -19,3 +19,4 @@ encoding: utf-8
 
 # Number of posts on each page.
 paginate: 10
+paginate_path: "/page-:num/"
