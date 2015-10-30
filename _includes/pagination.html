@@ -4,13 +4,13 @@
             {% if paginator.page == 2 %}
                 <a href="{{ site.baseurl }}/">‹ {{ site.var_newer }}</a>
             {% else %}
-                <a href="{{ site.baseurl }}/page-{{paginator.previous_page}}/">‹ {{ site.var_newer }}</a>
+                <a href="{{ site.baseurl }}/{{paginator.previous_page}}/">‹ {{ site.var_newer }}</a>
             {% endif %}
         </div>
     {% endif %}
     {% if paginator.next_page %}
         <div class="right">
-            <a href="{{ site.baseurl }}/page-{{paginator.next_page}}/">{{ site.var_older }} ›</a>
+            <a href="{{ site.baseurl }}/{{paginator.next_page}}/">{{ site.var_older }} ›</a>
         </div>
     {% endif %}
 </div>
