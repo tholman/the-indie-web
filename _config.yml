@@ -19,3 +19,6 @@ encoding: utf-8
 
 # Number of posts on each page.
 paginate: 10
+paginate_path: "/page-:num/"
+var_older: 'Next'
+var_newer: 'Previous'
