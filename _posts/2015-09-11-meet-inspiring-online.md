@@ -2,6 +2,7 @@
 layout: post
 title: Inspiring Online
 type: An Idea
+author: tholman
 ---
 
 _For a while now I've been contemplating creating an online space for sharing cool creative things online. I'd been a part of the awesome [creative.js](http://creativejs.com) team, while we were active and really enjoyed everything that was happening there... I also have a little bit of writers block when I try to get anything down. I've tried to tackle this, and a few other things with this blog. Hear me out!_
@@ -16,7 +17,7 @@ It felt really great. I'd love this blog to be an opening point for new develope
 Check out the [GitHub page here](https://github.com/tholman/inspiring-online).
 
 #### Blogging is hard.
-Inspiring Online isn't really about opinions, other than "This is cool!"... the articles are extremely short form. I guess I picked this up from Tumblr while working there. This helps get things out quickly and easily. I like moving that way.
+Inspiring online isn't really about opinions, other than "this is cool!" ... the articles are extremely short form. I guess I picked this up from Tumblr, while working there. This helps get things out quickly, and easily. I like moving that way.
 
 At the very least, this could be a place where you commit one small thing in the morning... as though it's a "noncomplex" way to start the day. Sometimes, once I get commits rolling, I'm hard to stop. It feels great.
 

@@ -4,11 +4,16 @@ layout: base
 
 <article class="post">
 
-    <a class="header" href="{{ page.url }}">
+    <div class="header">
         <h1>
-            {{ page.title }}
+            <a href="{{ page.url }}">{{ page.title }}</a>
         </h1>
-    </a>
+
+        {% if page.author %}
+            <p>{{ page.author }}</p>
+        {% endif %}
+
+    </div>
 
     {% if page.image && page.link %}
         <a href="{{ page.link }}">
