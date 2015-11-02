@@ -30,3 +30,22 @@ layout: base
     </section>
 
 </article>
+
+<nav class="right">
+    <ul>
+        {% if page.authorName %}
+            <li>
+                Happily added by:<br>
+                {% if page.authorUrl %}
+                    <a href="{{ page.authorUrl }}">{{ page.authorName }}</a>
+                {% else %}
+                    <span>{{ page.authorName }}</span>
+                {% endif %}
+            </li>
+        {% endif %}
+
+        {% if page.authorGithub %}
+            <li><a href="http://github.com/{{ page.authorGithub }}">@{{ page.authorGithub }}</a></li>
+        {% endif %}
+    </ul>
+</nav>

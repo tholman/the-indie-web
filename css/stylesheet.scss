@@ -30,7 +30,7 @@ a {
 
 nav {
     -webkit-font-smoothing: antialiased;
-    left: calc(50% - 470px);
+    left: calc(50% - 485px);
     letter-spacing: 1px;
     font-style: italic;
     padding-top: 112px;
@@ -38,6 +38,20 @@ nav {
     position: fixed;
     font-size: 16px;
     line-height: 27px;
+    top: 3px;
+    width: 180px;
+    box-sizing: border-box;
+
+    &.right {
+        right: calc(50% - 485px);
+        text-align: left;
+        left: initial;
+
+        ul {
+            padding-left: 0px;
+            padding-right: 40px;
+        }
+    }
 
     a {
         transition: opacity 100ms ease;

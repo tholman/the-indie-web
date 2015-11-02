@@ -2,7 +2,9 @@
 layout: post
 title: Inspiring Online
 type: An Idea
-author: tholman
+authorName: Tim Holman
+authorUrl: http://tholman.com
+authorGithub: tholman
 ---
 
 _For a while now I've been contemplating creating an online space for sharing cool creative things online. I'd been a part of the awesome [creative.js](http://creativejs.com) team, while we were active and really enjoyed everything that was happening there... I also have a little bit of writers block when I try to get anything down. I've tried to tackle this, and a few other things with this blog. Hear me out!_

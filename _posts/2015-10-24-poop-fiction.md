@@ -4,6 +4,9 @@ title: Poop Fiction
 type: Inspiration
 image: poop-fiction.png
 link: http://readpoopfiction.com/
+authorName: Tim Holman
+authorUrl: http://tholman.com
+authorGithub: tholman
 ---
 _Got nowhere to be? Got a little time? Sitting on the toilet?_
 
