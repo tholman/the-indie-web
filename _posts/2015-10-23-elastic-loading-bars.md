@@ -4,6 +4,9 @@ title: Elastic Loading Bars
 type: Inspiration
 image: elastic-loading-bars.png
 link: http://tympanus.net/Development/ElasticProgress/
+authorName: Tim Holman
+authorUrl: http://tholman.com
+authorGithub: tholman
 ---
 
 _[These Elastic Loaders](http://tympanus.net/Development/ElasticProgress) show how beautiful a little SVG animation can be._

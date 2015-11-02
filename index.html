@@ -5,11 +5,16 @@ layout: base
 {% for post in paginator.posts %}
     <article class="post has-divider">
 
-        <a class="header" href="{{ post.url }}">
+        <div class="header">
             <h1>
-                {{ post.title }}
+                <a href="{{ post.url }}">{{ post.title }}</a>
             </h1>
-        </a>
+
+            {% if post.author %}
+                <p>{{ post.author }}</p>
+            {% endif %}
+
+        </div>
 
         {% if post.image %}
             <a href="{{ post.url }}">
