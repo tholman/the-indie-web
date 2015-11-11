@@ -2,7 +2,7 @@
 layout: post
 title: Neven Mrgan on Why Skeuomorphism Is Like a Classic Car
 type: Inspiration
-vimeo: 116295698
+vimeo-id: 116295698
 link: https://vimeo.com/116295698
 authorName: Vaidas L.
 authorUrl: https://vaidaslamanauskas.com
