@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hiphop Quoted
+title: Hip Hop Quoted
 type: Inspiration
 image: hiphop-quoted.png
 link: http://hiphopquoted.com
@@ -9,9 +9,8 @@ authorUrl: http://tholman.com
 authorGithub: tholman
 ---
 
-_Love typography? Love hiphop? [Hipop Quoted](http://hiphopquoted.com) quoted is for you._
+_Love typography? Love Hip Hop? [Hip Hop Quoted](http://hiphopquoted.com) is for you._
 
-This awesome collection, built by [Ollie Kavanagh](http://olliekav.com) combines hiphop lyrics with web typography, which really brings them to life on the screen.
+This awesome collection, built by [Ollie Kavanagh](http://olliekav.com) combines Hip Hop lyrics with web typography, which really brings them to life on the screen.
 
-[Hipop Quoted](http://hiphopquoted.com) - by [Ollie Kavanagh](http://olliekav.com)
-
+[Hip Hop Quoted](http://hiphopquoted.com) - by [Ollie Kavanagh](http://olliekav.com)
