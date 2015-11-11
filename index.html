@@ -26,6 +26,10 @@ layout: base
             <iframe width="100%" height="280" src="https://www.youtube.com/embed/{{ post.video-id }}" frameborder="0" allowfullscreen></iframe>
         {% endif %}
 
+        {% if post.vimeo %}
+        <iframe width="100%" height="280" src="https://player.vimeo.com/video/{{ post.vimeo }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+
         <section class="content">
             {{ post.content }}
         </section>
