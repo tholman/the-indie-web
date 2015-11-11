@@ -9,9 +9,8 @@ authorUrl: http://tholman.com
 authorGithub: tholman
 ---
 
-_Ever wondered what its like to be a cat? Now you can [live it](http://catscatscatscatscats.com)._
+_Ever wondered what it's like to be a cat? Now you can [live it](http://catscatscatscatscats.com)._
 
-This quirky little game has an awesome pixel art style, and is built entirely with javascript. Running at a cool 60 frames per second.
+This quirky little game has an awesome pixel art style and is built entirely with JavaScript. Running at cool 60 frames per second.
 
 [Cats Cats Cats Cats Cats](http://catscatscatscatscats.com) - by [Matthew Morrison](https://twitter.com/stuffmattdoesnt)
-
