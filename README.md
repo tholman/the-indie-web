@@ -9,9 +9,9 @@ There are a lot of ways to contribute to this project. Really, we want what you 
 
 Here are a few ways to get started:
 
-1. Submit an awesome website! This involves opening an issue with `[proposal]` as the first word. And a link to something you think is creative and awesome.
-2. Submit a post from an approved proposal! This means, adding the image, and the markdown file to create the post, as well as writing a little something about it. Not too much (we're not really that wordy) ... Kapow, done!
-3. Fix a spelling mistake! I'm not perfect at all, I must make 100 of these a day. Even if it's a small pull request, we'd love to see it!
+1. **Submit a pull request from an approved proposal.** This means, adding the image, and the markdown file to create the post, as well as writing a little something about it. Not too much (we're not really that wordy) ... Kapow, done!
+2. **Submit an awesome website!** This involves opening an issue with `[proposal]` as the first word. And a link to something you think is creative and awesome.
+3. **Fix a spelling mistake!** I'm not perfect at all, I must make 100 of these a day. Even if it's a small pull request, we'd love to see it!
 
 #### Running locally
 Start by installing [Bundler](http://gembundler.com/), if you don't already have it:
