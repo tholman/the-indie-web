@@ -11,6 +11,6 @@ authorGithub: tholman
 
 _Looking for that perfect font combination for your new project? Look no further than TypeSource._
 
-[Tobias Ahlin](http://tobiasahlin.com/)'s project, [TypeSource](http://tobiasahlin.com/typesource/), shows off some creative, and elegant font combinations using type soruced from Google fonts.
+[Tobias Ahlin](http://tobiasahlin.com/)'s project, [TypeSource](http://tobiasahlin.com/typesource/), shows off some creative, and elegant font combinations using type sourced from Google fonts.
 
 [TypeSource](http://tobiasahlin.com/typesource/) - by [Tobias Ahlin](http://tobiasahlin.com/)
