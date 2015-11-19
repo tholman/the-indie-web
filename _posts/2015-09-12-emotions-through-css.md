@@ -2,7 +2,7 @@
 layout: post
 title: Emotions through CSS
 type: Talk
-video-id: C9im1tkit0E
+youtube-id: C9im1tkit0E
 link: https://www.youtube.com/watch?v=C9im1tkit0E
 authorName: Tim Holman
 authorUrl: http://tholman.com
