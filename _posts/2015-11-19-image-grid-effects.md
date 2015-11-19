@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TypeSource
+title: Image Grid Effects
 type: Inspiration
 image: image-grid-effects.jpg
 link: http://tympanus.net/Development/ImageGridEffects/
