@@ -36,16 +36,31 @@ nav {
     padding-top: 112px;
     text-align: right;
     position: fixed;
+    display: block;
     font-size: 16px;
     line-height: 27px;
-    top: 3px;
+    top: 0;
     width: 180px;
     box-sizing: border-box;
+
+    @media (max-width: 58em) {
+        position: relative;
+        width: 100%;
+        max-width: 485px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        left: 0;
+    }
 
     &.right {
         right: calc(50% - 485px);
         text-align: left;
         left: initial;
+
+        @media (max-width: 58em) {
+            right: 0;
+        }
 
         ul {
             padding-left: 0px;
