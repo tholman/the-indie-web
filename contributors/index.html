@@ -13,19 +13,14 @@ info: It'd be great to improve this page. But this is a good start.
             Fantastic Contributors:
         </h1>
     </a>
-    
+
     <i>We'd love to see you here! Please check out the <a href="https://github.com/tholman/inspiring-online#user-content-inspiring-online">contributing guide</a> to get involved!</i>
 
     <!-- If you're here, then its 10+ next... then 25+ ... then 50+ ... if we're still going, we'll figure it out! -->
-
-    <h2>5+</h2>
+    <hr>
     <ul>
-        <li><a href="http://tholman.com">Tim Holman</a> - <a href="http://twitter.com/twholman">@twholman</a>
+        {% for contributor in site.data.contributors %}
+        <li><a href="{{ contributor.website }}">{{ contributor.name }}</a> - <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a> <i>({{ contributor.contributions }})</i></li>
+        {% endfor %}
     </ul>
-
-    <h2>1 to 5</h2>
-    <ul>
-        <li><i>This could be you!</i></li>
-    </ul>
-    
 </article>
