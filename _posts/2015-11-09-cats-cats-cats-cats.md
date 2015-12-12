@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cats Cats Cats Cats Cats
-type: Inspiration
+type: WeirdWideWeb
 image: cats-cats-cats-cats-cats.png
 link: http://catscatscatscatscats.com
 authorName: Tim Holman

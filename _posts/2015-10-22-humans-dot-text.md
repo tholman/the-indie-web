@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Humans.txt
-type: Inspiration
+type: WeirdWideWeb
 image: humans-dot-text.png
 link: http://tumblr.com/humans.txt
 authorName: Tim Holman
