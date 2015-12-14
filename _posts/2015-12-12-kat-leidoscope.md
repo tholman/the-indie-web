@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KatLeidoscope
-type: Inspiration
+type: WideWeirdWeb
 image: kat-leidoscope.png
 link: http://katleidoscope.com/
 authorName: Tim Holman
