@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Poop Fiction
-type: Inspiration
+type: WideWeirdWeb
 image: poop-fiction.png
 link: http://readpoopfiction.com/
 authorName: Tim Holman
