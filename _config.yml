@@ -14,7 +14,7 @@ github:  "tholman"
 analytics_tracking_id: "UA-22825241-1"
 
 # Misc variables
-highlighter: 'pygments'
+highlighter: 'rouge'
 encoding: utf-8
 
 # Number of posts on each page.
