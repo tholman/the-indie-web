@@ -15,15 +15,27 @@ layout: base
             Fantastic Contributors
         </h1>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </a>
 
     <i>We'd love to see you here! Please check out the <a href="https://github.com/tholman/inspiring-online#user-content-inspiring-online">contributing guide</a> to get involved!</i>
 
     <!-- If you're here, then its 10+ next... then 25+ ... then 50+ ... if we're still going, we'll figure it out! -->
     <h2>10+</h2>
+=======
+    </div>
+
+    <i>We'd love to see you here! Please check out the <a href="https://github.com/tholman/inspiring-online#contributing">contributing guide</a> to get involved!</i>
+
+    <!-- If you're here, then it's 10+ next... then 25+ ... then 50+ ... if we're still going, we'll figure it out! -->
+    <hr>
+>>>>>>> tholman/gh-pages
     <ul>
-        <li><a href="http://tholman.com">Tim Holman</a> - <a href="http://twitter.com/twholman">@twholman</a>
+        {% for contributor in site.data.contributors %}
+        <li><a href="{{ contributor.website }}">{{ contributor.name }}</a> - <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a></li>
+        {% endfor %}
     </ul>
+<<<<<<< HEAD
 =======
     </div>
 
@@ -48,5 +60,8 @@ layout: base
         <li><a href="{{ contributor.website }}">{{ contributor.name }}</a> - <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a></li>
         {% endfor %}
     </ul>
+</article>
+>>>>>>> tholman/gh-pages
+=======
 </article>
 >>>>>>> tholman/gh-pages
