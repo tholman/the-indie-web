@@ -205,6 +205,14 @@ hr {
         border-bottom: 3px solid rgba(0,0,0,0.1);
         padding-bottom: 10px;
     }
+
+    hr {
+        margin: 1rem 0;
+        border: 0;
+        width: 100%;
+        height: 3px;
+        background: rgba(0,0,0,0.1);
+    }
 }
 
 .content a {

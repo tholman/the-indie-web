@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FrankenSim
-type: Inspiration
+type: WideWeirdWeb
 image: frankensim.png
 link: http://frankensim.animade.tv
 authorName: Vaidas L.

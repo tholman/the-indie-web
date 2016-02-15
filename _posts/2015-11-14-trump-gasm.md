@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trump Gasm
-type: Inspiration
+type: WideWeirdWeb
 image: trump-gasm.png
 link: http://omg.topherchris.com/TRUMPGASM
 authorName: Vaidas L.

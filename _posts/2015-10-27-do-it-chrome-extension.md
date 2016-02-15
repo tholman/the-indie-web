@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do it!
-type: Inspiration
+type: WideWeirdWeb
 youtube-id: vvMzv8OI5E4
 link: https://www.youtube.com/watch?v=vvMzv8OI5E4
 authorName: Tim Holman
