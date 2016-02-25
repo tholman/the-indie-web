@@ -23,7 +23,7 @@ gem install bundler
 Then just clone the repository down to your local machine:
 
 ```
-git clone https://github.com/tholman/inspiring-online
+git clone https://github.com/tholman/inspiring-online.git
 ```
 
 Finally, do a ```bundle install``` to install the required gems.
@@ -31,9 +31,9 @@ Finally, do a ```bundle install``` to install the required gems.
 Run ```jekyll serve``` to see the website running on ```http://localhost:4000```.
 
 ### What we like
-Naturally, for Inspiring Online to keep a good quality, we can't accept any old post. For new people, there should be a bunch of `[proposal]`'s in the projects [issues page](https://github.com/tholman/inspiring-online) ... these are great starting points. Similarly, if you spot a mistake or problem in a post, you can patch that up too! I see so many pull requests fixing readmes ... they're totally welcome here!
+Naturally, for Inspiring Online to keep a good quality, we can't accept any old post. For new people, there should be a bunch of `[proposal]`s on the project's [issues page](https://github.com/tholman/inspiring-online/issues); these are great starting points. Similarly, if you spot a mistake or problem in a post, you can patch that up too! I see so many pull requests fixing readmes ... they're totally welcome here!
 
-We're looking for posts, images and links that inspire people. These can range from great talks, to creative code, to awesome design. Here's a few little examples.
+We're looking for posts, images, and links that inspire people. These can range from great talks, to creative code, to awesome design. Here're a few little examples:
 
 - [Emotions With CSS](http://inspiring.online/emotions-through-css/) is an awesome talk. Well worthy!
 - [Music Emojis](http://inspiring.online/music-emojis/) is a great little design project.
@@ -51,7 +51,7 @@ If ideas and proposals really fill up in the GitHub issues, we might move to a l
 Most importantly, don't be offended if we turn something down. We're here to work with you and make the most out of your contributions, and ideally won't have to turn much down!
 
 ### Bear with us!
-Nothing is perfect. We're totally figuring this whole thing out right now. Got a problem, please open up an issue on the repository. That way, you're guaranteed to get something back.
+Nothing is perfect. We're totally still figuring this whole thing out. Got a problem, please open up an issue on the repository. That way, you're guaranteed to get something back.
 
 ### License
 See the [license](LICENSE.md) file for license rights and limitations (MIT).
