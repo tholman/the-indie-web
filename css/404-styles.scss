@@ -1,0 +1,133 @@
+body {
+  margin: 4%;
+  padding: 0;
+  color: #fff;
+  font-family: "brandon-grotesque", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 21pt;
+  text-align: center;
+  background: #000;
+  animation: bodyAnimation 2.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+svg {
+  width: 180px;
+
+  .stroke {
+    animation: strokeAnimation 2s step-end;
+  }
+
+  .fill {
+    animation: fillAnimation 2s step-end;
+  }
+
+  #rays {
+    opacity: 0;
+    animation: raysAnimation 2s step-end;
+  }
+
+  #questionMark {
+    opacity: 0;
+    animation: questionMarkAnimation .5s ease-in-out 2.5s forwards;
+  }
+}
+
+h1 {
+  font-size: 28pt;
+  opacity: 0;
+  animation: headingAnimation 1s ease-in-out 3s forwards;
+}
+
+p {
+  opacity: 0;
+  animation: paragraphAnimation 1s ease-in-out 3.5s forwards;
+}
+
+a {
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:after {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #fff;
+    transition: .3s;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+}
+
+@media (min-height: 737px) {
+  section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes bodyAnimation {
+  0% { background: #fff; }
+  90% { background: #fff; }
+  100% { background: #000; }
+}
+
+@keyframes strokeAnimation {
+  from { stroke: #000; }
+  to { stroke: #fff; }
+}
+
+@keyframes fillAnimation {
+  from { fill: #000; }
+  to { fill: #fff; }
+}
+
+@keyframes raysAnimation {
+  0% { opacity: 1; }
+  30% { opacity: 0; }
+  35% { opacity: 0; }
+  40% { opacity: 1; }
+  45% { opacity: 0; }
+  50% { opacity: 1; }
+  55% { opacity: 0; }
+  60% { opacity: 1; }
+  65% { opacity: 0; }
+  70% { opacity: 1; }
+  75% { opacity: 0; }
+  80% { opacity: 1; }
+  85% { opacity: 0; }
+  95% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes questionMarkAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes headingAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes paragraphAnimation {
+  from { opacity: 0; }
+  to { opacity: .75; }
+}
