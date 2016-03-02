@@ -22,7 +22,13 @@ layout: base
     <hr>
     <ul>
         {% for contributor in site.data.contributors %}
-        <li><a href="{{ contributor.website }}">{{ contributor.name }}</a> - <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a></li>
+        <li>{% if contributor.website %}
+          <a href="{{ contributor.website }}">{{ contributor.name }}</a>
+          {% else %}
+          <span>{{ contributor.name }}</span>
+          {% endif %}
+          {% if contributor.twitter %}- <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a>
+        {% endif %}</li>
         {% endfor %}
     </ul>
 </article>
