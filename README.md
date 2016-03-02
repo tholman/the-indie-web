@@ -1,10 +1,13 @@
 ## Inspiring Online
+
 _[Inspiring online](http://inspiring.online) is an open source blog, used to share interesting, and inspiring things from the online landscape._
 
 ### The idea
+
 Inspiring Online aims to be a blog for those looking for encouragement and inspiration in the tech world, but is also an experiment. The entire blog is open source, so anyone can submit amendments to posts, fix spelling mistakes, add discussion links, and create new posts too! Ideally, it's a great starting area for someone to enter the open source world!
 
 ### Contributing
+
 There are a lot of ways to contribute to this project. Really, we want what you have! This is a great place to get started with open source code. Break down that initial barrier (it was really scary for me, but once it's down, the floodgates are open for you, and the open source world).
 
 Here are a few ways to get started:
@@ -14,6 +17,7 @@ Here are a few ways to get started:
 3. **Fix a spelling mistake!** I'm not perfect at all, I must make 100 of these a day. Even if it's a small pull request, we'd love to see it!
 
 #### Running locally
+
 Start by installing [Bundler](http://gembundler.com/), if you don't already have it:
 
 ```
@@ -26,11 +30,14 @@ Then just clone the repository down to your local machine:
 git clone https://github.com/tholman/inspiring-online.git
 ```
 
-Finally, do a ```bundle install``` to install the required gems.
+Finally, do a `bundle install` to install the required gems.
 
-Run ```jekyll serve``` to see the website running on ```http://localhost:4000```.
+Run `jekyll serve` to see the website running on `http://localhost:4000`.
+
+If you get any errors or warnings, try to run `bundle exec jekyll serve`.
 
 ### What we like
+
 Naturally, for Inspiring Online to keep a good quality, we can't accept any old post. For new people, there should be a bunch of `[proposal]`s on the project's [issues page](https://github.com/tholman/inspiring-online/issues); these are great starting points. Similarly, if you spot a mistake or problem in a post, you can patch that up too! I see so many pull requests fixing readmes ... they're totally welcome here!
 
 We're looking for posts, images, and links that inspire people. These can range from great talks, to creative code, to awesome design. Here're a few little examples:
@@ -40,6 +47,7 @@ We're looking for posts, images, and links that inspire people. These can range 
 - [This glitch effect](http://inspiring.online/glitch/) is an amazing example of creative code.
 
 ### What we don't like
+
 Sadly, we don't really want everything... we've got to keep the quality up, and some things can taint that.
 
 - Please don't post your own things. I know self promoting is fun, but it's kind of against the spirit of what we're trying to do.
@@ -51,7 +59,9 @@ If ideas and proposals really fill up in the GitHub issues, we might move to a l
 Most importantly, don't be offended if we turn something down. We're here to work with you and make the most out of your contributions, and ideally won't have to turn much down!
 
 ### Bear with us!
+
 Nothing is perfect. We're totally still figuring this whole thing out. Got a problem, please open up an issue on the repository. That way, you're guaranteed to get something back.
 
 ### License
+
 See the [license](LICENSE.md) file for license rights and limitations (MIT).
