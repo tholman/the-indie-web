@@ -1,10 +1,12 @@
 ---
 layout: base
-info: Yep! This page is manual. If you make it past a threshold, please feel free to move yourself up!
-info: Also, feel free to add yourself or anyone new to this page, if they haven't already!
-info: All the people here are awesome! That's a fact.
-info: ...
-info: It'd be great to improve this page, but this is a good start.
+# Yep! This page is manual, to add yourself, add your info to
+# _data/contributors.yml to a  If you make it past a threshold, please feel free
+# to move yourself up!
+# Also, feel free to add yourself or anyone new to this page, if they haven't already!
+# All the people here are awesome! That's a fact.
+# ...
+# It'd be great to improve this page, but this is a good start.
 ---
 
 <article class="post contributors">
@@ -20,7 +22,13 @@ info: It'd be great to improve this page, but this is a good start.
     <hr>
     <ul>
         {% for contributor in site.data.contributors %}
-        <li><a href="{{ contributor.website }}">{{ contributor.name }}</a> - <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a></li>
+        <li>{% if contributor.website %}
+          <a href="{{ contributor.website }}">{{ contributor.name }}</a>
+          {% else %}
+          <span>{{ contributor.name }}</span>
+          {% endif %}
+          {% if contributor.twitter %}- <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a>
+        {% endif %}</li>
         {% endfor %}
     </ul>
 </article>
