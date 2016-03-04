@@ -17,11 +17,11 @@ svg {
   width: 180px;
 
   .stroke {
-    animation: strokeAnimation 2s step-end;
+    animation: strokeAnimation 2.2s ease-in-out;
   }
 
   .fill {
-    animation: fillAnimation 2s step-end;
+    animation: fillAnimation 2.2s ease-in-out;
   }
 
   #rays {
@@ -84,13 +84,15 @@ a {
 }
 
 @keyframes strokeAnimation {
-  from { stroke: #000; }
-  to { stroke: #fff; }
+  0% { stroke: #000; }
+  90% { stroke: #000; }
+  100% { stroke: #fff; }
 }
 
 @keyframes fillAnimation {
-  from { fill: #000; }
-  to { fill: #fff; }
+  0% { fill: #000; }
+  90% { fill: #000; }
+  100% { fill: #fff; }
 }
 
 @keyframes raysAnimation {
