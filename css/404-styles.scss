@@ -37,12 +37,14 @@ svg {
 
 h1 {
   font-size: 28pt;
+  visibility: hidden;
   opacity: 0;
   animation: headingAnimation 1s ease-in-out 3s forwards;
 }
 
 p {
   font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  visibility: hidden;
   opacity: 0;
   animation: paragraphAnimation 1s ease-in-out 3.5s forwards;
 }
@@ -120,17 +122,26 @@ a {
 
 @keyframes headingAnimation {
   from {
+    visibility: visible;
     opacity: 0;
     transform: translateY(20px);
   }
 
   to {
+    visibility: visible;
     opacity: 1;
     transform: translateY(0);
   }
 }
 
 @keyframes paragraphAnimation {
-  from { opacity: 0; }
-  to { opacity: .75; }
+  from {
+    visibility: visible;
+    opacity: 0;
+  }
+
+  to {
+    visibility: visible;
+    opacity: .75;
+  }
 }
