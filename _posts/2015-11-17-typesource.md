@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TypeSource
-type: Inspiration
+type: Typography
 image: typesource.png
 link: http://tobiasahlin.com/typesource
 authorName: Tim Holman

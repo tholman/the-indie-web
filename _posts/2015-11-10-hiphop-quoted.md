@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hip Hop Quoted
-type: Inspiration
+type: Typography
 image: hiphop-quoted.png
 link: http://hiphopquoted.com
 authorName: Tim Holman
