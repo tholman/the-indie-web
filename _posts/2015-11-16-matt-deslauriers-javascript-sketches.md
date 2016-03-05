@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matt Deslauriers JavaScript Sketches
-type: Inspiration
+type: Coding
 image: matt-deslauriers-javascript-sketches.png
 link: http://mattdesl.svbtle.com/some-javascript-sketches
 authorName: Tim Holman

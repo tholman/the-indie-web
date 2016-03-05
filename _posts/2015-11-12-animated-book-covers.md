@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Animated Book Covers
-type: Inspiration
+type: Beautiful
 vimeo-id: 141891887
 link: https://vimeo.com/141891887
 authorName: Vaidas L.

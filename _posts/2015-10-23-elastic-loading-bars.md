@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Elastic Loading Bars
-type: Inspiration
+type: CSS Madness
 image: elastic-loading-bars.png
 link: http://tympanus.net/Development/ElasticProgress/
 authorName: Tim Holman

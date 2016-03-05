@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3D parallax icons
-type: Inspiration
+type: Coding
 image: 3d-parallax-icon-example.png
 link: http://kloc.pm/
 authorName: Tim Holman

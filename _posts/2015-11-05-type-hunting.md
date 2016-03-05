@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Type Hunting
-type: Inspiration
+type: Typography
 image: type-hunting.png
 link: http://typehunting.com
 authorName: Tim Holman
