@@ -10,25 +10,67 @@ layout: base
 ---
 
 <article class="post contributors">
-    <div class="header">
-        <h1>
-            Fantastic Contributors
-        </h1>
-    </div>
+  <div class="header">
+    <h1>
+      Fantastic Contributors
+    </h1>
+  </div>
 
-    <i>We'd love to see you here! Please check out the <a href="https://github.com/tholman/inspiring-online#contributing">contributing guide</a> to get involved!</i>
+  <i>We'd love to see you here! Please check out the <a href="https://github.com/tholman/inspiring-online#contributing">contributing guide</a> to get involved!</i>
 
-    <!-- If you're here, then it's 10+ next... then 25+ ... then 50+ ... if we're still going, we'll figure it out! -->
-    <hr>
-    <ul>
-        {% for contributor in site.data.contributors %}
-        <li>{% if contributor.website %}
-          <a href="{{ contributor.website }}">{{ contributor.name }}</a>
-          {% else %}
-          <span>{{ contributor.name }}</span>
-          {% endif %}
-          {% if contributor.twitter %}- <a href="http://twitter.com/{{ contributor.twitter }}">@{{ contributor.twitter }}</a>
-        {% endif %}</li>
-        {% endfor %}
-    </ul>
+  <!-- If you're here, then it's 10+ next... then 25+ ... then 50+ ... if we're still going, we'll figure it out! -->
+  <hr>
+  <script>
+    var xhr = new XMLHttpRequest();
+    var users = [];
+    var ul = document.createElement("ul");
+
+    xhr.open("GET", "https://api.github.com/repos/tholman/inspiring-online/contributors");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        var response = JSON.parse(xhr.responseText);
+
+        for (var i = 0; i < response.length; i++) {
+          users.push(response[i].login);
+        }
+
+        getUsers();
+
+        document.getElementsByClassName("post")[0].appendChild(ul);
+      } else if (xhr.status != 200) {
+        var error = document.createTextNode("The contributors list could not be loaded.");
+        document.getElementsByClassName("post")[0].appendChild(error);
+      }
+    };
+    xhr.send();
+
+    function getUsers() {
+
+      for (var i = 0; i < users.length; i++) {
+        (function(i) {
+          var usersXhr = [];
+
+          usersXhr[i] = new XMLHttpRequest();
+
+          usersXhr[i].open("GET", "https://api.github.com/users/" + users[i]);
+          usersXhr[i].onreadystatechange = function() {
+            if (usersXhr[i].readyState == 4 && usersXhr[i].status == 200) {
+              var response = JSON.parse(usersXhr[i].responseText);
+
+              if (response.blog == null) {
+                var li = document.createElement("li");
+                li.innerHTML = response.name + ' - <a href="' + response.html_url + '">@' + response.login + '</a>';
+              } else {
+                var li = document.createElement("li");
+                li.innerHTML = '<a href="' + response.blog + '">' + response.name + '</a> - <a href="' + response.html_url + '">@' + response.login + '</a>';
+              }
+
+              ul.appendChild(li);
+            }
+          };
+          usersXhr[i].send();
+        })(i);
+      }
+    }
+  </script>
 </article>
