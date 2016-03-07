@@ -30,26 +30,41 @@ a {
 
 nav {
     -webkit-font-smoothing: antialiased;
-    left: calc(50% - 485px);
     letter-spacing: 1px;
     font-style: italic;
-    padding-top: 112px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-align: right;
-    position: fixed;
+    position: relative;
     font-size: 16px;
     line-height: 27px;
-    top: 3px;
-    width: 180px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
     box-sizing: border-box;
 
-    &.right {
-        right: calc(50% - 485px);
-        text-align: left;
-        left: initial;
+    @media (min-width: 1024px) {
+        position: fixed;
+        top: 0;
+        left: calc(50% - 485px);
+        padding-top: 112px;
+        padding-right: 0;
+        padding-left: 0;
+        width: 180px;
+    }
 
-        ul {
-            padding-left: 0px;
-            padding-right: 40px;
+    &.right {
+
+        @media (min-width: 1024px) {
+            right: calc(50% - 485px);
+            text-align: left;
+            left: initial;
+
+            ul {
+                padding-left: 0px;
+                padding-right: 40px;
+            }
         }
     }
 
