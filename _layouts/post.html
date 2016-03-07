@@ -15,18 +15,18 @@ layout: base
 
     </div>
 
-    {% if page.image && page.link %}
-        <a href="{{ page.link }}">
+    {% if page.codepen-slug %}
+    <a href="http://codepen.io/pen/{{ page.codepen-slug }}">
+      <p data-height="268" data-theme-id="0" data-slug-hash="{{ page.codepen-slug }}" data-default-tab="result" data-preview="true" class="codepen"></p>
+    </a>
+    {% elsif page.youtube-id %}
+        <iframe width="100%" height="280" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allowfullscreen></iframe>
+    {% elsif page.vimeo-id %}
+        <iframe width="100%" height="280" src="https://player.vimeo.com/video/{{ page.vimeo-id }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+    {% elsif page.image %}
+        <a href="{{ page.url }}">
             <img src="/assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
         </a>
-    {% endif %}
-
-    {% if page.youtube-id %}
-        <iframe width="100%" height="280" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allowfullscreen></iframe>
-    {% endif %}
-
-    {% if page.vimeo-id %}
-        <iframe width="100%" height="280" src="https://player.vimeo.com/video/{{ page.vimeo-id }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
     {% endif %}
 
     <section class="content">

@@ -15,4 +15,6 @@ Cringeworthy little experiment to fill your screen with Trump emotions. It's rai
 
 Why not stop there, on the theme of Trump, [Paint with Trump](http://paintwithdonaldtrump.com) is another random (and infinitely useful) tool you can use to ... well, paint with Donald Trump's face!
 
+And just for the sake of it, if the 2020 election is more your jam, [Kanye Draw](http://kanyedraw.com) would definitely be what you're looking for.
+
 [Trump Gasm](http://omg.topherchris.com/TRUMPGASM) - by [Christopher Price](http://topherchris.com)

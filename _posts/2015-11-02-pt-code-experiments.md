@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PT Code Experiments
-type: Inspiration
+type: Coding
 image: pt-code-experiments.png
 link: http://williamngan.github.io/pt/demo/index.html?name=color.LABtoRGB
 authorName: Tim Holman

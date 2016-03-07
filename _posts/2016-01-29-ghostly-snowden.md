@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ghostly Snowden
-type: Inspiration
+type: Beautiful
 image: ghostlysnowden.png
 link: http://mattdesl.github.io/codevember/15.html
 authorName: Johannes Jakob

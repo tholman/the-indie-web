@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Image Grid Effects
-type: Inspiration
+type: Coding
 image: image-grid-effects.jpg
 link: http://tympanus.net/Development/ImageGridEffects
 authorName: Tim Holman

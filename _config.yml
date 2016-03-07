@@ -22,3 +22,6 @@ paginate: 10
 paginate_path: "/:num/"
 var_older: 'Next'
 var_newer: 'Previous'
+
+# External resources
+gems: [jekyll-paginate]
