@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Paper Letter Typography
+date: 2016-03-07 23:00
 type: Typography
 image: paper-letter-typography.png
 link: http://jxnblk.com/papercraft/
