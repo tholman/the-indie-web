@@ -9,7 +9,7 @@ authorUrl: http://tholman.com
 authorGithub: tholman
 ---
 
-_Looking for a healthy dose of quirty but cool web experiments? Resn is here to help._
+_Looking for a healthy dose of quirky but cool web experiments? Resn is here to help._
 
 Digital Agency, Resn has created a delightful [tumblr](http://resn-experiments.tumblr.com/) page with a massive variety of cool webby experiments. 
 
