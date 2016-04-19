@@ -9,7 +9,7 @@ authorUrl: http://tholman.com
 authorGithub: tholman
 ---
 
-_Generative video's will never go out of fashion. Greatness is the latest and greatest by [Raven Kwok](http://ravenkwok.com/)._
+_Generative videos will never go out of fashion. Greatness is the latest and greatest by [Raven Kwok](http://ravenkwok.com/)._
 
 Built with Processing, the entire video uses a lot of great generative variations. Really breathtaking.
 
