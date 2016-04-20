@@ -1,0 +1,47 @@
+---
+layout: base
+page-type: CSS Madness
+---
+{% assign css-madness = (site.posts | where: "type" , "CSS Madness") %}
+{% for post in css-madness %}
+    <article class="post has-divider">
+
+        <div class="header">
+            <h1>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h1>
+
+            {% if post.author %}
+                <p>{{ post.author }}</p>
+            {% endif %}
+
+        </div>
+
+        {% if post.codepen-slug %}
+        <a href="http://codepen.io/pen/{{ post.codepen-slug }}">
+          <p data-height="268" data-theme-id="0" data-slug-hash="{{ post.codepen-slug }}" data-default-tab="result" data-preview="true" class="codepen"></p>
+        </a>
+        {% elsif post.youtube-id %}
+          <div class="iframe-video">
+            <iframe width="100%" src="https://www.youtube.com/embed/{{ post.youtube-id }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        {% elsif post.vimeo-id %}
+          <div class="iframe-video">
+            <iframe width="100%" src="https://player.vimeo.com/video/{{ post.vimeo-id }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        {% elsif post.image %}
+            <a href="{{ post.url }}">
+                <img src="/assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
+            </a>
+        {% endif %}
+
+        <section class="content">
+            {{ post.content }}
+        </section>
+
+    </article>
+{% endfor %}
+
+{% if paginator.previous_page or paginator.next_page %}
+  {% include pagination.html %}
+{% endif %}
