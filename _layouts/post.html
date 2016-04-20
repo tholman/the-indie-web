@@ -40,6 +40,9 @@ layout: base
 </article>
 
 <nav class="right">
+    {% if page.type %}
+    <a class="category-post" id="type-{{ page.type | replace: ' ', '-' | downcase }}" href="/categories/{{ page.type | replace: ' ', '-' | downcase }}"><h3>{{ page.type }}</h3></a>
+    {% endif %}
     <ul>
         {% if page.authorName %}
             <li>
