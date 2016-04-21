@@ -306,45 +306,32 @@ hr {
   95% { opacity: 1; }
   100% { opacity: 0; }
 }
-
+// Styles the categories throughout the site
 .category-title {
+  font-size: 22px;
+  display: auto;
+  h1 {
+    margin-bottom: 15px;
+  }
   @media (max-width: 1024px) {
-  display: none;
+    display: none;
   }
 }
-
 .category-mobile {
   display: block;
   margin-bottom: -95px;
   font-size: 22px;
   opacity: 1;
-  h1 {
-    -webkit-transition: opacity 100ms ease;
-    transition: opacity 100ms ease;
-    &:hover {
-      opacity: 0.7;
-    }
-  }
   @media (min-width: 1024px) {
     display: none;
   }
 }
-
-.category-title, .category-post {
-  display: auto;
-  font-size: 22px;
-  font-weight: bold;
-  h1, h3 {
-    margin-bottom: 15px;
-    -webkit-transition: opacity 100ms ease;
-    transition: opacity 100ms ease;
-    opacity: 1;
-    &:hover {
-      opacity: 0.7;
-    }
+.category-post {
+  h3 {
+    margin-bottom: 10px;
   }
 }
-
+// Colors for each category
 $beauty: #f39c12;
 $codepen: #c0392b;
 $coding: #8e44ad;
@@ -356,6 +343,15 @@ $typo: #34495e;
 $weird: #1abc9c;
 
 .category-title, .category-mobile, .category-post {
+  font-style: normal;
+  h1, h3 {
+    -webkit-transition: opacity 100ms ease;
+    transition: opacity 100ms ease;
+    opacity: 1;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
   &#type-beautiful {
     color: $beauty;
   }
