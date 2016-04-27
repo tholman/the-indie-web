@@ -149,13 +149,10 @@ hr {
   max-width: 460px;
   font-size: 18px;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 15px;
   font-weight: 300;
   color: #222;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 60px;
-  padding-top: 50px;
+  padding: 50px 20px 60px;
 
   // Padding for first post to align with nav.
   &:nth-child(2) {
@@ -310,6 +307,9 @@ hr {
 .category-title {
   font-size: 22px;
   display: auto;
+  &#type-wideweirdweb {
+    font-size: 17px;
+  }
   h1 {
     margin-bottom: 15px;
   }
@@ -332,15 +332,15 @@ hr {
   }
 }
 // Colors for each category
-$beauty: #f39c12;
-$codepen: #c0392b;
-$coding: #8e44ad;
-$madness: #2ecc71;
-$inspire: #f1c40f;
-$source: #3498db;
-$talk: #d35400;
-$typo: #34495e;
-$weird: #1abc9c;
+$beauty: #D9ABFF;
+$codepen: #BBEAD6;
+$coding: #ABE4FF;
+$madness: #FFA463;
+$inspire: #FCB7A7;
+$source: #FEE5AD;
+$talk: #93DFB8;
+$typo: #DADDFB;
+$weird: #E45364;
 
 .category-title, .category-mobile, .category-post {
   font-style: normal;
@@ -381,6 +381,60 @@ $weird: #1abc9c;
   }
 }
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  font-size: inherit;
+  text-align: center;
+}
+
 .category-button {
-  
+  font-size: 25px;
+  width: 50%;
+  height: 175px;
+  line-height: 175px;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+  opacity: 1;
+  &:hover {
+    opacity: 0.25;
+  }
+  &span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  @media (max-width: 500px) {
+
+  }
+  &#button-beautiful {
+    background-color: $beauty;
+  }
+  &#button-codepen {
+    background-color: $codepen;
+  }
+  &#button-coding {
+    background-color: $coding;
+  }
+  &#button-css-madness {
+    background-color: $madness;
+  }
+  &#button-inspiration {
+    background-color: $inspire;
+  }
+  &#button-resource {
+    background-color: $source;
+  }
+  &#button-talk {
+    background-color: $talk;
+  }
+  &#button-typography {
+    background-color: $typo;
+  }
+  &#button-wideweirdweb {
+    background-color: $weird;
+  }
 }
