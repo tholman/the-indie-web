@@ -381,60 +381,64 @@ $weird: #E45364;
   }
 }
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width: 100%;
-  font-size: inherit;
+.category-page {
   text-align: center;
 }
 
 .category-button {
-  font-size: 25px;
-  width: 50%;
-  height: 175px;
-  line-height: 175px;
-  margin: auto;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  color: #fff;
+  text-align: center;
+  line-height: 150px;
   border-radius: 10px;
-  -webkit-transition: opacity 500ms ease;
-  transition: opacity 500ms ease;
+  display: inline-block;
   opacity: 1;
+  -webkit-transition: opacity 500ms ease, color 500ms ease;
+  -moz-transition: opacity 500ms ease, color 500ms ease;
+  -o-transition: opacity 500ms ease, color 500ms ease;
+  transition: opacity 500ms ease, color 500ms ease;
   &:hover {
-    opacity: 0.25;
+    color: #000;
+    &:not(span) {
+      opacity: .7;
+    }
   }
-  &span {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  @media (max-width: 500px) {
+}
 
-  }
-  &#button-beautiful {
-    background-color: $beauty;
-  }
-  &#button-codepen {
-    background-color: $codepen;
-  }
-  &#button-coding {
-    background-color: $coding;
-  }
-  &#button-css-madness {
-    background-color: $madness;
-  }
-  &#button-inspiration {
-    background-color: $inspire;
-  }
-  &#button-resource {
-    background-color: $source;
-  }
-  &#button-talk {
-    background-color: $talk;
-  }
-  &#button-typography {
-    background-color: $typo;
-  }
-  &#button-wideweirdweb {
-    background-color: $weird;
-  }
+#button-beautiful {
+  background: $beauty;
+}
+
+#button-codepen {
+  background: $codepen;
+}
+
+#button-coding {
+  background: $coding;
+}
+
+#button-css-madness {
+  background: $madness;
+}
+
+#button-inspiration {
+  background: $inspire;
+}
+
+#button-resource {
+  background: $source;
+}
+
+#button-talk {
+  background: $talk;
+}
+
+#button-typography {
+  background: $typo;
+}
+
+#button-wideweirdweb {
+  background: $weird;
 }
