@@ -342,45 +342,6 @@ $talk: #93DFB8;
 $typo: #CACADA;
 $weird: #F473B4;
 
-.category-title, .category-mobile, .category-post {
-  font-style: normal;
-  h1, h3 {
-    -webkit-transition: opacity 100ms ease;
-    transition: opacity 100ms ease;
-    opacity: 1;
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-  &#type-beautiful {
-    color: $beauty;
-  }
-  &#type-codepen {
-    color: $codepen;
-  }
-  &#type-coding {
-    color: $coding;
-  }
-  &#type-css-madness {
-    color: $madness;
-  }
-  &#type-inspiration {
-    color: $inspire;
-  }
-  &#type-resource {
-    color: $source;
-  }
-  &#type-talk {
-    color: $talk;
-  }
-  &#type-typography {
-    color: $typo;
-  }
-  &#type-wideweirdweb {
-    color: $weird;
-  }
-}
-
 .category-page {
   text-align: center;
 }
@@ -390,17 +351,20 @@ $weird: #F473B4;
   width: 200px;
   height: 150px;
   color: #fff;
+  font-weight: 400;
   text-align: center;
   line-height: 150px;
   border-radius: 10px;
   display: inline-block;
   opacity: 1;
+  transition: opacity 500ms ease, color 500ms ease;
   -webkit-transition: opacity 500ms ease, color 500ms ease;
   -moz-transition: opacity 500ms ease, color 500ms ease;
   -o-transition: opacity 500ms ease, color 500ms ease;
-  transition: opacity 500ms ease, color 500ms ease;
+
   &:hover {
     color: #000;
+
     &:not(span) {
       opacity: .7;
     }
