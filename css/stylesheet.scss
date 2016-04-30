@@ -127,7 +127,7 @@ nav {
   }
 }
 
-/* make sure the mobile nav doesn't overlap the GitHub corner */
+// Make sure the mobile nav doesn't overlap the GitHub corner
 .github-corner {
   z-index: 5;
   position: relative;
@@ -307,7 +307,7 @@ hr {
 .category-title {
   font-size: 22px;
   display: auto;
-  &#type-wideweirdweb {
+  &#title-wideweirdweb {
     font-size: 17px;
   }
   h1 {
@@ -331,16 +331,6 @@ hr {
     margin-bottom: 10px;
   }
 }
-// Colors for each category
-$beauty: #D9ABFF;
-$codepen: #7DCECA;
-$coding: #9DC4FF;
-$madness: #FFB483;
-$inspire: #FAA797;
-$source: #FEE585;
-$talk: #93DFB8;
-$typo: #CACADA;
-$weird: #F473B4;
 
 .category-title, .category-mobile, .category-post {
   font-style: normal;
@@ -352,37 +342,6 @@ $weird: #F473B4;
       opacity: 0.7;
     }
   }
-  &#type-beautiful {
-    color: $beauty;
-  }
-  &#type-codepen {
-    color: $codepen;
-  }
-  &#type-coding {
-    color: $coding;
-  }
-  &#type-css-madness {
-    color: $madness;
-  }
-  &#type-inspiration {
-    color: $inspire;
-  }
-  &#type-resource {
-    color: $source;
-  }
-  &#type-talk {
-    color: $talk;
-  }
-  &#type-typography {
-    color: $typo;
-  }
-  &#type-wideweirdweb {
-    color: $weird;
-  }
-}
-
-.category-page {
-  text-align: center;
 }
 
 .category-button {
@@ -390,6 +349,7 @@ $weird: #F473B4;
   width: 200px;
   height: 150px;
   color: #fff;
+  font-weight: 700;
   text-align: center;
   line-height: 150px;
   border-radius: 10px;
@@ -401,44 +361,81 @@ $weird: #F473B4;
   transition: opacity 500ms ease, color 500ms ease;
   &:hover {
     color: #000;
-    &:not(span) {
+    &:not(span) { // Lowers the opacity of everything except the spans.
       opacity: .7;
     }
   }
 }
+// Colors for each category
+$beauty: #D9ABFF;
+$codepen: #7DCECA;
+$coding: #9DC4FF;
+$madness: #FFB483;
+$inspire: #FAA797;
+$source: #FEE585;
+$talk: #93DFB8;
+$typo: #CACADA;
+$weird: #F473B4;
+// Colors text of titles
+#title-beautiful {
+  color: $beauty;
+}
+#title-codepen {
+  color: $codepen;
+}
+#title-coding {
+  color: $coding;
+}
+#title-css-madness {
+  color: $madness;
+}
+#title-inspiration {
+  color: $inspire;
+}
+#title-resource {
+  color: $source;
+}
+#title-talk {
+  color: $talk;
+}
+#title-typography {
+  color: $typo;
+}
+#title-wideweirdweb {
+  color: $weird;
+}
 
+.category-page {
+  text-align: center;
+}
+// Colors background of buttons
 #button-beautiful {
   background: $beauty;
 }
-
 #button-codepen {
   background: $codepen;
 }
-
 #button-coding {
   background: $coding;
 }
-
 #button-css-madness {
   background: $madness;
 }
-
 #button-inspiration {
   background: $inspire;
 }
-
 #button-resource {
   background: $source;
 }
-
 #button-talk {
   background: $talk;
 }
-
 #button-typography {
   background: $typo;
 }
-
 #button-wideweirdweb {
   background: $weird;
+}
+#button-an-idea {
+  background: #000;
 }
