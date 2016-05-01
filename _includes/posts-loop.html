@@ -9,6 +9,12 @@
             <p>{{ post.author }}</p>
         {% endif %}
 
+        {% if page.homepage %}
+          <a class="category-list" id="title-{{ post.type | replace: ' ', '-' | downcase }}" href="/categories/{{ post.type | replace: ' ', '-' | downcase }}">
+            <h3>{{ post.type }}</h3>
+          </a>
+        {% endif %}
+
     </div>
 
     {% if post.codepen-slug %}

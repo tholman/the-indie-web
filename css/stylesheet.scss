@@ -169,6 +169,17 @@ hr {
     padding-bottom: 20px;
   }
 
+/*  a {
+    -webkit-transition: opacity 100ms ease;
+    -moz-transition: opacity 100ms ease;
+    -o-transition: opacity 100ms ease;
+    transition: opacity 100ms ease;
+    opacity: 1;
+    &:hover {
+      opacity: 0.7;
+    }
+  }*/
+
   h2 {
     margin-bottom: 15px;
     margin-top: 35px;
@@ -331,12 +342,19 @@ hr {
     margin-bottom: 10px;
   }
 }
+.category-list {
+  h3 {
+    margin-top: -12.5px;
+  }
+}
 
-.category-title, .category-mobile, .category-post {
+.category-title, .category-mobile, .category-post, .category-list {
   font-style: normal;
   h1, h3 {
-    -webkit-transition: opacity 100ms ease;
-    transition: opacity 100ms ease;
+    -webkit-transition: opacity 250ms ease;
+    -moz-transition: opacity 250ms ease;
+    -o-transition: opacity 250ms ease;
+    transition: opacity 250ms ease;
     opacity: 1;
     &:hover {
       opacity: 0.7;
