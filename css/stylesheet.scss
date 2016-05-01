@@ -127,7 +127,7 @@ nav {
   }
 }
 
-/* make sure the mobile nav doesn't overlap the GitHub corner */
+// Make sure the mobile nav doesn't overlap the GitHub corner
 .github-corner {
   z-index: 5;
   position: relative;
@@ -168,6 +168,17 @@ hr {
     border-bottom: 0px;
     padding-bottom: 20px;
   }
+
+/*  a {
+    -webkit-transition: opacity 100ms ease;
+    -moz-transition: opacity 100ms ease;
+    -o-transition: opacity 100ms ease;
+    transition: opacity 100ms ease;
+    opacity: 1;
+    &:hover {
+      opacity: 0.7;
+    }
+  }*/
 
   h2 {
     margin-bottom: 15px;
@@ -307,7 +318,7 @@ hr {
 .category-title {
   font-size: 22px;
   display: auto;
-  &#type-wideweirdweb {
+  &#title-wideweirdweb {
     font-size: 17px;
   }
   h1 {
@@ -331,19 +342,29 @@ hr {
     margin-bottom: 10px;
   }
 }
-// Colors for each category
-$beauty: #D9ABFF;
-$codepen: #7DCECA;
-$coding: #9DC4FF;
-$madness: #FFB483;
-$inspire: #FAA797;
-$source: #FEE585;
-$talk: #93DFB8;
-$typo: #CACADA;
-$weird: #F473B4;
+.category-list {
+  h3 {
+    margin-top: -12.5px;
+  }
+}
 
+<<<<<<< HEAD
 .category-page {
   text-align: center;
+=======
+.category-title, .category-mobile, .category-post, .category-list {
+  font-style: normal;
+  h1, h3 {
+    -webkit-transition: opacity 250ms ease;
+    -moz-transition: opacity 250ms ease;
+    -o-transition: opacity 250ms ease;
+    transition: opacity 250ms ease;
+    opacity: 1;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+>>>>>>> TJScalzo/gh-pages
 }
 
 .category-button {
@@ -351,7 +372,11 @@ $weird: #F473B4;
   width: 200px;
   height: 150px;
   color: #fff;
+<<<<<<< HEAD
   font-weight: 400;
+=======
+  font-weight: 700;
+>>>>>>> TJScalzo/gh-pages
   text-align: center;
   line-height: 150px;
   border-radius: 10px;
@@ -364,45 +389,86 @@ $weird: #F473B4;
 
   &:hover {
     color: #000;
+<<<<<<< HEAD
 
     &:not(span) {
+=======
+    &:not(span) { // Lowers the opacity of everything except the spans.
+>>>>>>> TJScalzo/gh-pages
       opacity: .7;
     }
   }
 }
+// Colors for each category
+$beauty: #D9ABFF;
+$codepen: #7DCECA;
+$coding: #9DC4FF;
+$madness: #FFB483;
+$inspire: #FAA797;
+$source: #FEE585;
+$talk: #93DFB8;
+$typo: #CACADA;
+$weird: #F473B4;
+// Colors text of titles
+#title-beautiful {
+  color: $beauty;
+}
+#title-codepen {
+  color: $codepen;
+}
+#title-coding {
+  color: $coding;
+}
+#title-css-madness {
+  color: $madness;
+}
+#title-inspiration {
+  color: $inspire;
+}
+#title-resource {
+  color: $source;
+}
+#title-talk {
+  color: $talk;
+}
+#title-typography {
+  color: $typo;
+}
+#title-wideweirdweb {
+  color: $weird;
+}
 
+.category-page {
+  text-align: center;
+}
+// Colors background of buttons
 #button-beautiful {
   background: $beauty;
 }
-
 #button-codepen {
   background: $codepen;
 }
-
 #button-coding {
   background: $coding;
 }
-
 #button-css-madness {
   background: $madness;
 }
-
 #button-inspiration {
   background: $inspire;
 }
-
 #button-resource {
   background: $source;
 }
-
 #button-talk {
   background: $talk;
 }
-
 #button-typography {
   background: $typo;
 }
-
 #button-wideweirdweb {
   background: $weird;
+}
+#button-an-idea {
+  background: #000;
 }

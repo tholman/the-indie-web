@@ -1,6 +1,6 @@
 <nav>
   {% if page.page-type %}
-  <a class="category-title" id="type-{{ page.page-type | replace: ' ', '-' | downcase }}" href="/categories/{{ page.page-type | replace: ' ', '-' | downcase }}"><h1>{{ page.page-type }}</h1></a>
+  <a class="category-title" id="title-{{ page.page-type | replace: ' ', '-' | downcase }}" href="/categories/{% if page.page-type != 'Categories'%}{{ page.page-type | replace: ' ', '-' | downcase }}{% endif %}"><h1>{{ page.page-type }}</h1></a>
   {% endif %}
     <a href="/" title="Inspiring Online" class="mobile-logo">
       <svg version="1.1" id="_x34_04" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px"
@@ -287,6 +287,6 @@
     <li><a href="/feed.xml">Feed</a></li>
   </ul>
   {% if page.page-type %}
-  <a class="category-mobile" id="type-{{ page.page-type | replace: ' ', '-' | downcase }}" href="/categories/{{ page.page-type | replace: ' ', '-' | downcase }}"><h1>{{ page.page-type }}</h1></a>
+  <a class="category-mobile" id="title-{{ page.page-type | replace: ' ', '-' | downcase }}" href="/categories/{% if page.page-type != 'Categories'%}{{ page.page-type | replace: ' ', '-' | downcase }}{% endif %}"><h1>{{ page.page-type }}</h1></a>
   {% endif %}
 </nav>

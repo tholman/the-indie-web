@@ -14,6 +14,6 @@ You will notice that there is a new item in the menu entitled "Categories." As t
 
 Not only that, but each post's category is displayed along with it. This means that you can read more posts of the same type if you so desire. Clicking a category's name will always bring you to that category's list of posts. So if, for example, you're reading the post [Glitch Effect](/glitch), you can click on CodePen on the right to bring you to the list of all posts about CodePen. As of me writing this there should only be one. _(We really do need to write more posts about CodePen...)_
 
-I hope you like this added functionality. Please feel free to use this feature however you want. Whether it be to gaze at the wonderful [CSS posts](/categories/css-madness) or to be bamboozled by the [weird posts](/categories/wideweirdweb), I won't judge. As long as you enjoy yourself I'll be happy just knowing that people enjoy something that I made.
+I hope you like this added functionality. Please feel free to use this feature however you want. Whether it be to gaze at the wonderful [CSS posts](/categories/css-madness) or to be bamboozled by the [weird posts](/categories/wideweirdweb), I won't judge. As long as you enjoy yourself, I'll be happy knowing that people use and like something that I made.
 
 [Categories](/categories) - by [Tim Scalzo](http://twitter.com/TJScalzo)
