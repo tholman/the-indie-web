@@ -348,10 +348,6 @@ hr {
   }
 }
 
-<<<<<<< HEAD
-.category-page {
-  text-align: center;
-=======
 .category-title, .category-mobile, .category-post, .category-list {
   font-style: normal;
   h1, h3 {
@@ -364,7 +360,6 @@ hr {
       opacity: 0.7;
     }
   }
->>>>>>> TJScalzo/gh-pages
 }
 
 .category-button {
@@ -372,29 +367,19 @@ hr {
   width: 200px;
   height: 150px;
   color: #fff;
-<<<<<<< HEAD
-  font-weight: 400;
-=======
   font-weight: 700;
->>>>>>> TJScalzo/gh-pages
   text-align: center;
   line-height: 150px;
   border-radius: 10px;
   display: inline-block;
   opacity: 1;
-  transition: opacity 500ms ease, color 500ms ease;
   -webkit-transition: opacity 500ms ease, color 500ms ease;
   -moz-transition: opacity 500ms ease, color 500ms ease;
   -o-transition: opacity 500ms ease, color 500ms ease;
-
+  transition: opacity 500ms ease, color 500ms ease;
   &:hover {
     color: #000;
-<<<<<<< HEAD
-
-    &:not(span) {
-=======
     &:not(span) { // Lowers the opacity of everything except the spans.
->>>>>>> TJScalzo/gh-pages
       opacity: .7;
     }
   }
