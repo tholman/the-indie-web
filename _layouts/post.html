@@ -28,8 +28,8 @@ layout: base
         <iframe width="100%" src="https://player.vimeo.com/video/{{ page.vimeo-id }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
       </div>
     {% elsif page.image %}
-        <a href="{{ page.url }}">
-            <img src="/assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+        <a href="{{ page.link }}">
+          <img src="/assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
         </a>
     {% endif %}
 
