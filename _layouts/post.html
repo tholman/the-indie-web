@@ -29,7 +29,7 @@ layout: base
       </div>
     {% elsif page.image %}
         <a href="{{ page.link }}">
-          <img src="/assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+          <img src="{{ site.baseurl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
         </a>
     {% endif %}
 
@@ -41,7 +41,7 @@ layout: base
 
 <nav class="right">
     {% if page.type %}
-    <a class="category-post" id="title-{{ page.type | replace: ' ', '-' | downcase }}" href="/categories/{{ page.type | replace: ' ', '-' | downcase }}"><h3>{{ page.type }}</h3></a>
+    <a class="category-post" id="title-{{ page.type | replace: ' ', '-' | downcase }}" href="{{ site.baseurl }}categories/{{ page.type | replace: ' ', '-' | downcase }}"><h3>{{ page.type }}</h3></a>
     {% endif %}
     <ul>
         {% if page.authorName %}

@@ -10,7 +10,7 @@
         {% endif %}
 
         {% if page.homepage %}
-          <a class="category-list" id="title-{{ post.type | replace: ' ', '-' | downcase }}" href="/categories/{{ post.type | replace: ' ', '-' | downcase }}">
+          <a class="category-list" id="title-{{ post.type | replace: ' ', '-' | downcase }}" href="{{ site.baseurl }}categories/{{ post.type | replace: ' ', '-' | downcase }}">
             <h3>{{ post.type }}</h3>
           </a>
         {% endif %}
@@ -31,7 +31,7 @@
       </div>
     {% elsif post.image %}
         <a href="{{ post.url }}">
-            <img src="/assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
+            <img src="{{ site.baseurl }}assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
         </a>
     {% endif %}
 
