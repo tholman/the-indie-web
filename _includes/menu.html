@@ -1,8 +1,8 @@
 <nav>
   {% if page.page-type %}
-  <a class="category-title" id="title-{{ page.page-type | replace: ' ', '-' | downcase }}" href="/categories/{% if page.page-type != 'Categories'%}{{ page.page-type | replace: ' ', '-' | downcase }}{% endif %}"><h1>{{ page.page-type }}</h1></a>
+  <a class="category-title" id="title-{{ page.page-type | replace: ' ', '-' | downcase }}" href="{{ site.baseurl }}categories/{% if page.page-type != 'Categories'%}{{ page.page-type | replace: ' ', '-' | downcase }}{% endif %}"><h1>{{ page.page-type }}</h1></a>
   {% endif %}
-    <a href="/" title="Inspiring Online" class="mobile-logo">
+    <a href="{{ site.baseurl }}" title="Inspiring Online" class="mobile-logo">
       <svg version="1.1" id="_x34_04" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px"
         width="50px" height="50px" viewBox="0 0 32 39" enable-background="new 0 0 32 39" xml:space="preserve">
              <path id="rays" fill="none" stroke="#222" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d=" M6.252,11.001L2.01,6.758 M10.797,8.043L8.501,2.5 M16.001,7V1 M21.205,8.043L23.501,2.5 M25.748,11.001l4.242-4.243"/>
@@ -279,14 +279,14 @@
            </svg>
           </a>
   <ul>
-    <li><a href="/">Inspiring Online</a></li>
-    <li><a href="/contributors">Contributors</a></li>
-    <li><a href="/categories">Categories</a></li>
+    <li><a href="{{ site.baseurl }}">Inspiring Online</a></li>
+    <li><a href="{{ site.baseurl }}contributors">Contributors</a></li>
+    <li><a href="{{ site.baseurl }}categories">Categories</a></li>
     <li><a href="https://github.com/tholman/inspiring-online#contributing" target="_blank">Join in?</a></li>
-    <li><a href="/meet-inspiring-online">About</a></li>
-    <li><a href="/feed.xml">Feed</a></li>
+    <li><a href="{{ site.baseurl }}meet-inspiring-online">About</a></li>
+    <li><a href="{{ site.baseurl }}feed.xml">Feed</a></li>
   </ul>
   {% if page.page-type %}
-  <a class="category-mobile" id="title-{{ page.page-type | replace: ' ', '-' | downcase }}" href="/categories/{% if page.page-type != 'Categories'%}{{ page.page-type | replace: ' ', '-' | downcase }}{% endif %}"><h1>{{ page.page-type }}</h1></a>
+  <a class="category-mobile" id="title-{{ page.page-type | replace: ' ', '-' | downcase }}" href="{{ site.baseurl }}categories/{% if page.page-type != 'Categories'%}{{ page.page-type | replace: ' ', '-' | downcase }}{% endif %}"><h1>{{ page.page-type }}</h1></a>
   {% endif %}
 </nav>

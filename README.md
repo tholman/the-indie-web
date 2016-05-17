@@ -16,6 +16,8 @@ Here are a few ways to get started:
 2. **Submit an awesome website!** This involves opening an issue with `[proposal]` as the first word. And a link to something you think is creative and awesome.
 3. **Fix a spelling mistake!** I'm not perfect at all, I must make 100 of these a day. Even if it's a small pull request, we'd love to see it!
 
+_Please, take a look at the [Wiki](https://github.com/tholman/inspiring-online/wiki). It provides in-depth information about contributing to Inspiring Online._
+
 #### Running locally
 
 Start by installing [Bundler](http://gembundler.com), if you don't already have it:
@@ -24,15 +26,20 @@ Start by installing [Bundler](http://gembundler.com), if you don't already have 
 gem install bundler
 ```
 
-Then just clone the repository down to your local machine:
+Now, if you're going to be making changes to this site you'll want to make a fork of the repository. This makes it easier for you to make changes and get them reviewed before they're added to the live site.
+
+Once you've forked the repository you'll want to access that code on your own computer.
+To do this just clone the repository down to your local machine:
 
 ```
-git clone https://github.com/tholman/inspiring-online.git
+git clone https://github.com/username/inspiring-online.git
 ```
 
-Finally, do a `bundle install` to install the required gems.
+(Make sure to replace `username` with your username.)
 
-Run `jekyll serve` to see the website running on `http://localhost:4000`.
+The last thing you need to do to run locally is do a `bundle install` to install the required gems.
+
+Then just run `jekyll serve` to see the website running on `http://localhost:4000`.
 
 If you get any errors or warnings, try to run `bundle exec jekyll serve`.
 

@@ -1,6 +1,7 @@
 permalink:  /:title/
 
 url: 'http://inspiring.online'
+baseurl: '/'
 
 # Title tag variables
 title: Inspiring Online
