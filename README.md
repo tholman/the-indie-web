@@ -24,17 +24,92 @@ Start by installing [Bundler](http://gembundler.com), if you don't already have 
 gem install bundler
 ```
 
-Then just clone the repository down to your local machine:
+Now, if you're going to be making changes to this site you'll want to make a fork of the repository. This makes it easier for you to make changes and get them reviewed before they're added to the live site.
+
+Once you've forked the repository you'll want to access that code on your own computer.
+To do this just clone the repository down to your local machine:
 
 ```
-git clone https://github.com/tholman/inspiring-online.git
+git clone https://github.com/username/inspiring-online.git
 ```
 
-Finally, do a `bundle install` to install the required gems.
+(Make sure to replace `username` with your username.)
 
-Run `jekyll serve` to see the website running on `http://localhost:4000`.
+The last thing you need to do to run locally is do a `bundle install` to install the required gems.
+
+Then just run `jekyll serve` to see the website running on `http://localhost:4000`.
 
 If you get any errors or warnings, try to run `bundle exec jekyll serve`.
+
+#### Making a pull request
+
+Let's say you've made some changes and you want to see them on the site.
+
+1. Commit the changes
+2. Push the changes
+3. Click "Pull request" on your fork's repository page
+4. Type up an explanation of what you've done and what issue(s) it solves
+5. Listen and respond to the questions and suggestions of others. **Remember:** This an _open source_ site; everyone gets a say.
+6. Hopefully, get your pull request merged!
+
+#### Keeping your fork up to date
+
+Let's say someone's made changes to the site or one of your pull requests has been merged. You probably want that code on your fork, right?
+
+The first thing you need to do (you only need to do this once) is establish the main repository as a remote for your fork.
+
+```bash
+git remote add upstream https://github.com/tholman/inspiring-online.git
+```
+
+You can substitute `upstream` for whatever you want to call the remote.
+
+Then, you want to get the code from the remote:
+
+```
+git fetch upstream
+```
+
+(If you used something other than `upstream` make sure you use that.)
+
+Lastly, you want to pull that code into your forked repository. This is where it's important you have any changes you may have made committed or stowed because there could be merge conflicts.
+
+```
+git pull upstream gh-pages
+```
+
+(Again, use the name you set the remote to if you didn't use `upstream`.)
+
+And there you go! From now on, if you want to pull changes from the main repository into your forked one you just need to type:
+
+```
+git fetch upstream
+git pull upstream gh-pages
+```
+
+(You remember what to do with `upstream`, right?)
+
+#### Showing changes on a fork
+
+If you've made some big changes to the site and you want to show everyone what you've done before it gets merged you can push your changes and view it on your fork. The link for this would be:
+
+```
+username.github.io/inspiring-online
+```
+
+(Replacing `username` with your username, of course.)
+
+If you go view your fork right now you'll see something that looks almost nothing like the actual site. This is because of the way assets are linked and the way Github Pages works. To overcome this, you need to go into `_config.yml`.
+
+Turn:
+```
+baseurl: '/'
+```
+Into:
+```
+baseurl: '/inspiring-online/'
+```
+This will make all of the assets link properly and you can then correctly view and show off your changes on your fork. The only thing you need to remember is to change it back to `baseurl: '/'` before creating/merging a pull request.
 
 ### What we like
 
