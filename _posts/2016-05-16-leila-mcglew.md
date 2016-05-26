@@ -3,7 +3,7 @@ layout: post
 title: Leila McGlew
 type: Inspiration
 image: leila-mcglew.png
-link: http://leilamcglew.com/
+link: http://leilamcglew.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
