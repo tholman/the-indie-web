@@ -28,7 +28,7 @@ layout: base
         <iframe width="100%" src="https://player.vimeo.com/video/{{ page.vimeo-id }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
       </div>
     {% elsif page.image %}
-        <a href="{{ page.link }}">
+        <a href="{{ page.link }}?ref=inspiring.online">
           <img src="{{ site.baseurl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
         </a>
     {% endif %}
