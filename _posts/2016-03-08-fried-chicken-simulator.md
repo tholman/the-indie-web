@@ -8,6 +8,7 @@ link: http://friedchickensimulator.surge.sh
 authorName: Vaidas L.
 authorUrl: https://vaidaslamanauskas.com
 authorGithub: vaidaslamanauskas
+remoteImage: true
 ---
 
 _Here we go again. Truly a gem in our Wide Weird Web. Yes, [Fried Chicken Simulator](http://friedchickensimulator.surge.sh)._

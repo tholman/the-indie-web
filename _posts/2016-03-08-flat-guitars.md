@@ -7,6 +7,7 @@ image: flat-guitars.png
 link: http://www.flatguitars.com
 authorName: Tim Scalzo
 authorGithub: TJScalzo
+remoteImage: true
 ---
 
 _Amazingly detailed guitars with the right amount of flatness!_

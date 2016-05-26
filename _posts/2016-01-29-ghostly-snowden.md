@@ -7,6 +7,7 @@ link: http://mattdesl.github.io/codevember/15.html
 authorName: Johannes Jakob
 authorUrl: http://www.johjakob.de
 authorGithub: JohJakob
+remoteImage: true
 ---
 
 _Here's a nice #webdev gem for you._

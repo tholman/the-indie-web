@@ -7,6 +7,7 @@ link: https://passweird.com
 authorName: Johannes Jakob
 authorUrl: http://www.johjakob.de
 authorGithub: JohJakob
+remoteImage: true
 ---
 
 _[Passweird](https://passweird.com) is a password generator..._

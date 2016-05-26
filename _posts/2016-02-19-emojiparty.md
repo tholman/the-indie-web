@@ -7,6 +7,7 @@ link: http://emojiparty.club
 authorName: Johannes Jakob
 authorUrl: http://johjakob.de
 authorGithub: JohJakob
+remoteImage: true
 ---
 
 _Join this party with your own emoji dudes!_

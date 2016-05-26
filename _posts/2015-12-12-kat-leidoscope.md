@@ -7,6 +7,7 @@ link: http://katleidoscope.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _Looking for your daily dose of "Why does that exist?" [Kat-Leidoscope](http://katleidoscope.com) is just for you._

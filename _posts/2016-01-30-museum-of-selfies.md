@@ -7,6 +7,7 @@ link: http://museumofselfies.tumblr.com
 authorName: Johannes Jakob
 authorUrl: http://www.johjakob.de
 authorGithub: JohJakob
+remoteImage: true
 ---
 
 _The [Museum of Selfies](http://museumofselfies.tumblr.com) is a gallery of old paintings and ancient statues taking selfies._

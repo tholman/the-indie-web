@@ -7,6 +7,7 @@ link: http://omg.topherchris.com/TRUMPGASM
 authorName: Vaidas L.
 authorUrl: https://vaidaslamanauskas.com
 authorGithub: vaidaslamanauskas
+remoteImage: true
 ---
 
 _Would you ever want to live in the world where Trump isn't running for president? Neither do I._

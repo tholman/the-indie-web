@@ -7,6 +7,7 @@ link: http://resn-experiments.tumblr.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _Looking for a healthy dose of quirky, but cool web experiments? Resn is here to help._

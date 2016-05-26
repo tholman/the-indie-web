@@ -7,6 +7,7 @@ link: http://tympanus.net/Development/ImageGridEffects
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _These image grid effects (think masonry, but with some added interactive flair) could be exactly what you need to spruce up your site._

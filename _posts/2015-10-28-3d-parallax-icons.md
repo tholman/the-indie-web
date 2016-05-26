@@ -7,6 +7,7 @@ link: http://kloc.pm/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _With the new Apple TV well on its way, a few nice little designs have been shipping with it. [This JavaScript library](https://github.com/drewwilson/atvImg) made by [Drew Wilson](http://drewwilson.com/) is bringing Apple’s awesome 3D tiles to the web!_

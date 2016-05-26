@@ -8,6 +8,7 @@ link: http://jxnblk.com/papercraft
 authorName: Rushi Shah
 authorUrl: http://www.rshah.org
 authorGithub: 2016rshah
+remoteImage: true
 ---
 
 _Who doesn't love [pretty letters](http://jxnblk.com/papercraft)?_

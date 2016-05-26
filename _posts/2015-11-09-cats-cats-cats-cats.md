@@ -7,6 +7,7 @@ link: http://catscatscatscatscats.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _Ever wondered what it's like to be a cat? Now you can [live it](http://catscatscatscatscats.com)._

@@ -31,7 +31,11 @@
       </div>
     {% elsif post.image %}
         <a href="{{ post.url }}">
+          {% if post.remoteImage %}
+            <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
+          {% else %}
             <img src="{{ site.baseurl }}assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
+          {% endif %}
         </a>
     {% endif %}
 

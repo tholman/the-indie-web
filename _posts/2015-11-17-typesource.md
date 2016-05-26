@@ -7,6 +7,7 @@ link: http://tobiasahlin.com/typesource
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _Looking for that perfect font combination for your new project? Look no further than TypeSource._

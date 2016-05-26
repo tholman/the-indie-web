@@ -8,6 +8,7 @@ image: staggeringbeauty.png
 authorName: Johannes Jakob
 authorUrl: http://johjakob.de
 authorGithub: JohJakob
+remoteImage: true
 ---
 
 _[Staggering Beauty](http://staggeringbeauty.com) is old, but gold._

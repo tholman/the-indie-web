@@ -7,6 +7,7 @@ link: http://digitalcollections.nypl.org/collections/collection-of-the-dresses-o
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _Looking for a little inspiration or just for random resources_

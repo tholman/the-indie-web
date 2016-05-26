@@ -7,6 +7,7 @@ link: http://ducksarethebest.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _Are ducks the best? Best visit this website and find out!_

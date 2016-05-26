@@ -7,6 +7,7 @@ link: http://frankensim.animade.tv
 authorName: Vaidas L.
 authorUrl: https://vaidaslamanauskas.com
 authorGithub: vaidaslamanauskas
+remoteImage: true
 ---
 
 _Have some spare time? Then most definitely use it to play around with this delightfully grotesque web toy._
