@@ -7,6 +7,7 @@ link: http://plane-site.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 ---
 
 _Looking for an agency website done right? Look no further than Plane Site._

@@ -29,7 +29,11 @@ layout: base
       </div>
     {% elsif page.image %}
         <a href="{{ page.link }}?ref=inspiring.online">
+        {% if page.remoteImage %}
+          <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+        {% else %}
           <img src="{{ site.baseurl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+        {% endif %}
         </a>
     {% endif %}
 
