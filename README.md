@@ -1,5 +1,7 @@
 ## Inspiring Online
 
+[![Join the chat at https://gitter.im/tholman/inspiring-online](https://badges.gitter.im/tholman/inspiring-online.svg)](https://gitter.im/tholman/inspiring-online?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 _[Inspiring Online](http://inspiring.online) is an open source blog used to share interesting, and inspiring things from the online landscape._
 
 ### The idea
