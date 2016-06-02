@@ -6,6 +6,10 @@ _[Inspiring Online](http://inspiring.online) is an open source blog used to shar
 
 Inspiring Online aims to be a blog for those looking for encouragement, and inspiration in the tech world, but is also an experiment. The entire blog is open source, so anyone can submit amendments to posts, fix spelling mistakes, add discussion links, and create new posts too! Ideally, it's a great starting area for someone to enter the open source world!
 
+If you're looking to get into open source, and want a little help through your first contribution (Inspiring Online is a great place for that!) you can join the chat at Gitter, and we'll help you out!
+
+[![Join the chat at gitter.im/tholman/inspiring-online](https://badges.gitter.im/tholman/inspiring-online.svg)](https://gitter.im/tholman/inspiring-online?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Contributing
 
 There are a lot of ways to contribute to this project. Really, we want what you have! This is a great place to get started with open source code. Break down that initial barrier (it was really scary for me, but once it's down, the floodgates are open for you).
