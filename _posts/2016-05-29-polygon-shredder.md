@@ -1,6 +1,6 @@
 ---
 layout: post
-type: WideWeirdWeb
+type: Coding
 title: The Polygon Shredder
 link: https://www.clicktorelease.com/code/polygon-shredder
 date: 2016-05-29
