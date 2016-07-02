@@ -1,66 +1,116 @@
 ---
-layout: base
+layout: compress
 ---
 
-<article class="post">
+<!doctype html>
+<html>
+    <head>
+        <title>Inspiring Online - {{ page.title }}</title>
 
-    <div class="header">
-        <h1>
-            <a href="{{ page.url }}">{{ page.title }}</a>
-        </h1>
+        <!-- META -->
+        <meta charset="utf-8">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}feed.xml">
+        <link rel="icon" type="image/png" href="{{ site.baseurl }}assets/favicon.png">
+        <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Tim Holman">
+        <meta name="description" content="An open source blog for inspiring and creative online work!">
+        <meta name="keywords" content="inspiring,online,inspiring online,open source,blog,creative,online,work">
 
-        {% if page.author %}
-            <p>{{ page.author }}</p>
+        <!-- Twitter Meta -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@NspiringOnline">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:url" content="{{ page.url }}">
+        <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+
+        {% if page.image %}
+            {% if page.remoteImage %}
+                <meta name="twitter:image:src" content="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}">
+            {% else %}
+                <meta name="twitter:image:src" content="http://inspiring.online/{{ site.baseurl }}assets/post-images/{{ page.image }}">
+            {% endif %}
         {% endif %}
 
-    </div>
+        <!-- FONTS -->
+        <script src="https://use.typekit.net/cen0ulf.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    {% if page.codepen-slug %}
-    <a href="http://codepen.io/pen/{{ page.codepen-slug }}">
-      <p data-height="268" data-theme-id="0" data-slug-hash="{{ page.codepen-slug }}" data-default-tab="result" data-preview="true" class="codepen"></p>
-    </a>
-    {% elsif page.youtube-id %}
-      <div class="iframe-video">
-        <iframe width="100%" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allowfullscreen></iframe>
-      </div>
-    {% elsif page.vimeo-id %}
-      <div class="iframe-video">
-        <iframe width="100%" src="https://player.vimeo.com/video/{{ page.vimeo-id }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
-      </div>
-    {% elsif page.image %}
-        <a href="{{ page.link }}?ref=inspiring.online">
-        {% if page.remoteImage %}
-          <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
-        {% else %}
-          <img src="{{ site.baseurl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
-        {% endif %}
-        </a>
-    {% endif %}
+        <!-- CSS -->
+        <link href="{{ site.baseurl }}css/stylesheet.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        {% include github-corner.html %}
+        {% include menu.html %}
 
-    <section class="content">
-        {{ content }}
-    </section>
+        <article class="post">
 
-</article>
+            <div class="header">
+                <h1>
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                </h1>
 
-<nav class="right">
-    {% if page.type %}
-    <a class="category-post" id="title-{{ page.type | replace: ' ', '-' | downcase }}" href="{{ site.baseurl }}categories/{{ page.type | replace: ' ', '-' | downcase }}"><h3>{{ page.type }}</h3></a>
-    {% endif %}
-    <ul>
-        {% if page.authorName %}
-            <li>
-                Happily added by:<br>
-                {% if page.authorUrl %}
-                    <a href="{{ page.authorUrl }}">{{ page.authorName }}</a>
-                {% else %}
-                    <span>{{ page.authorName }}</span>
+                {% if page.author %}
+                    <p>{{ page.author }}</p>
                 {% endif %}
-            </li>
-        {% endif %}
 
-        {% if page.authorGithub %}
-            <li><a href="http://github.com/{{ page.authorGithub }}">@{{ page.authorGithub }}</a></li>
-        {% endif %}
-    </ul>
-</nav>
+            </div>
+
+            {% if page.codepen-slug %}
+            <a href="http://codepen.io/pen/{{ page.codepen-slug }}">
+              <p data-height="268" data-theme-id="0" data-slug-hash="{{ page.codepen-slug }}" data-default-tab="result" data-preview="true" class="codepen"></p>
+            </a>
+            {% elsif page.youtube-id %}
+              <div class="iframe-video">
+                <iframe width="100%" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            {% elsif page.vimeo-id %}
+              <div class="iframe-video">
+                <iframe width="100%" src="https://player.vimeo.com/video/{{ page.vimeo-id }}?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            {% elsif page.image %}
+                <a href="{{ page.link }}?ref=inspiring.online">
+                {% if page.remoteImage %}
+                  <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+                {% else %}
+                  <img src="{{ site.baseurl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+                {% endif %}
+                </a>
+            {% endif %}
+
+            <section class="content">
+                {{ content }}
+            </section>
+
+        </article>
+
+        <nav class="right">
+            {% if page.type %}
+            <a class="category-post" id="title-{{ page.type | replace: ' ', '-' | downcase }}" href="{{ site.baseurl }}categories/{{ page.type | replace: ' ', '-' | downcase }}"><h3>{{ page.type }}</h3></a>
+            {% endif %}
+            <ul>
+                {% if page.authorName %}
+                    <li>
+                        Happily added by:<br>
+                        {% if page.authorUrl %}
+                            <a href="{{ page.authorUrl }}">{{ page.authorName }}</a>
+                        {% else %}
+                            <span>{{ page.authorName }}</span>
+                        {% endif %}
+                    </li>
+                {% endif %}
+
+                {% if page.authorGithub %}
+                    <li><a href="http://github.com/{{ page.authorGithub }}">@{{ page.authorGithub }}</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+
+        <!-- JS -->
+        <script type="text/javascript" src="{{ site.baseurl }}js/inspiring-online.js"></script>
+        <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    </body>
+</html>
+
+
+
