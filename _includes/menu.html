@@ -281,7 +281,7 @@
   <ul>
     <li><a href="{{ site.baseurl }}">Inspiring Online</a></li>
     <li><a href="{{ site.baseurl }}contributors">Contributors</a></li>
-    <li><a href="{{ site.baseurl }}categories">Categories</a></li>
+    <li>{% if page.page-type != 'Categories' %}<a href="{{ site.baseurl }}categories">Categories</a>{% else %}<b><a href="{{ site.baseurl }}meet-categories">Categories?</a></b>{% endif %}</li>
     <li><a href="https://github.com/tholman/inspiring-online#contributing" target="_blank">Join in?</a></li>
     <li><a href="{{ site.baseurl }}meet-inspiring-online">About</a></li>
     <li><a href="{{ site.baseurl }}feed.xml">Feed</a></li>
