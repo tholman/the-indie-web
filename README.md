@@ -41,11 +41,17 @@ git clone https://github.com/username/inspiring-online.git
 
 (Make sure to replace `username` with your username.)
 
-The last thing you need to do to run locally is do a `bundle install` to install the required gems.
+Then you need to navigate into your newly cloned repository:
+
+```
+cd inspiring-online
+```
+
+The last thing you need to do before you can run locally is do a `bundle install` to install the required gems.
 
 Then just run `jekyll serve` to see the website running on `http://localhost:4000`.
 
-If you get any errors or warnings, try to run `bundle exec jekyll serve`.
+If you get any errors or warnings, try running `bundle exec jekyll serve` instead.
 
 ### What we like
 
