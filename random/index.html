@@ -1,0 +1,16 @@
+---
+---
+<head>
+  <script type="text/javascript">
+    var links = new Array();
+    {% for post in site.posts %}
+      links[links.length] = {{ post.url }};
+    {% endfor %}
+    function openLink() {
+      var i = Math.floor(Math.random() * links.length);
+      parent.location = links[i];
+    }
+  </script>
+</head>
+<body onload="openLink();">
+</body>
