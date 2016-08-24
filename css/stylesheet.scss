@@ -4,3 +4,60 @@
 /**
  *  Inspiring Online
  */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "courier-prime", monospace;
+  padding: 15px;
+  margin: 0px;
+}
+
+h1, h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+/**
+ *  Inspiring Online
+ */
+
+.tile {
+  max-width: 250px;
+  padding: 15px;
+  margin: 15px;
+
+  box-shadow: 9px 9px black;
+  border: 3px solid #000;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 14px;
+}
+
+a {
+  color: #333;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+  font-size: 14px;
+}
+
+li {
+  margin-bottom: 4px;
+
+  &:before {
+    content: "- ";
+  }
+}
