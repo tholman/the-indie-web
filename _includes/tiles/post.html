@@ -1,0 +1,15 @@
+<div class="tile" href="{{ post.url }}">
+
+  {% if post.image %}
+    {% if post.remoteImage %}
+      <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
+    {% else %}
+      <img src="{{ site.baseurl }}assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
+    {% endif %}
+  {% endif %}
+
+  <h1>{{ post.title }}</h1>
+
+  {{ post.content }}
+
+</div>

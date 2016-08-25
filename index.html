@@ -1,10 +1,11 @@
 ---
 layout: base
-homepage: true
 ---
 
-{% include tiles/about.html %}
 
-{% for post in paginator.posts %}
-
-{% endfor %}
+<div class="tile-grid">
+  {% include tiles/about.html %}
+  {% for post in paginator.posts %}
+    {% include tiles/post.html %}
+  {% endfor %}
+</div>

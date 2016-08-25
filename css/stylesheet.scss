@@ -10,7 +10,7 @@
 }
 
 html, body {
-  font-family: "courier-prime", monospace;
+  font-family: monospace;
   padding: 15px;
   margin: 0px;
 }
@@ -24,6 +24,10 @@ h1, h2 {
  *  Inspiring Online
  */
 
+.tile-grid {
+  margin: 0 auto;
+}
+
 .tile {
   max-width: 250px;
   padding: 15px;
@@ -31,6 +35,7 @@ h1, h2 {
 
   box-shadow: 9px 9px black;
   border: 3px solid #000;
+  margin-bottom: 30px
 }
 
 h1 {
@@ -60,4 +65,8 @@ li {
   &:before {
     content: "- ";
   }
+}
+
+img {
+  width: 100%;
 }
