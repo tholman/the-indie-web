@@ -13,6 +13,4 @@ remoteImage: true
 
 _[Staggering Beauty](http://staggeringbeauty.com) is old, but gold._
 
-Everyone, who doesn't know what this oldie is about, should prepare himself/herself for the worst and click on that link. But be warned: It contains **flashing images**!
-
-[Staggering Beauty](http://staggeringbeauty.com) - by [George Michael Bower](http://aaf.nyc)
+By [George Michael Bower](http://aaf.nyc)

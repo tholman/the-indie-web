@@ -11,6 +11,4 @@ authorGithub: tholman
 
 _Spice up your Slack room with some Elizabethan smack talk!_
 
-Seriously though, Angry Shakespeare has some serious dissing powers, add it to Slack asap.
-
-[Angry Shakespeare](https://angryshakespeare.skeevisarts.com) - by [Zvi Band](http://zvi.band)
+By [Zvi Band](http://zvi.band)

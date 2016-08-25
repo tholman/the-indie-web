@@ -10,7 +10,3 @@ authorGithub: tholman
 ---
 
 _Looking for a little emoji based inspiration? Leila's folio is what you need!_
-
-Leila uses a beautiful mix of interaction and discovery, its well worth the look!
-
-[Leia McGlew](http://leilamcglew.com/)

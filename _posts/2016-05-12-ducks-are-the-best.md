@@ -11,7 +11,3 @@ remoteImage: true
 ---
 
 _Are ducks the best? Best visit this website and find out!_
-
-Ducks are the best dot com, is the forefront of all duck based knowledge and status... check it out!
-
-[Ducks are the best](http://ducksarethebest.com/)

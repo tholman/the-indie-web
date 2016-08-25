@@ -13,6 +13,4 @@ remoteImage: true
 
 _Here we go again. Truly a gem in our Wide Weird Web. Yes, [Fried Chicken Simulator](http://friedchickensimulator.surge.sh)._
 
-Simple. Press for chicken. See it fall into a bucket. Colonel Sanders would be proud.
-
-[Fried Chicken Simulator](http://friedchickensimulator.surge.sh) by [Austin Mayer](http://mayormayer.com)
+By [Austin Mayer](http://mayormayer.com)

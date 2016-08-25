@@ -12,6 +12,4 @@ remoteImage: true
 
 _Enjoy a little walk along the fine line between generateive and interactive art._
 
-[Eschersketch](http://levskaya.github.io/eschersketch/) is a great little interactive experiment, combining art with a kaleidoscopic drawing effect.
-
-[Eschersketch](http://levskaya.github.io/eschersketch/) - by [Anselm Levskaya](http://www.anselmlevskaya.com/)
+By [Anselm Levskaya](http://www.anselmlevskaya.com/)

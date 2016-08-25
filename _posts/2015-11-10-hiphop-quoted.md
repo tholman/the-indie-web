@@ -12,6 +12,4 @@ remoteImage: true
 
 _Love typography? Love Hip Hop? [Hip Hop Quoted](http://hiphopquoted.com) is for you._
 
-This awesome collection, built by [Ollie Kavanagh](http://olliekav.com) combines Hip Hop lyrics with web typography, which really brings them to life on the screen.
-
-[Hip Hop Quoted](http://hiphopquoted.com) - by [Ollie Kavanagh](http://olliekav.com)
+By [Ollie Kavanagh](http://olliekav.com)

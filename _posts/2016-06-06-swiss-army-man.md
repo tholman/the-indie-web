@@ -11,6 +11,4 @@ authorGithub: tholman
 
 _Looking for your daily dose of weirdness? Here it is!_
 
-The promotional Swiss Army Man site dolls up all the strage feels with the WebGL Daniel Radcliffe... make him fart, throw him around, this site goes deep!
-
-[Swiss Army Man](http://swissarmyman.com) - by [A24](http://a24films.com)
+By [A24](http://a24films.com)

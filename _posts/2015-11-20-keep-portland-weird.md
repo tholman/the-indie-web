@@ -12,8 +12,4 @@ remoteImage: true
 
 _[Keep Portland Weird](http://keepearthquakesweird.com) is the kind of project that keeps the strange alive, on the internet._
 
-After learning about the possibility of an impending earthquake, the agency [Oblio](http://oblio.io) set to work on the beautifully uninformative project [Keep Portland Weird](http://keepearthquakesweird.com).
-
-Earthquake preparedness the Portland way sounds like the right way to me.
-
-[Keep Portland Weird](http://keepearthquakesweird.com) - by Digital Agency [Oblio](http://oblio.io)
+By Digital Agency [Oblio](http://oblio.io)

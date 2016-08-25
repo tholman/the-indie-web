@@ -12,6 +12,4 @@ remoteImage: true
 
 _Looking for a healthy dose of quirky, but cool web experiments? Resn is here to help._
 
-The digital agency Resn has created a delightful [tumblr](http://resn-experiments.tumblr.com) page with a massive variety of cool webby experiments. 
-
-[Resn Experiments](http://resn-experiments.tumblr.com) - by [Resn](http://placeholder.resn.co.nz)
+By [Resn](http://placeholder.resn.co.nz)

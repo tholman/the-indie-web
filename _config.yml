@@ -20,7 +20,7 @@ highlighter: 'rouge'
 encoding: utf-8
 
 # Number of posts on each page.
-paginate: 10
+paginate: 15
 paginate_path: "/:num/"
 var_older: 'Next'
 var_newer: 'Previous'

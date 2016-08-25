@@ -11,6 +11,4 @@ authorGithub: tholman
 
 _Combining canvas experimentation with evolution is always going to be cool._
 
-Check out Mount Improbable and play with the evolutionary tree of your own generative creatures!
-
-[Mount Improbable](http://www.mountimprobable.com) - by [Penguin Publishing](http://www.penguin.com)
+By [Penguin Publishing](http://www.penguin.com)

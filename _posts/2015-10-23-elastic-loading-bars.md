@@ -12,6 +12,4 @@ remoteImage: true
 
 _[These Elastic Loaders](http://tympanus.net/Development/ElasticProgress) show how beautiful a little SVG animation can be._
 
-Tympanus never fail to impress with their demos, and this is another classical example of how clean things can feel when they've got a little emotion added in.
-
-[Elastic Loaders](http://tympanus.net/Development/ElasticProgress) - by [Typmpanus](http://tympanus.net)
+By [Typmpanus](http://tympanus.net)

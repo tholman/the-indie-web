@@ -11,6 +11,4 @@ authorGithub: tholman
 
 _Star wars episode 4 in one picture? That't right, its real!_
 
-This absolutely monolithic undertaking is testament to hard work, and dedication. It really is a marvel.
-
-[Single picture Star Wars](http://swanh.net/) - by [Martin Panchaud](http://www.martinpanchaud.ch/)
+By [Martin Panchaud](http://www.martinpanchaud.ch/)
