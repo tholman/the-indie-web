@@ -7,6 +7,8 @@ link: http://www.yournameingum.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+imgWidth: 750
+imgHeight: 518
 ---
 
 _Studies have shown that gum can help concentration, why not use it to make words?_

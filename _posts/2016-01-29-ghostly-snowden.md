@@ -8,6 +8,8 @@ authorName: Johannes Jakob
 authorUrl: http://www.johjakob.de
 authorGithub: JohJakob
 remoteImage: true
+imgWidth: 1440
+imgHeight: 900
 ---
 
 _Here's a nice #webdev gem for you._

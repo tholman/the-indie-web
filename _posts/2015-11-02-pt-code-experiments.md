@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 928
+imgHeight: 456
 ---
 
 _Looking for a little color and interaction inspiration? [William Ngan](http://williamngan.com)'s code experiments exploring [point, form and space](http://williamngan.github.io/pt/index.html) are just for you._

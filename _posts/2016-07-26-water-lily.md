@@ -7,6 +7,8 @@ link: http://waterlily.illion.website
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+imgWidth: 874
+imgHeight: 508
 ---
 
 _Touch, sway, deform, color, repeat._

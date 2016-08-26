@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 980
+imgHeight: 542
 ---
 
 _[Tumblr's humans.txt](http://tumblr.com/humans.txt) file, turns out to be an awesome text adventure. What a great little easter egg._

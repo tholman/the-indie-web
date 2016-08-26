@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 808
+imgHeight: 524
 ---
 
 _Looking for your daily dose of "Why does that exist?" [Kat-Leidoscope](http://katleidoscope.com) is just for you._

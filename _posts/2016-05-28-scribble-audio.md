@@ -7,6 +7,8 @@ link: http://scribble.audio/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+imgWidth: 1032
+imgHeight: 538
 ---
 
 _Web audio has come such a long way, give scribble audio a go, and get creative!_

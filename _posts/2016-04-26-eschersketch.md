@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 902
+imgHeight: 506
 ---
 
 _Enjoy a little walk along the fine line between generateive and interactive art._

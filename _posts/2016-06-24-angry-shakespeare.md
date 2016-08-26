@@ -7,6 +7,8 @@ link: https://angryshakespeare.skeevisarts.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+imgWidth: 950
+imgHeight: 492
 ---
 
 _Spice up your Slack room with some Elizabethan smack talk!_

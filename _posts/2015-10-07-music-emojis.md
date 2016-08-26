@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 639
+imgHeight: 390
 ---
 
 _[This](http://musicemojis.tumblr.com) little Tumblr blog by [Bruno Leo Ribeiro](http://www.brunoleoribeiro.com/#kauko-home) showcases his creative art style, as he shows each band member in the minimal style of emojis!_

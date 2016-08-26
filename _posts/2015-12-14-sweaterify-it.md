@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 1440
+imgHeight: 800
 ---
 
 _Ever dreamed of putting your face on a sweater... Of course you have. Now [Sweaterify it](http://kosamari.github.io/sweaterify) is here!_

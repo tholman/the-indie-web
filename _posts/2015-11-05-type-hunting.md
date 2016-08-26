@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 1505
+imgHeight: 1073
 ---
 
 _[Type Hunting](http://typehunting.com) is the perfect fix for the typography junkie looking to score._

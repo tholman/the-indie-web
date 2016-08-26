@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 880
+imgHeight: 448
 ---
 
 _Are ducks the best? Best visit this website and find out!_

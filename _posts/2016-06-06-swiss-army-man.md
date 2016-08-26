@@ -7,6 +7,8 @@ link: http://swissarmyman.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+imgWidth: 782
+imgHeight: 422
 ---
 
 _Looking for your daily dose of weirdness? Here it is!_

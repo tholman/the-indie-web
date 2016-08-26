@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 1074
+imgHeight: 622
 ---
 
 _Ever wondered what it's like to be a cat? Now you can [live it](http://catscatscatscatscats.com)._

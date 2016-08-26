@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 470
+imgHeight: 291
 ---
 
 _Got nowhere to be? Got a little time? Sitting on the toilet?_

@@ -8,6 +8,8 @@ authorName: Johannes Jakob
 authorUrl: http://johjakob.de
 authorGithub: JohJakob
 remoteImage: true
+imgWidth: 720
+imgHeight: 450
 ---
 
 _Yeah... [here](http://sebastianlyserena.dk) are some nice... web dominoes?_

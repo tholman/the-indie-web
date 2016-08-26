@@ -7,6 +7,8 @@ link: http://www.forgotify.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+imgWidth: 568
+imgHeight: 361
 ---
 
 _Discover the songs that no one's ever heard._

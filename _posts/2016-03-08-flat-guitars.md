@@ -8,6 +8,8 @@ link: http://www.flatguitars.com
 authorName: Tim Scalzo
 authorGithub: TJScalzo
 remoteImage: true
+imgWidth: 1265
+imgHeight: 652
 ---
 
 _Amazingly detailed guitars with the right amount of flatness!_

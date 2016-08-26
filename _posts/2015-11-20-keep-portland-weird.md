@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 1008
+imgHeight: 642
 ---
 
 _[Keep Portland Weird](http://keepearthquakesweird.com) is the kind of project that keeps the strange alive, on the internet._

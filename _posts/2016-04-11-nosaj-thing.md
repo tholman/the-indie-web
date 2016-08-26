@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 1142
+imgHeight: 556
 ---
 
 _You know you can't go wrong with WebGL and Audio, right?_

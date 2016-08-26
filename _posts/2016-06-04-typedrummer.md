@@ -7,6 +7,8 @@ link: http://typedrummer.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+imgWidth: 598
+imgHeight: 435
 ---
 
 _A perfect combination of words and beats._

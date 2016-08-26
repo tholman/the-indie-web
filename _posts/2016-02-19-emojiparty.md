@@ -8,6 +8,8 @@ authorName: Johannes Jakob
 authorUrl: http://johjakob.de
 authorGithub: JohJakob
 remoteImage: true
+imgWidth: 720
+imgHeight: 450
 ---
 
 _Join this party with your own emoji dudes!_

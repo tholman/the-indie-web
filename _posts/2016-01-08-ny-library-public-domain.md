@@ -8,6 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 1462
+imgHeight: 738
 ---
 
 _Looking for a little inspiration or just for random resources_
