@@ -1,15 +1,8 @@
-<div class="tile" href="{{ post.url }}">
-
-  {% if post.image %}
-    {% if post.remoteImage %}
-      <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
-    {% else %}
-      <img src="{{ site.baseurl }}assets/post-images/{{ post.image }}" alt="{{ post.title }}"/>
-    {% endif %}
-  {% endif %}
-
-  <h1>{{ post.title }}</h1>
-
-  {{ post.content }}
-
-</div>
+{
+  "type": "{{ post.type }}",
+  "title": "{{ post.title }}",
+  "content": `{{post.content}}`,
+  "url": "{{ post.url }}",
+  "remoteAsset": "{{ post.remoteImage }}",
+  "image": "{{ post.image }}" 
+}

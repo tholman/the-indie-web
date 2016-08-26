@@ -8,10 +8,6 @@ remoteAssetUrl: https://s3.amazonaws.com/inspiring.online/
 title: Inspiring Online
 tagline: 'Inspiring things, on the online landscape.'
 
-# Links tag variables
-twitter: "twholman"
-github:  "tholman"
-
 # Other external links
 analytics_tracking_id: "UA-22825241-1"
 
@@ -20,7 +16,7 @@ highlighter: 'rouge'
 encoding: utf-8
 
 # Number of posts on each page.
-paginate: 15
+paginate: 20
 paginate_path: "/:num/"
 var_older: 'Next'
 var_newer: 'Previous'

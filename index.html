@@ -3,8 +3,12 @@ layout: base
 ---
 
 <div class="tile-grid">
-  {% include tiles/about.html %}
-  {% for post in paginator.posts %}
-    {% include tiles/post.html %}
-  {% endfor %}
 </div>
+
+<script>
+  var postJSON = [
+  {% for post in paginator.posts %}
+    {% include tiles/post.html %},
+  {% endfor %}
+  ]
+</script>
