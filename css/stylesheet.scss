@@ -35,7 +35,8 @@ h1, h2 {
 
   box-shadow: 9px 9px black;
   border: 3px solid #000;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  transition-property: all !important;
 }
 
 h1 {

@@ -6,6 +6,7 @@
 
 var remoteAssetSource = "https://s3.amazonaws.com/inspiring.online/assets/post-images/";
 var localAssetSource = "/assets/post-images/";
+var imageWidthInTile = 214; // 250 - padding - borders
 
 var isotopeObject;
 
@@ -24,7 +25,17 @@ function createIsotopeContainer() {
       gutter: 30,
       fitWidth: true
     },
-    sortBy: 'original-order'
+    sortBy: 'original-order',
+    hiddenStyle: {
+      transform: 'translate(9px, 9px)',
+      'opacity': 0,
+      'box-shadow': '0px 0px black'
+    },
+    visibleStyle: {
+      transform: 'translate(0px, 0px)',
+      opacity: 1,
+      'box-shadow': '9px 9px black'
+    }
   });
 }
 
@@ -65,13 +76,15 @@ function renderPost(postData) {
       src += localAssetSource;
     }
 
-    (function() {
-      var _element = element;
-      img.onload = function() {
-        console.log("loaded?");
-        isotopeObject.insert(_element);
-      }
-    })();
+    var width = parseInt(postData.imgWidth);
+    var height = parseInt(postData.imgHeight);
+    
+    var ratio = imageWidthInTile / width;
+    var newWidth = 214;
+    var newHeight = height * ratio;
+
+    img.width = (newWidth);
+    img.height = (newHeight);
 
     img.src = (src + postData.image);
     element.appendChild(img);
@@ -85,10 +98,7 @@ function renderPost(postData) {
   content.innerHTML = postData.content;
   element.appendChild(content);
 
-  // Add straight away if it doesn't have an image
-  if( postData.image === "" ) {
-    isotopeObject.insert(element);
-  }
+  isotopeObject.insert(element);
 }
 
 init();
