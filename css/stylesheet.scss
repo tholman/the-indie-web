@@ -52,6 +52,10 @@ h2 {
 
 a {
   color: #333;
+
+  &.title-anchor {
+    // text-decoration: none;
+  }
 }
 
 ul {

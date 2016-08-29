@@ -13,4 +13,4 @@ imgHeight: 508
 
 _Touch, sway, deform, color, repeat._
 
-By [Illion](illion.website)
+By [Illion](http://illion.website)
