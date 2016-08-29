@@ -6,14 +6,57 @@
 
 var remoteAssetSource = "https://s3.amazonaws.com/inspiring.online/assets/post-images/";
 var localAssetSource = "/assets/post-images/";
+var splitString = "splitHERE"; // Surely there is a better way to get json data in jekyll?
 var imageWidthInTile = 214; // 250 - padding - borders
+var page = 1;
+var loading = false;
 
 var isotopeObject;
+var loader;
 
 function init() {
+  cacheDom();
   createIsotopeContainer();
   renderInitialTile();
   renderPosts(postJSON);
+  addPaginator();
+}
+
+function cacheDom() {
+  loader = document.querySelector('.loader');
+}
+
+function addPaginator() {
+  // TODO: Wouldn't hurt to debounce this
+  window.onscroll = function(e) {
+    if ((window.innerHeight + window.scrollY) >= (document.body.scrollHeight - 50)) {
+      paginate();
+    }
+  };
+}
+
+function paginate() {
+  if( loading === true ) {
+    return;
+  }
+
+  loading = true;
+  loader.className = "loader loading";
+  page++;
+  $.ajax({
+    url: '/' + page,
+    type: 'GET',
+    success: function(data) {
+      eval(data.split(splitString)[1]);
+      renderPosts(postJSON);
+      loader.className = "loader";
+      loading = false;
+    },
+    error: function() {
+      // Hide loader... but also, you're at the end of the page.
+      loader.className = "loader";
+    }
+  })
 }
 
 function createIsotopeContainer() {

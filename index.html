@@ -6,9 +6,11 @@ layout: base
 </div>
 
 <script>
+  //splitHERE
   var postJSON = [
   {% for post in paginator.posts %}
     {% include tiles/post.html %},
   {% endfor %}
   ]
+  //splitHERE
 </script>

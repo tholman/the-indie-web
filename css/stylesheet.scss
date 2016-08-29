@@ -72,3 +72,28 @@ img {
   width: 100%;
   margin-bottom: 10px;
 }
+
+.loader {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  height: 10px;
+
+  .loader-bar {
+    width: 0px;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background: black;
+  }
+
+  &.loading {
+    .loader-bar {
+      transition: width 800ms ease-out;
+      width: calc(100vw - 10px)
+    }
+  }
+}
