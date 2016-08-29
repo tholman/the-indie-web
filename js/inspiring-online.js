@@ -54,6 +54,7 @@ function paginate() {
     },
     error: function() {
       // Hide loader... but also, you're at the end of the page.
+      renderFooterTile();
       loader.className = "loader";
     }
   })
@@ -92,11 +93,19 @@ function renderInitialTile() {
       <li><a href="https://github.com/tholman/inspiring-online#contributing" target="_blank">Join in?</a></li>
       <li><a href="https://github.com/tholman/inspiring-online#inspiring-online">About</a></li>
       <li><a href="/feed.xml">RSS</a></li> 
-    </ul>
-  </div>`
+    </ul>`
 
   element.className = "tile"
   isotopeObject.insert(element);
+}
+
+function renderFooterTile() {
+  var element = document.createElement('footer');
+  element.innerHTML = `
+    <footer>
+      Wow, you got to the end! Got something to share, you should <a href="https://github.com/tholman/inspiring-online#contributing" target="_blank">consider contributing!</a>
+    </footer>`
+  document.body.appendChild(element);
 }
 
 function renderPosts(postsData) {
