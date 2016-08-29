@@ -18,8 +18,23 @@ function init() {
   cacheDom();
   createIsotopeContainer();
   renderInitialTile();
-  renderPosts(postJSON);
-  addPaginator();
+
+  if( typeof postJSON === "undefined" ) {
+    $.ajax({
+      url: '/',
+      type: 'GET',
+      success: function(data) {
+        eval(data.split(splitString)[1]);
+        renderPosts(postJSON);
+        loader.className = "loader";
+        loading = false;
+        addPaginator();
+      }
+    })
+  } else {
+    renderPosts(postJSON);
+    addPaginator();
+  }
 }
 
 function cacheDom() {

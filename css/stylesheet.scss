@@ -11,7 +11,7 @@
 
 html, body {
   font-family: monospace;
-  padding: 15px;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -23,6 +23,10 @@ h1, h2 {
 /**
  *  Inspiring Online
  */
+
+.content-wrapper {
+  padding: 30px;
+}
 
 .tile-grid {
   margin: 0 auto;
@@ -37,6 +41,25 @@ h1, h2 {
   border: 3px solid #000;
   margin-bottom: 30px;
   transition-property: all !important;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title-tile {
+  max-width: 250px;
+  padding: 15px;
+  border: 5px solid #fff;
+  box-shadow: 9px 9px #fff;
+  margin: auto;
+
+  a {
+    color: #f9f9f9;
+  }
 }
 
 h1 {

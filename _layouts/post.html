@@ -1,3 +1,74 @@
 ---
 ---
 
+<!doctype html>
+<html>
+  <head>
+    <title>Inspiring Online</title>
+
+    <!-- META -->
+    <meta charset="utf-8">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}feed.xml">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}assets/favicon.png">
+    <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000">
+    <meta name="description" content="An open source blog for inspiring and creative online work!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Twitter Meta -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@NspiringOnline">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:url" content="{{ page.url }}">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+
+    {% if page.image %}
+        {% if page.remoteImage %}
+            <meta name="twitter:image:src" content="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}">
+        {% else %}
+            <meta name="twitter:image:src" content="http://inspiring.online/{{ site.baseurl }}assets/post-images/{{ page.image }}">
+        {% endif %}
+    {% endif %}
+
+    <!-- CSS -->
+    <link href="{{ site.baseurl }}css/stylesheet.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  
+    <header>
+      <div class="title-tile">
+        {% if page.image %}
+          <a href="{{ page.link }}?ref=inspiring.online">
+          {% if page.remoteImage %}
+            <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+          {% else %}
+            <img src="{{ site.baseurl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+          {% endif %}
+          </a>
+        {% endif %}
+
+        <h1>
+          <a href="{{ page.url }}">{{ page.title }}</a>
+        </h1>
+
+        {{ content }}
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+
+      <div class="tile-grid">
+      </div>
+      
+      <div class="loader">
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    {% include analytics.html %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}js/inspiring-online.js"></script>
+  </body>
+</html>
+
