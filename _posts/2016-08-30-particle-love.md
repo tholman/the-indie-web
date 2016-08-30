@@ -11,6 +11,6 @@ imgWidth: 438
 imgHeight: 270
 ---
 
-_WebGL particles will never get old_
+_WebGL particles will never get old._
 
 [Particle Love](http://particle-love.com/) - by [Edan Kwan](http://edankwan.com/)
