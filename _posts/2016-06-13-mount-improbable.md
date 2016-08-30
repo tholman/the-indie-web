@@ -7,10 +7,10 @@ link: http://www.mountimprobable.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+imgWidth: 1562
+imgHeight: 716
 ---
 
 _Combining canvas experimentation with evolution is always going to be cool._
 
-Check out Mount Improbable and play with the evolutionary tree of your own generative creatures!
-
-[Mount Improbable](http://www.mountimprobable.com) - by [Penguin Publishing](http://www.penguin.com)
+By [Penguin Publishing](http://www.penguin.com)

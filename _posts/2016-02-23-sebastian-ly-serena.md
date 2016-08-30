@@ -8,12 +8,10 @@ authorName: Johannes Jakob
 authorUrl: http://johjakob.de
 authorGithub: JohJakob
 remoteImage: true
+imgWidth: 720
+imgHeight: 450
 ---
 
 _Yeah... [here](http://sebastianlyserena.dk) are some nice... web dominoes?_
 
-...and these dominoes are made out of... combo boxes, text fields, checkboxes, radio buttons and so on.
-
-You better see it for yourself.
-
-[Sebastian Ly Serena](http://sebastianlyserena.dk) - by [Sebastian Ly Serena](http://sebastianlyserena.dk)
+By [Sebastian Ly Serena](http://sebastianlyserena.dk)

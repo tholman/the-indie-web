@@ -12,6 +12,4 @@ authorGithub: vaidaslamanauskas
 
 _Are you into mad experiences? Like gummy bear drums n' stuff? Well, it might be your lucky day!_
 
-A vibrant musical VR playground filled with cheeseburger drums and other junk-food instruments. What's not to like?
-
-[Playthings](https://vimeo.com/155628376) - by [George Michael Bower](http://aaf.nyc)
+By [George Michael Bower](http://aaf.nyc)

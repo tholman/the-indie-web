@@ -9,10 +9,10 @@ authorName: Rushi Shah
 authorUrl: http://www.rshah.org
 authorGithub: 2016rshah
 remoteImage: true
+imgWidth: 1445
+imgHeight: 775
 ---
 
 _Who doesn't love [pretty letters](http://jxnblk.com/papercraft)?_
 
-These beautifully crafted paper SVG elements will class up any website.
-
-[Papercraft](http://jxnblk.com/papercraft) was [open-sourced](https://github.com/jxnblk/papercraft) by [Brent Jackson](http://jxnblk.com)
+By [Brent Jackson](http://jxnblk.com)

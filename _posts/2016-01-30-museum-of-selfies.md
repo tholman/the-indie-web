@@ -8,12 +8,10 @@ authorName: Johannes Jakob
 authorUrl: http://www.johjakob.de
 authorGithub: JohJakob
 remoteImage: true
+imgWidth: 500
+imgHeight: 500
 ---
 
 _The [Museum of Selfies](http://museumofselfies.tumblr.com) is a gallery of old paintings and ancient statues taking selfies._
 
-It's interesting to see that a hand holding a smartphone can change the character of these old artworks and give their facial expression a whole new meaning.
-
-You can submit your own selfies via email or Instagram with [#museumofselfies](https://www.instagram.com/explore/tags/museumofselfies).
-
-[Museum of Selfies](http://museumofselfies.tumblr.com) - by Olivia Muus
+By Olivia Muus

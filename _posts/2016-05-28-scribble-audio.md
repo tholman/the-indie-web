@@ -7,10 +7,10 @@ link: http://scribble.audio/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+imgWidth: 1032
+imgHeight: 538
 ---
 
 _Web audio has come such a long way, give scribble audio a go, and get creative!_
 
-Scribble audio is the kind of thing that can be as complex or simple as you like, draw some paths and create some music.
-
-[Scribble Audio](http://scribble.audio/) - by [Kyle Stetz](http://kylestetz.com/)
+By [Kyle Stetz](http://kylestetz.com/)

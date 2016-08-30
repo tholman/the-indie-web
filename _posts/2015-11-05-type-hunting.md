@@ -8,10 +8,10 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 1505
+imgHeight: 1073
 ---
 
 _[Type Hunting](http://typehunting.com) is the perfect fix for the typography junkie looking to score._
 
-The awesome Tumblr blog, spanning back to 2012, contains a multitude of type samples from retro books and products. It's without doubt a really interesting, complete showcase!
-
-[Type Hunting](http://typehunting.com/) - by [Jonathan Lawrence](http://jonathanlawrence.net)
+By [Jonathan Lawrence](http://jonathanlawrence.net)

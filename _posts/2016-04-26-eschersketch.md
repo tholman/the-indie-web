@@ -8,10 +8,10 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 902
+imgHeight: 506
 ---
 
 _Enjoy a little walk along the fine line between generateive and interactive art._
 
-[Eschersketch](http://levskaya.github.io/eschersketch/) is a great little interactive experiment, combining art with a kaleidoscopic drawing effect.
-
-[Eschersketch](http://levskaya.github.io/eschersketch/) - by [Anselm Levskaya](http://www.anselmlevskaya.com/)
+By [Anselm Levskaya](http://www.anselmlevskaya.com/)
