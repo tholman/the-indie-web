@@ -8,10 +8,9 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
+imgWidth: 2140
+imgHeight: 1346
 ---
 
 _Sometimes things make sense and sometimes there is an endless horse._
 
-No extra explanation needed here really. Awesome domain, awesome site!
-
-[Endless Horse](http://endless.horse)

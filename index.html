@@ -1,12 +1,16 @@
 ---
 layout: base
-homepage: true
 ---
 
-{% for post in paginator.posts %}
-{% include posts-loop.html %}
-{% endfor %}
+<div class="tile-grid">
+</div>
 
-{% if paginator.previous_page or paginator.next_page %}
-  {% include pagination.html %}
-{% endif %}
+<script>
+  //splitHERE
+  var postJSON = [
+  {% for post in paginator.posts %}
+    {% include tiles/post.html %},
+  {% endfor %}
+  ]
+  //splitHERE
+</script>

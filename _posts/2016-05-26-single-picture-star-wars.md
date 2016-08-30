@@ -7,10 +7,10 @@ link: http://swanh.net/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+imgWidth: 1114
+imgHeight: 548
 ---
 
 _Star wars episode 4 in one picture? That't right, its real!_
 
-This absolutely monolithic undertaking is testament to hard work, and dedication. It really is a marvel.
-
-[Single picture Star Wars](http://swanh.net/) - by [Martin Panchaud](http://www.martinpanchaud.ch/)
+By [Martin Panchaud](http://www.martinpanchaud.ch/)
