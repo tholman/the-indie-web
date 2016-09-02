@@ -12,7 +12,7 @@ imgWidth: 260
 imgHeight: 311
 ---
 
-_A tediously accurate map of the solar system._
+_An accurate, yet existentially charged map of the solar system._
 
 
 
