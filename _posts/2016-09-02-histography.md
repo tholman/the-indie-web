@@ -6,10 +6,10 @@ type: Resource
 image: histography.png
 link: http://histography.io
 authorName: Tim Scalzo
-authorUrl: 
+authorUrl:
 authorGithub: TJScalzo
-imgWidth: 358
-imgHeight: 268
+imgWidth: 303
+imgHeight: 247
 ---
 
 _An interactive timeline of all of human history._

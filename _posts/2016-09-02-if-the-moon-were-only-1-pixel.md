@@ -6,10 +6,10 @@ type: WideWeirdWeb
 image: if-the-moon-were-only-1-pixel.png
 link: http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
 authorName: Tim Scalzo
-authorUrl: 
+authorUrl:
 authorGithub: TJScalzo
-imgWidth: 260
-imgHeight: 311
+imgWidth: 246
+imgHeight: 300
 ---
 
 _An accurate, yet existentially charged map of the solar system._
