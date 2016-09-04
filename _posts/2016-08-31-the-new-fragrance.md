@@ -7,6 +7,7 @@ link: https://www.youtube.com/watch?v=ABz2m0olmPg
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 680
 imgHeight: 412
 ---

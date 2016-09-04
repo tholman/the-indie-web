@@ -7,6 +7,7 @@ link: http://www.space-advisor.ca/en/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1388
 imgHeight: 488
 ---

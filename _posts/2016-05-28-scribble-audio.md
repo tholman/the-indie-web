@@ -7,6 +7,7 @@ link: http://scribble.audio/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1032
 imgHeight: 538
 ---

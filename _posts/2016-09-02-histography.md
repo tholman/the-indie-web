@@ -8,6 +8,7 @@ link: http://histography.io
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+remoteImage: true
 imgWidth: 303
 imgHeight: 247
 ---

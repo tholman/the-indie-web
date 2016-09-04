@@ -7,6 +7,7 @@ link: http://meowni.ca/emojillate/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 690
 imgHeight: 384
 ---

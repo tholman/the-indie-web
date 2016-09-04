@@ -7,6 +7,7 @@ link: http://swanh.net/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1114
 imgHeight: 548
 ---

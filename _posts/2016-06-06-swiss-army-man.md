@@ -7,6 +7,7 @@ link: http://swissarmyman.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 782
 imgHeight: 422
 ---

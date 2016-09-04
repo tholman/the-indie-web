@@ -7,6 +7,7 @@ link: http://particle-love.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 438
 imgHeight: 270
 ---

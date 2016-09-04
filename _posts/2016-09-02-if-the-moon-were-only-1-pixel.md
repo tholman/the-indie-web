@@ -8,6 +8,7 @@ link: http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+remoteImage: true
 imgWidth: 246
 imgHeight: 300
 ---
