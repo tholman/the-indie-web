@@ -13,3 +13,5 @@ imgHeight: 448
 ---
 
 _Are ducks the best? Best visit this website and find out!_
+
+By [Visual Idiot](http://visualidiot.com)
