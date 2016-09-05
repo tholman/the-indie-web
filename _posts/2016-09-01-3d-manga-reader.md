@@ -7,6 +7,7 @@ link: http://makiopolis.com/manga3d/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 630
 imgHeight: 392
 ---

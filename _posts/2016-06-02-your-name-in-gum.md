@@ -7,6 +7,7 @@ link: http://www.yournameingum.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+remoteImage: true
 imgWidth: 750
 imgHeight: 518
 ---

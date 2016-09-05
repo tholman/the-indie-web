@@ -7,6 +7,7 @@ link: http://www.forgotify.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+remoteImage: true
 imgWidth: 568
 imgHeight: 361
 ---

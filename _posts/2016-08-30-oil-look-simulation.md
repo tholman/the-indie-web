@@ -7,6 +7,7 @@ link: http://devrandomnotes.com/#/unfold-the-oil-paper/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 612
 imgHeight: 406
 ---

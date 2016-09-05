@@ -7,6 +7,7 @@ link: http://typedrummer.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+remoteImage: true
 imgWidth: 598
 imgHeight: 435
 ---

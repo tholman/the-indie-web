@@ -7,6 +7,7 @@ link: http://www.alwayswithhonor.com/Microsoft-Emojis
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1284
 imgHeight: 644
 ---

@@ -7,6 +7,7 @@ link: http://foxcodex.html.xdomain.jp/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 544
 imgHeight: 404
 ---

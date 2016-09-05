@@ -7,6 +7,7 @@ link: http://waterlily.illion.website
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 874
 imgHeight: 508
 ---

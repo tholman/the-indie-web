@@ -19,7 +19,7 @@
                 {% if post.image && post.link %}
                     &lt;p&gt;
                         &lt;a href=&quot;{{ post.link }}&quot;&gt;
-                            &lt;img src=&quot;http://inspiring.online/assets/post-images/{{ post.image }}&quot; alt=&quot;{{ post.title }}&quot;/&gt;
+                            &lt;img src=&quot;{% if post.remoteImage %}https://s3.amazonaws.com/inspiring.online/assets/post-images/{% else %}http://inspiring.online/assets/post-images/{% endif %}{{ post.image }}&quot; alt=&quot;{{ post.title }}&quot;/&gt;
                         &lt;/a&gt;
                     &lt;/p&gt;
                 {% endif %}

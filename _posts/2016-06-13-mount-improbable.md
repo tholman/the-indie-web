@@ -7,6 +7,7 @@ link: http://www.mountimprobable.com
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1562
 imgHeight: 716
 ---

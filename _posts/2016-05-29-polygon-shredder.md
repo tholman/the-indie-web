@@ -8,6 +8,7 @@ image: polygon-shredder.png
 authorName: Johannes Jakob
 authorUrl: http://johjakob.de
 authorGithub: JohJakob
+remoteImage: true
 imgWidth: 720
 imgHeight: 450
 ---
