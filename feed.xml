@@ -16,7 +16,7 @@
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <description>
-                {% if post.image && post.link %}
+                {% if post.image and post.link %}
                     &lt;p&gt;
                         &lt;a href=&quot;{{ post.link }}&quot;&gt;
                             &lt;img src=&quot;{% if post.remoteImage %}https://s3.amazonaws.com/inspiring.online/assets/post-images/{% else %}http://inspiring.online/assets/post-images/{% endif %}{{ post.image }}&quot; alt=&quot;{{ post.title }}&quot;/&gt;
