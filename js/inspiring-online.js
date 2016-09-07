@@ -108,7 +108,7 @@ function renderInitialTile() {
       <li><a href="https://github.com/tholman/inspiring-online#contributing" target="_blank">Join in?</a></li>
       <li><a href="http://twitter.com/NspiringOnline" target="_blank">Twitter</a></li>
       <li><a href="https://github.com/tholman/inspiring-online#inspiring-online" target="_blank">About</a></li>
-      <li><a href="/feed.xml">RSS</a></li> 
+      <li><a href="/feed.xml">RSS</a></li>
     </ul>`
 
   element.className = "tile"
@@ -131,56 +131,56 @@ function renderPosts(postsData) {
 }
 
 function renderPost(postData) {
-  var element = document.createElement('div');
-  element.className = 'tile';
+  if (postData.title.replace(/\s+/g, '-').toLowerCase() != window.location.pathname.replace(/\//g, '').toLowerCase()) {
+    var element = document.createElement('div');
+    element.className = 'tile';
 
-  if( postData.image !== "" ) {
+    if( postData.image !== "" ) {
 
-    var anchor = document.createElement('a');
-    anchor.href = postData.link;
-    anchor.target = "_blank"
+      var anchor = document.createElement('a');
+      anchor.href = postData.link;
+      anchor.target = "_blank"
 
-    var img = document.createElement('img');
+      var img = document.createElement('img');
 
-    var src = "";
-    if( postData.remoteAsset === "true" ) {
-      src += remoteAssetSource;
-    } else {
-      src += localAssetSource;
+      var src = "";
+      if( postData.remoteAsset === "true" ) {
+        src += remoteAssetSource;
+      } else {
+        src += localAssetSource;
+      }
+
+      var width = parseInt(postData.imgWidth);
+      var height = parseInt(postData.imgHeight);
+
+      var ratio = imageWidthInTile / width;
+      var newWidth = 214;
+      var newHeight = height * ratio;
+
+      img.width = (newWidth);
+      img.height = (newHeight);
+      img.src = (src + postData.image);
+      anchor.appendChild(img);
+      element.appendChild(anchor);
     }
 
-    var width = parseInt(postData.imgWidth);
-    var height = parseInt(postData.imgHeight);
-    
-    var ratio = imageWidthInTile / width;
-    var newWidth = 214;
-    var newHeight = height * ratio;
+    var anchor2 = document.createElement('a');
+    anchor2.href = postData.link;
+    anchor2.target = "_blank"
+    anchor2.className = "title-anchor";
 
-    img.width = (newWidth);
-    img.height = (newHeight);
-    img.src = (src + postData.image);
-    anchor.appendChild(img);
-    element.appendChild(anchor);
+    var title = document.createElement('h1');
+    title.innerHTML = postData.title;
+
+    anchor2.appendChild(title);
+    element.appendChild(anchor2);
+
+    var content = document.createElement('div');
+    content.innerHTML = postData.content;
+    element.appendChild(content);
+
+    isotopeObject.insert(element);
   }
-
-  var anchor2 = document.createElement('a');
-  anchor2.href = postData.link;
-  anchor2.target = "_blank"
-  anchor2.className = "title-anchor";
-
-  var title = document.createElement('h1');
-  title.innerHTML = postData.title;
-
-  anchor2.appendChild(title);
-  element.appendChild(anchor2);
-
-  var content = document.createElement('div');
-  content.innerHTML = postData.content;
-  element.appendChild(content);
-
-  isotopeObject.insert(element);
 }
 
 init();
-
-
