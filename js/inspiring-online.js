@@ -154,7 +154,7 @@ function renderPost(postData) {
       var height = parseInt(postData.imgHeight);
 
       var ratio = imageWidthInTile / width;
-      var newWidth = 214;
+      var newWidth = imageWidthInTile;
       var newHeight = height * ratio;
 
       img.width = (newWidth);
