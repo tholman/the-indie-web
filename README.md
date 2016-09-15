@@ -25,7 +25,15 @@ _Please, take a look at the [Wiki](https://github.com/tholman/inspiring-online/w
 
 #### Running locally
 
-Start by installing [Bundler](http://gembundler.com), if you don't already have it:
+Start by making sure you have Ruby installed:
+
+```
+ruby -v
+```
+
+If nothing appears as a result, [install Ruby](https://www.ruby-lang.org/en/documentation/installation).
+
+Then install [Bundler](http://gembundler.com), if you don't already have it:
 
 ```
 gem install bundler
