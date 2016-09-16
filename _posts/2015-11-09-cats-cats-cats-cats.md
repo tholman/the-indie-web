@@ -12,6 +12,6 @@ imgWidth: 1074
 imgHeight: 622
 ---
 
-_Ever wondered what it's like to be a cat? Now you can [live it](http://catscatscatscatscats.com)._
+_Ever wondered what it's like to be a cat? Now you can live it!_
 
 By [Matthew Morrison](https://twitter.com/stuffmattdoesnt)

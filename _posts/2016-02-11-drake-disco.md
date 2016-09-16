@@ -12,6 +12,6 @@ imgWidth: 1440
 imgHeight: 900
 ---
 
-_[Drake Disco](http://drakedis.co) – Get Down With Drake!_
+_Get Down With Drake!_
 
 By [Kim Walker](http://walker.kim)

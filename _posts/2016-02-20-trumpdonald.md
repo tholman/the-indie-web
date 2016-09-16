@@ -12,6 +12,6 @@ imgWidth: 720
 imgHeight: 450
 ---
 
-_There's so many Donald Trump stuff to be discovered in the interwebs, but [Trump Donald](http://trumpdonald.org) is our favorite._
+_There's so many Donald Trump stuff to be discovered in the interwebs, but this is our favorite._
 
 By [Animal](http://animal.cc)

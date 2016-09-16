@@ -9,6 +9,6 @@ authorUrl: http://tholman.com
 authorGithub: tholman
 ---
 
-_Ever feel like you're lacking motivation? If so, the [Do it!](https://chrome.google.com/webstore/detail/do-it/eppncnmppghbndacgkideegigaminkfg?hl=en) Chrome extension is definitely for you._
+_Ever feel like you're lacking motivation? If so, this Chrome extension is definitely for you._
 
 By [Erik M Taheri](http://taheri.io/)

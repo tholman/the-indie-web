@@ -12,6 +12,6 @@ imgWidth: 946
 imgHeight: 606
 ---
 
-_Love typography? Love Hip Hop? [Hip Hop Quoted](http://hiphopquoted.com) is for you._
+_Love typography? Love Hip Hop? This is perfect for you._
 
 By [Ollie Kavanagh](http://olliekav.com)

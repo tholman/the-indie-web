@@ -12,6 +12,6 @@ imgWidth: 1440
 imgHeight: 800
 ---
 
-_Ever dreamed of putting your face on a sweater... Of course you have. Now [Sweaterify it](http://kosamari.github.io/sweaterify) is here!_
+_Ever dreamed of putting your face on a sweater..._
 
 By [Mariko Kosaka](http://www.kosamari.com)

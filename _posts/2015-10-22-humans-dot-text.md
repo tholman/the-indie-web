@@ -12,6 +12,6 @@ imgWidth: 980
 imgHeight: 542
 ---
 
-_[Tumblr's humans.txt](http://tumblr.com/humans.txt) file, turns out to be an awesome text adventure. What a great little easter egg._
+_It turns out that this file is an awesome text adventure. What a great little easter egg._
 
 By [Tumblr](http://tumblr.com)

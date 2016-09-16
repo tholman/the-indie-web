@@ -13,6 +13,6 @@ imgWidth: 684
 imgHeight: 442
 ---
 
-_Here we go again. Truly a gem in our Wide Weird Web. Yes, [Fried Chicken Simulator](http://friedchickensimulator.surge.sh)._
+_Here we go again. Truly a gem in our Wide Weird Web._
 
 By [Austin Mayer](http://mayormayer.com)

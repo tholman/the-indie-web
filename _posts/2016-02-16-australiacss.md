@@ -12,6 +12,6 @@ imgWidth: 720
 imgHeight: 540
 ---
 
-_[australia.css](https://bullg.it/australia.css) is a neat little CSS file making our beloved [Tim Holman](http://tholman) feel right at home._
+_A neat little CSS file making our beloved [Tim Holman](http://tholman.com) feel right at home._
 
 By [Haroen Viaene](https://haroen.me)

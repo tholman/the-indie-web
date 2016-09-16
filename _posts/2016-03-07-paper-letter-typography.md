@@ -13,6 +13,6 @@ imgWidth: 1445
 imgHeight: 775
 ---
 
-_Who doesn't love [pretty letters](http://jxnblk.com/papercraft)?_
+_Who doesn't love pretty letters?_
 
 By [Brent Jackson](http://jxnblk.com)
