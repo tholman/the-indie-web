@@ -19,12 +19,21 @@ Here are a few ways to get started:
 1. **Submit a pull request from an approved proposal.** This means, adding the image, and the Markdown file to create the post, as well as writing a little something about it. Not too much (we're not really that wordy)... Kapow, done!
 2. **Submit an awesome website!** This involves opening an issue with `[proposal]` as the first word. And a link to something you think is creative and awesome.
 3. **Fix a spelling mistake!** I'm not perfect at all, I must make 100 of these a day. Even if it's a small pull request, we'd love to see it!
+4. **Mark a post's site as broken.** If you find a post for a site that's no longer working, mark it as gone in its [front matter](https://github.com/tholman/inspiring-online/wiki/Front-Matter).
 
 _Please, take a look at the [Wiki](https://github.com/tholman/inspiring-online/wiki). It provides in-depth information about contributing to Inspiring Online._
 
 #### Running locally
 
-Start by installing [Bundler](http://gembundler.com), if you don't already have it:
+Start by making sure you have Ruby installed:
+
+```
+ruby -v
+```
+
+If nothing appears as a result, [install Ruby](https://www.ruby-lang.org/en/documentation/installation).
+
+Then install [Bundler](http://gembundler.com), if you don't already have it:
 
 ```
 gem install bundler

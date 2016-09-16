@@ -171,12 +171,23 @@ function renderPost(postData) {
 
     var title = document.createElement('h1');
     title.innerHTML = postData.title;
+    if (postData.gone == "true") {
+      element.style.pointerEvents = "none";
+      img.style.opacity = "0.35";
+      img.style.webkitFilter = "grayscale(100%)"; /* Chrome, Safari, Opera */
+      img.style.filter = "grayscale(100%)";
+      title.style.textDecoration = "line-through";
+    }
 
     anchor2.appendChild(title);
     element.appendChild(anchor2);
 
     var content = document.createElement('div');
-    content.innerHTML = postData.content;
+    if (postData.gone == "true") {
+      content.innerHTML = "The site this post links to no longer exists.<br><br>It's dead Jim."
+    } else {
+      content.innerHTML = postData.content;
+    }
     element.appendChild(content);
 
     isotopeObject.insert(element);
