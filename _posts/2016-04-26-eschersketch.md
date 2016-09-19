@@ -12,6 +12,6 @@ imgWidth: 902
 imgHeight: 506
 ---
 
-_Enjoy a little walk along the fine line between generateive and interactive art._
+_Enjoy a little walk along the fine line between generative and interactive art._
 
 By [Anselm Levskaya](http://www.anselmlevskaya.com/)

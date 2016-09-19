@@ -12,6 +12,6 @@ imgWidth: 720
 imgHeight: 450
 ---
 
-_Yeah... [here](http://sebastianlyserena.dk) are some nice... web dominoes?_
+_Yeah... here are some nice... web dominoes?_
 
 By [Sebastian Ly Serena](http://sebastianlyserena.dk)

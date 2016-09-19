@@ -12,6 +12,6 @@ imgWidth: 1182
 imgHeight: 574
 ---
 
-_Sick of the normal sound your keyboard makes as you type? Of course you are. [Kitty Keys](http://www.kittykeys.com) is just for you._
+_Sick of the normal sound your keyboard makes as you type? If so, this extension is just for you._
 
 By [Yvonne Cheng](http://mindeveon.com)

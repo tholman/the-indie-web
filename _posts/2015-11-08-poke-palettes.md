@@ -12,6 +12,6 @@ imgWidth: 1060
 imgHeight: 546
 ---
 
-_[Poke Palettes](http://pokepalettes.com) is a neat little place to find a colorful palette for your next project, or just appreciate the colors and artwork of the 90's classic._
+_A neat little place to find a colorful palette for your next project, or just appreciate the colors and artwork of the 90's classic._
 
 By [Gus Glover](http://gus.today)

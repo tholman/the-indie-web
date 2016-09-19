@@ -9,6 +9,6 @@ authorUrl: https://vaidaslamanauskas.com
 authorGithub: vaidaslamanauskas
 ---
 
-_UK based agency [Uniform](http://uniform.net) has created an interactive experience for the [Greenwich Peninsula regeneration project](http://greenwichpeninsula.co.uk)._
+_An interactive experience for the [Greenwich Peninsula regeneration project](http://greenwichpeninsula.co.uk)._
 
 By [Uniform](http://uniform.net)

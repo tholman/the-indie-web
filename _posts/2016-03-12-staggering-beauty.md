@@ -13,6 +13,6 @@ imgWidth: 720
 imgHeight: 450
 ---
 
-_[Staggering Beauty](http://staggeringbeauty.com) is old, but gold._
+_It's old, but it's gold._
 
 By [George Michael Bower](http://aaf.nyc)

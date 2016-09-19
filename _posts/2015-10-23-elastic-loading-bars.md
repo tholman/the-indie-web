@@ -12,6 +12,6 @@ imgWidth: 990
 imgHeight: 576
 ---
 
-_[These Elastic Loaders](http://tympanus.net/Development/ElasticProgress) show how beautiful a little SVG animation can be._
+_These loaders show how beautiful a little SVG animation can be._
 
 By [Typmpanus](http://tympanus.net)

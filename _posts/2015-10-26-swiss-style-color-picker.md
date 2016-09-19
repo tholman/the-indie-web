@@ -12,6 +12,6 @@ imgWidth: 1418
 imgHeight: 732
 ---
 
-_This [Swiss style color picker](http://swisscolors.net) is a clever little project by [Fabian Burghardt](http://www.fabianburghardt.de) allowing you to pick colors from palettes inspired by swiss style posters._
+_A clever little project that allows you to pick colors from palettes inspired by Swiss style posters._
 
 By [Fabian Burghardt](http://www.fabianburghardt.de)

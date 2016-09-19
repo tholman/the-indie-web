@@ -12,6 +12,6 @@ imgWidth: 1462
 imgHeight: 738
 ---
 
-_Looking for a little inspiration or just for random resources_
+_Looking for a little inspiration or just for random resources?_
 
 By [The NY public library](http://digitalcollections.nypl.org)

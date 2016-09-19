@@ -12,6 +12,6 @@ imgWidth: 639
 imgHeight: 390
 ---
 
-_[This](http://musicemojis.tumblr.com) little Tumblr blog by [Bruno Leo Ribeiro](http://www.brunoleoribeiro.com/#kauko-home) showcases his creative art style, as he shows each band member in the minimal style of emojis!_
+_A showcase of musicians in the minimal style of emojis!_
 
 By [Bruno Leo Ribeiro](http://www.brunoleoribeiro.com/#kauko-home)

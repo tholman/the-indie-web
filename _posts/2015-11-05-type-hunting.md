@@ -12,6 +12,6 @@ imgWidth: 1505
 imgHeight: 1073
 ---
 
-_[Type Hunting](http://typehunting.com) is the perfect fix for the typography junkie looking to score._
+_The perfect fix for a typography junkie looking to score._
 
 By [Jonathan Lawrence](http://jonathanlawrence.net)
