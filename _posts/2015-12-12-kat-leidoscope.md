@@ -10,7 +10,7 @@ authorGithub: tholman
 remoteImage: true
 imgWidth: 808
 imgHeight: 524
-isGone: true
+siteDown: true
 ---
 
 _Looking for your daily dose of "Why does that exist?" [Kat-Leidoscope](http://katleidoscope.com) is just for you._

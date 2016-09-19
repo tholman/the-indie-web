@@ -41,6 +41,13 @@ h1, h2 {
   border: 3px solid #000;
   margin-bottom: 30px;
   transition-property: all !important;
+
+  &.site-down {
+    opacity: 0.5 !important; // override the into animation
+    pointer-events: none;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+  }
 }
 
 header {
