@@ -3,7 +3,7 @@ layout: post
 title: australia.css
 type: WideWeirdWeb
 image: australiacss.png
-link: https://bullg.it/australia.css
+link: https://bullg.it/australia.css/
 authorName: Johannes Jakob
 authorUrl: http://johjakob.de
 authorGithub: JohJakob

@@ -37,7 +37,7 @@
     <header>
       <div class="title-tile">
         {% if page.image %}
-          <a href="{{ page.link }}?ref=inspiring.online">
+          <a href="{{ page.link }}?ref=inspiring-online">
           {% if page.remoteImage %}
             <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
           {% else %}
@@ -47,7 +47,7 @@
         {% endif %}
 
         <h1>
-          <a href="{{ page.link }}?ref=inspiring.online">{{ page.title }}</a>
+          <a href="{{ page.link }}?ref=inspiring-online">{{ page.title }}</a>
         </h1>
 
         {{ content }}
