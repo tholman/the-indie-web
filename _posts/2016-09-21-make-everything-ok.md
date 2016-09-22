@@ -8,8 +8,8 @@ link: http://make-everything-ok.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
-imgWidth: 456
-imgHeight: 269
+imgWidth: 390
+imgHeight: 135
 ---
 
 _Just in case things aren't perfectly okay, there's this useful button!_
