@@ -131,7 +131,7 @@ function renderPosts(postsData) {
 }
 
 function renderPost(postData) {
-  if (postData.title.replace(/\s+/g, '-').replace(/\./g, '').toLowerCase() != window.location.pathname.replace(/\//g, '').toLowerCase()) {
+  if (postData.title.replace(/\s+/g, '-').replace(/[^a-z0-9+][^\w.-]/gi, '').toLowerCase() != window.location.pathname.replace(/\//g, '').toLowerCase()) {
     var element = document.createElement('div');
     element.className = 'tile';
 
