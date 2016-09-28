@@ -182,6 +182,14 @@ function renderPost(postData) {
     content.innerHTML = postData.content;
     element.appendChild(content);
 
+    var postUrl = '/' + postData.title.replace(/\s+/g, '-').replace(/[^a-z0-9+][^\w.-]/gi, '').toLowerCase() + '/'
+    var anchor3 = document.createElement('a');
+    anchor3.href = postUrl;
+    anchor3.className = "maximize-post";
+    anchor3.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve"><style type="text/css">.maximize-post{float:right; width:25px; opacity:.5; margin-bottom:-4px;}.maximize-post:hover{opacity:.75; width:27px; margin:-1px -1px -5px auto; transition:opacity .15s linear;}</style><g><path d="M7,54.3l15.2-15l23.3,23.5c1.2,1.2,3.1,1.2,4.2,0l13.4-13.4c1.2-1.2,1.2-3.1,0-4.3L39.2,22.4L53.7,8.2   c1.7-1.6,0.5-4.5-1.8-4.5H5.8C4,3.7,2.5,5.2,2.5,7v45.5C2.5,54.8,5.3,55.9,7,54.3z"></path><path d="M144.2,3.7H98.1c-2.3,0-3.5,2.8-1.8,4.5l14.5,14.3l-24,23c-1.2,1.2-1.2,3.1,0,4.3L100,63.1   c1.2,1.2,3.1,1.2,4.2,0l23.6-23.8l15.2,15c1.7,1.6,4.5,0.5,4.5-1.9V7C147.5,5.2,146,3.7,144.2,3.7z"></path><path d="M50.1,85.8c-1.2-1.2-3.1-1.2-4.2,0l-23.7,23.9L7,94.7c-1.7-1.6-4.5-0.5-4.5,1.9V142c0,1.8,1.5,3.3,3.3,3.3   h46.1c2.3,0,3.5-2.8,1.8-4.5l-14.5-14.3l24.1-23.1c1.2-1.2,1.2-3.1,0-4.3L50.1,85.8z"></path><path d="M143,95.7l-15.2,15l-24.4-24.6c-1.2-1.2-3.1-1.2-4.2,0L85.8,99.5c-1.2,1.2-1.2,3.1,0,4.3l24.9,23.8l-14.5,14.3   c-1.7,1.6-0.5,4.5,1.8,4.5h46.1c1.8,0,3.3-1.5,3.3-3.3V97.6C147.5,95.2,144.7,94.1,143,95.7z"></path><path d="M97.9,71.9L77.1,51c-1.3-1.3-3.3-1.3-4.6,0L51.6,71.9c-1.3,1.3-1.3,3.3,0,4.6l20.9,20.9c1.3,1.3,3.3,1.3,4.6,0   l20.9-20.9C99.2,75.2,99.2,73.1,97.9,71.9z"></path></g></svg>`
+
+    element.appendChild(anchor3);
+
     isotopeObject.insert(element);
   }
 }
