@@ -7,8 +7,8 @@ link: http://robindelaporte.fr/light/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
-imgWidth: 664
-imgHeight: 420
+imgWidth: 660
+imgHeight: 444
 ---
 
 _More low poly webGL beauty._
