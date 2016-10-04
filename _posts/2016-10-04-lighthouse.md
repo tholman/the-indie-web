@@ -1,0 +1,16 @@
+---
+layout: post
+title: Lighthouse
+type: Beautiful
+image: lighthouse.png
+link: http://robindelaporte.fr/light/
+authorName: Tim Holman
+authorUrl: http://tholman.com
+authorGithub: tholman
+imgWidth: 664
+imgHeight: 420
+---
+
+_More low poly webGL beauty._
+
+[Lighthouse](http://robindelaporte.fr/light/) - by [Robin Delaporte](http://robindelaporte.fr)
