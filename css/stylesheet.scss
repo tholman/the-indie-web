@@ -143,3 +143,16 @@ footer {
   margin-top: 70px;
   margin-bottom: 45px;
 }
+// For styling the maximize svg
+.maximize-post {
+  float:right;
+  width:25px;
+  opacity:.5;
+  margin-bottom:-4px;
+}
+.maximize-post:hover {
+  opacity:.75;
+  width:27px;
+  margin:-1px -1px -5px auto;
+  transition:opacity .15s linear;
+}
