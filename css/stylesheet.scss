@@ -107,9 +107,38 @@ li {
   }
 }
 
+.container {
+  margin-bottom: 10px;
+  align-content: center;
+}
+
 img {
   width: 100%;
-  margin-bottom: 10px;
+  transition: opacity 350ms;
+  .tile-grid &:hover, &.hover {
+    opacity: .25;
+  }
+}
+
+.maximize-post {
+  width: 25px;
+  position: absolute;
+  &:hover {
+    width: 27px;
+    margin-left: -1px;
+    margin-top: -1px;
+  }
+}
+
+.tile-grid svg {
+  opacity: 0;
+  transition: opacity 350ms;
+  &.hover {
+    opacity: .5;
+  }
+  &:hover {
+    opacity: .75;
+  }
 }
 
 .loader {
@@ -142,17 +171,4 @@ footer {
   font-size: 15px;
   margin-top: 70px;
   margin-bottom: 45px;
-}
-// For styling the maximize svg
-.maximize-post {
-  float:right;
-  width:25px;
-  opacity:.5;
-  margin-bottom:-4px;
-}
-.maximize-post:hover {
-  opacity:.75;
-  width:27px;
-  margin:-1px -1px -5px auto;
-  transition:opacity .15s linear;
 }
