@@ -7,8 +7,8 @@ link: https://codepen.io/nerdmanship/full/WGzGVy/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
-imgWidth: 642
-imgHeight: 362
+imgWidth: 690
+imgHeight: 390
 ---
 
 _Morphing letters, as you type._
