@@ -7,6 +7,7 @@ link: https://www.eyeofthestormers.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1468
 imgHeight: 480
 ---

@@ -7,6 +7,7 @@ link: https://www.google.com/doodles/halloween-2016
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 602
 imgHeight: 352
 ---

@@ -7,6 +7,7 @@ link: http://codepen.io/zadvorsky/full/PNXbGo/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 756
 imgHeight: 378
 ---

@@ -6,6 +6,7 @@ type: WideWeirdWeb
 image: trash-loop.png
 link: http://www.trashloop.com
 authorName: Tim Scalzo
+remoteImage: true
 authorUrl: 
 authorGithub: TJScalzo
 imgWidth: 285

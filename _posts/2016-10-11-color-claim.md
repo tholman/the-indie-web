@@ -7,6 +7,7 @@ link: http://www.vanschneider.com/colors/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 794
 imgHeight: 500
 ---

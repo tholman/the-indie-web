@@ -7,6 +7,7 @@ link: http://arcade.photonstorm.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1026
 imgHeight: 398
 ---

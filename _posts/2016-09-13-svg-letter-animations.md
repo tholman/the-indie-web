@@ -7,6 +7,7 @@ link: http://tympanus.net/Development/FancyLetterAnimation/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 864
 imgHeight: 566
 ---

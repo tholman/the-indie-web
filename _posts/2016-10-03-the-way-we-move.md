@@ -7,6 +7,7 @@ link: https://the-way-we-move.surge.sh/
 authorName: Haroen Viaene
 authorUrl: https://haroen.me
 authorGithub: haroenv
+remoteImage: true
 imgWidth: 852
 imgHeight: 510
 ---

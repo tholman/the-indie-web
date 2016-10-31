@@ -7,6 +7,7 @@ link: http://www.bigsound.buzz/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 728
 imgHeight: 422
 ---

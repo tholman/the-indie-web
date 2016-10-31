@@ -7,6 +7,7 @@ link: http://robindelaporte.fr/light/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 660
 imgHeight: 444
 ---

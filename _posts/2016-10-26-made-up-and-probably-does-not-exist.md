@@ -8,6 +8,7 @@ link: https://madeupandprobablydoesnotexist.com
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
+remoteImage: true
 imgWidth: 831
 imgHeight: 317
 ---

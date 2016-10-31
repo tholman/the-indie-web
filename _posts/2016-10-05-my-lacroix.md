@@ -7,6 +7,7 @@ link: http://mylacroix.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 720
 imgHeight: 426
 ---

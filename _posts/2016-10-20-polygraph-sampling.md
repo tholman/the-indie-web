@@ -7,6 +7,7 @@ link: http://polygraph.cool/sampling/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 630
 imgHeight: 292
 ---

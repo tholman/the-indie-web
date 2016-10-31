@@ -7,6 +7,7 @@ link: http://www.cake23.de/reaction-diffusion-fish-soup.html
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 678
 imgHeight: 398
 ---

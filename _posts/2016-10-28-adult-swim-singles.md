@@ -7,6 +7,7 @@ link: http://www.adultswim.com/music/singles-2016/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 596
 imgHeight: 316
 ---

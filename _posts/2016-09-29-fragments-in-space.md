@@ -7,6 +7,7 @@ link: http://fragmentsin.space/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 876
 imgHeight: 474
 ---

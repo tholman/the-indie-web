@@ -7,6 +7,7 @@ link: http://www.gifcities.org/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 906
 imgHeight: 278
 ---

@@ -7,6 +7,7 @@ link: http://meowni.ca/posts/og-emoji-font/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 454
 imgHeight: 152
 ---

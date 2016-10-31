@@ -7,6 +7,7 @@ link: https://codepen.io/nerdmanship/full/WGzGVy/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 690
 imgHeight: 390
 ---

@@ -7,6 +7,7 @@ link: http://www.robertadicamerino.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 606
 imgHeight: 332
 ---

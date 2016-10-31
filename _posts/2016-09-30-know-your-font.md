@@ -7,6 +7,7 @@ link: https://knowyourfont.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 706
 imgHeight: 390
 ---

@@ -7,6 +7,7 @@ link: http://sci.esa.int/comet-viewer/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 834
 imgHeight: 434
 ---

@@ -7,6 +7,7 @@ link: https://paperplanes.world/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 806
 imgHeight: 422
 ---

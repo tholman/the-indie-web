@@ -7,6 +7,7 @@ link: http://vacuumflowers.com/cellular_automata/rules.html
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 590
 imgHeight: 376
 ---

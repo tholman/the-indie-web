@@ -7,6 +7,7 @@ link: http://other-people.network/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 748
 imgHeight: 304
 ---
