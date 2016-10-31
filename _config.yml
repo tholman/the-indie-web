@@ -6,7 +6,7 @@ remoteAssetUrl: https://s3.amazonaws.com/inspiring.online/
 
 # Title tag variables
 title: Inspiring Online
-tagline: 'Inspiring things, on the online landscape.'
+tagline: 'An open source blog for inspiring and creative online work!'
 
 # Other external links
 analytics_tracking_id: "UA-83557691-1"
