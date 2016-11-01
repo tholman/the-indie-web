@@ -104,10 +104,10 @@ function renderInitialTile() {
     <h1>Inspiring Online</h1>
     <h2>A micro blog of what&#700;s up.</h2>
     <ul>
-      <li><a href="https://github.com/tholman/inspiring-online/graphs/contributors" target="_blank">Contributors</a></li>
-      <li><a href="https://github.com/tholman/inspiring-online#contributing" target="_blank">Join in?</a></li>
-      <li><a href="http://twitter.com/NspiringOnline" target="_blank">Twitter</a></li>
-      <li><a href="https://github.com/tholman/inspiring-online#inspiring-online" target="_blank">About</a></li>
+      <li><a href="https://github.com/tholman/inspiring-online/graphs/contributors">Contributors</a></li>
+      <li><a href="https://github.com/tholman/inspiring-online#contributing">Join in?</a></li>
+      <li><a href="http://twitter.com/NspiringOnline">Twitter</a></li>
+      <li><a href="https://github.com/tholman/inspiring-online#inspiring-online">About</a></li>
       <li><a href="/feed.xml">RSS</a></li>
     </ul>`
 
@@ -119,7 +119,7 @@ function renderFooterTile() {
   var element = document.createElement('footer');
   element.innerHTML = `
     <footer>
-      Wow, you got to the end! Got something to share, you should <a href="https://github.com/tholman/inspiring-online#contributing" target="_blank">consider contributing!</a>
+      Wow, you got to the end! Got something to share, you should <a href="https://github.com/tholman/inspiring-online#contributing">consider contributing!</a>
     </footer>`
   document.body.appendChild(element);
 }
