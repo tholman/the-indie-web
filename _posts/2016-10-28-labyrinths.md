@@ -8,8 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
-imgWidth: 408
-imgHeight: 318
+imgWidth: 602
+imgHeight: 352
 ---
 
 _Great music with awesome interactive visualizations._
