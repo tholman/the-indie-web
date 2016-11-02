@@ -8,8 +8,8 @@ authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
 remoteImage: true
-imgWidth: 602
-imgHeight: 352
+imgWidth: 690
+imgHeight: 370
 ---
 
 _Ghosts and cats, what more could you want in a game!_
