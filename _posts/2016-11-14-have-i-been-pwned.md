@@ -8,8 +8,8 @@ link: https://haveibeenpwned.com
 authorName: Tim Scalzo
 authorUrl: 
 authorGithub: TJScalzo
-imgWidth: 445
-imgHeight: 435
+imgWidth: 375
+imgHeight: 185
 ---
 
 _A searchable database of ~2 billion compromised accounts._
