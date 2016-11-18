@@ -11,6 +11,6 @@ imgWidth: 650
 imgHeight: 346
 ---
 
-_Machine learning, and music creation. What a combo._
+_Machine learning, and music creation. What a combo!_
 
 [Giorgio Cam](https://aiexperiments.withgoogle.com/giorgio-cam) - by [Google](http://google.com)
