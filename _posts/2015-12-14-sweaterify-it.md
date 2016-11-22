@@ -3,7 +3,7 @@ layout: post
 title: Sweaterify It
 type: WideWeirdWeb
 image: sweaterify-it.png
-link: http://kosamari.github.io/sweaterify
+link: http://kosamari.github.io/sweaterify/index.html
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
