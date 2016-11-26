@@ -3,7 +3,7 @@ layout: post
 title: Primitive JS
 type: Coding
 image: primitive-js.png
-link: https://ondras.github.io/primitive.js
+link: https://ondras.github.io/primitive.js/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
