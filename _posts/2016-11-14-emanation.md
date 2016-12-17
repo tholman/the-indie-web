@@ -7,6 +7,7 @@ link: http://www.larsberg.net/sketches/20161112_emanation/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 558
 imgHeight: 332
 ---

@@ -7,6 +7,7 @@ link: https://www.clicktorelease.com/code/codevember-2016/1/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 466
 imgHeight: 290
 ---

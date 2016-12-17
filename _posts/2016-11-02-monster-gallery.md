@@ -7,6 +7,7 @@ link: http://themonsterproject.org/monster-gallery/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 634
 imgHeight: 340
 ---

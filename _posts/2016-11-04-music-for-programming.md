@@ -7,6 +7,7 @@ link: http://musicforprogramming.net/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 750
 imgHeight: 364
 ---

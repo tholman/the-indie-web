@@ -7,6 +7,7 @@ link: https://ondras.github.io/primitive.js/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 484
 imgHeight: 302
 ---

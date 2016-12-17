@@ -7,6 +7,7 @@ link: http://www.womenwhodraw.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 410
 imgHeight: 232
 ---

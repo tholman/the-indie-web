@@ -7,6 +7,7 @@ link: http://postconscio.us
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 572
 imgHeight: 314
 ---

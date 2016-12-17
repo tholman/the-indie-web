@@ -7,6 +7,7 @@ link: http://www.heropatterns.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 442
 imgHeight: 238
 ---

@@ -7,6 +7,7 @@ link: https://kuva.io/hair-simulation/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 520
 imgHeight: 382
 ---

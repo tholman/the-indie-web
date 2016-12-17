@@ -7,6 +7,7 @@ link: https://aiexperiments.withgoogle.com/giorgio-cam
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 650
 imgHeight: 346
 ---

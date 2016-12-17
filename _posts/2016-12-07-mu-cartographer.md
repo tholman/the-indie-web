@@ -7,6 +7,7 @@ link: http://titouanm.com/mucartographer/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 590
 imgHeight: 314
 ---

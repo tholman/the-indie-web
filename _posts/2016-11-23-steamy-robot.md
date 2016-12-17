@@ -7,6 +7,7 @@ link: http://makiopolis.com/codevember/05
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 558
 imgHeight: 390
 ---

@@ -7,6 +7,7 @@ link: http://homunculus.jp/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 422
 imgHeight: 298
 ---

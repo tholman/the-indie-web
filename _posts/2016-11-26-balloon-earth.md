@@ -7,6 +7,7 @@ link: http://balloon.earth/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 498
 imgHeight: 320
 ---

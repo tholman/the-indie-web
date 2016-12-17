@@ -7,6 +7,7 @@ link: http://oops.re/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1066
 imgHeight: 330
 ---

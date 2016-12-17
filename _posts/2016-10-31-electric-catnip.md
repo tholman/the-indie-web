@@ -7,6 +7,7 @@ link: https://www.instagram.com/electriccatnip/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 702
 imgHeight: 396
 ---

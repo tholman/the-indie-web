@@ -7,6 +7,7 @@ link: http://matrixmultiplication.xyz/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 672
 imgHeight: 334
 ---

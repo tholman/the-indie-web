@@ -7,6 +7,7 @@ link: https://itunes.apple.com/us/app/rejoinders/id1155853742?mt=8
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 464
 imgHeight: 306
 ---

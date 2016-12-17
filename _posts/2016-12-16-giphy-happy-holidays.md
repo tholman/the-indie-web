@@ -7,6 +7,7 @@ link: http://happyholidays.giphy.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 796
 imgHeight: 144
 ---

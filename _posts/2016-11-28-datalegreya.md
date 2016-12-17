@@ -7,6 +7,7 @@ link: http://figs-lab.com/en/datalegreya
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 806
 imgHeight: 298
 ---

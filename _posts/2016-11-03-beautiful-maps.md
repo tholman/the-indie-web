@@ -7,6 +7,7 @@ link: https://mapsdesign.tumblr.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 600
 imgHeight: 296
 ---

@@ -7,6 +7,7 @@ link: https://www.clicktorelease.com/code/pumpkin-jam
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 766
 imgHeight: 424
 ---

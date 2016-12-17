@@ -7,6 +7,7 @@ link: http://www.duhaihang.com/archive/simplex-noise-paint-2016/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 542
 imgHeight: 328
 ---

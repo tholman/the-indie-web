@@ -7,6 +7,7 @@ link: https://bruno-simon.com/lab/voice-waves/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 736
 imgHeight: 334
 ---

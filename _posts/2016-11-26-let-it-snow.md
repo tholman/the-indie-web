@@ -7,6 +7,7 @@ link: http://surebak.com/snow/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 534
 imgHeight: 352
 ---

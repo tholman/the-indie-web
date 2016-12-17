@@ -7,6 +7,7 @@ link: https://vimeo.com/190537820
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 808
 imgHeight: 326
 ---

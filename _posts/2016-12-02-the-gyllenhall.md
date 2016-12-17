@@ -7,6 +7,7 @@ link: https://www.thegyllenhall.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 314
 imgHeight: 234
 ---

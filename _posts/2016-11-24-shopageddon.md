@@ -7,6 +7,7 @@ link: http://www.shopageddon.biz/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 528
 imgHeight: 286
 ---

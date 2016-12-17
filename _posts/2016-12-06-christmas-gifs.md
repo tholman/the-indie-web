@@ -7,6 +7,7 @@ link: http://christmasgifs.org/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 492
 imgHeight: 260
 ---

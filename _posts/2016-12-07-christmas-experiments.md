@@ -7,6 +7,7 @@ link: http://christmasexperiments.com/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 1062
 imgHeight: 374
 ---

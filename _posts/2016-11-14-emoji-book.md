@@ -7,6 +7,7 @@ link: http://emojibook.club/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
+remoteImage: true
 imgWidth: 682
 imgHeight: 414
 ---
