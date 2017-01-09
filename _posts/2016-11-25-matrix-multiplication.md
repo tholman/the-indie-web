@@ -12,6 +12,6 @@ imgWidth: 672
 imgHeight: 334
 ---
 
-_Sometimes a clean clear explination is just nice._
+_Sometimes a clean clear explanation is just nice._
 
 [Matrix Multiplication](http://matrixmultiplication.xyz/) - by [André Staltz](http://staltz.com/)
