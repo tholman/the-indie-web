@@ -14,4 +14,4 @@ imgHeight: 318
 
 _Draw a line, and find receive a location that matches!_
 
-[Land Lines](https://lines.chromeexperiments.com/) - by [Zach Lieberman](http://thesystemis.com/)
+[Land Lines](https://lines.chromeexperiments.com/) - by [Zach Lieberman](http://thesystemis.com/) & [Matt Felsen](http://mattfelsen.com/)
