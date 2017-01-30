@@ -11,6 +11,6 @@ imgWidth: 640
 imgHeight: 198
 ---
 
-_Series of weird video's seen by almost nobody._
+_A list of Awesome Creative Portfolio Websites._
 
 [Awesome Creative Portfolios](https://github.com/iRaul/awesome-portfolios) - by Raul Dronca
