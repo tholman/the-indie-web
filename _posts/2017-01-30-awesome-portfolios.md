@@ -13,4 +13,4 @@ imgHeight: 198
 
 _A list of Awesome Creative Portfolio Websites._
 
-[Awesome Creative Portfolios](https://github.com/iRaul/awesome-portfolios) - by Raul Dronca
+[Awesome Creative Portfolios](https://github.com/iRaul/awesome-portfolios) - by [Raul Dronca](http://codepen.io/rauldronca/)
