@@ -43,6 +43,9 @@ function cacheDom() {
 
 function addPaginator() {
   // TODO: Wouldn't hurt to debounce this
+  if ((window.innerHeight + window.scrollY) >= (document.body.scrollHeight - 50)) {
+    paginate();
+  }
   window.onscroll = function(e) {
     if ((window.innerHeight + window.scrollY) >= (document.body.scrollHeight - 50)) {
       paginate();
