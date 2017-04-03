@@ -4,7 +4,7 @@ title: Paper Letter Typography
 date: 2016-03-07 23:00
 type: Typography
 image: paper-letter-typography.png
-link: http://jxnblk.com/papercraft
+link: http://jxnblk.com/papercraft/
 authorName: Rushi Shah
 authorUrl: http://www.rshah.org
 authorGithub: 2016rshah
