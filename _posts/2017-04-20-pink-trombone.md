@@ -13,4 +13,4 @@ imgHeight: 294
 
 _Learn all about your own voice!_
 
-[Pink Trombone](https://dood.al/pinktrombone/) - by [Doodal](https://dood.al/)
+[Pink Trombone](https://dood.al/pinktrombone/) - by [Neil Thapen](http://venuspatrol.nfshost.com/)
