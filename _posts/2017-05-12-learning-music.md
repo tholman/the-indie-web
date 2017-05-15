@@ -14,4 +14,4 @@ imgHeight: 125
 
 _An introduction into songwriting which also allows you to experiment with musical elements in your browser._
 
-- by [Ableton](https://www.ableton.com/en/)
+[Learning Music](https://learningmusic.ableton.com/index.html) - by [Ableton](https://www.ableton.com/en/)
