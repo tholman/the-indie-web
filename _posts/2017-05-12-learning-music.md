@@ -12,6 +12,6 @@ imgWidth: 214
 imgHeight: 125
 ---
 
-_an introduction into songwriting which also allows you to experiment with musical elements in your browser._
+_An introduction into songwriting which also allows you to experiment with musical elements in your browser._
 
 - by [Ableton](https://www.ableton.com/en/)
