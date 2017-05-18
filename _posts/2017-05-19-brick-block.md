@@ -3,7 +3,7 @@ layout: post
 type: Beautiful
 title: Brick Block by Oskar Stalberg
 link: http://oskarstalberg.com/game/house/index.html
-date: 2017-05-15 11:11
+date: 2017-05-19 11:11
 image: brick-block.png
 authorName: Nitin Khanna
 authorGithub: nitinthewiz
@@ -13,6 +13,6 @@ imgHeight: 791
 siteDown: false
 ---
 
-_3D Tile editor in your browser, because you've always wanted to be an architect, right?_
+_Build beautiful architecture right in your browser._
 
 [Brick Block](http://oskarstalberg.com/game/house/index.html) - by [Oskar Stalberg](http://oskarstalberg.tumblr.com/)
