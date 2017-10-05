@@ -11,6 +11,6 @@ imgWidth: 100
 imgHeight: 100
 ---
 
-_Is a curation of the most creative portfolios made by designers & developers._
+_A curation of the most creative portfolios made by designers & developers._
 
 [Creative Portfolios](http://www.creative-portfolios.com/) - by [Raul Dronca](http://rauldronca.tumblr.com/)
