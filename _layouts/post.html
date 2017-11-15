@@ -9,8 +9,8 @@ layout: compress
 
     <!-- META -->
     <meta charset="utf-8">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}feed.xml">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}assets/favicon.png">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ 'feed.xml' | relative_url }}
+    <link rel="icon" type="image/png" href="{{ 'assets/favicon.png' | relative_url }}">
     <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000">
     <meta name="description" content="An open source blog for inspiring and creative online work!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@ layout: compress
     {% endif %}
 
     <!-- CSS -->
-    <link href="{{ site.baseurl }}css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="{{ 'css/stylesheet.css' | relative_url }}" rel="stylesheet" type="text/css">
   </head>
   <body>
 
@@ -42,7 +42,7 @@ layout: compress
           {% if page.remoteImage %}
             <img src="{{ site.remoteAssetUrl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
           {% else %}
-            <img src="{{ site.baseurl }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
+            <img src="{{ '/' | relative_url }}assets/post-images/{{ page.image }}" alt="{{ page.title }}"/>
           {% endif %}
           </a>
         {% endif %}
@@ -70,6 +70,6 @@ layout: compress
     {% include analytics.html %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}js/inspiring-online.js"></script>
+    <script type="text/javascript" src="{{ 'js/inspiring-online.js' | relative_url }}"></script>
   </body>
 </html>
