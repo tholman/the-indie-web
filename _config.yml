@@ -1,7 +1,7 @@
 permalink:  /:title/
 
 url: 'http://inspiring.online'
-baseurl: '/'
+baseurl: ''
 remoteAssetUrl: https://s3.amazonaws.com/inspiring.online/
 
 # Title tag variables
