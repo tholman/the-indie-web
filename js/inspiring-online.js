@@ -105,7 +105,7 @@ function renderInitialTile() {
   var element = document.createElement('div');
   element.innerHTML = `
     <h1>Inspiring Online</h1>
-    <h2>A micro blog of what&#700;s up.</h2>
+    <h2>A micro blog of what&#700;s up online, today.</h2>
     <ul>
       <li><a href="https://github.com/tholman/inspiring-online/graphs/contributors">Contributors</a></li>
       <li><a href="https://github.com/tholman/inspiring-online#contributing">Join in?</a></li>
