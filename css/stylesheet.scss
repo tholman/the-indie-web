@@ -43,7 +43,7 @@ h1, h2 {
   transition-property: all !important;
 
   &.site-down {
-    opacity: 0.5 !important; // override the into animation
+    opacity: 0.2 !important; // override the into animation
     pointer-events: none;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
