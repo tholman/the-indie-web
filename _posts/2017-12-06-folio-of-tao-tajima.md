@@ -13,4 +13,4 @@ imgHeight: 243
 
 _An amazing folio, with some beautiful scrolling transitions._
 
-[Folio of Tao Tajima](http://taotajima.jp)
+[Folio of Tao Tajima](http://taotajima.jp) - by [Yuichiroh Arai](http://yuichiroharai.com)
