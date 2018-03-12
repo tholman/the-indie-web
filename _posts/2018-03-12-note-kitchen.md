@@ -13,4 +13,4 @@ imgHeight: 284
 
 _Nifty little tool to see those musical chords!_
 
-[Note Kitchen](http://note.kitchen/) - by [Nebojsa Petrovic](http://onceuponasynth.tv/)
+[Note Kitchen](http://note.kitchen/) - by [Nebojsa Petrovic](http://nebs.me)
