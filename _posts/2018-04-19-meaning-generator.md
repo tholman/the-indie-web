@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Meaning Generator
+type: Beautiful
 image: meaning-generator.png
 link: http://meaning-generator.com/
 authorName: Eric Rösch
