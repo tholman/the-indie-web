@@ -11,3 +11,5 @@ imgHeight: 949
 ---
 
 _Civilization emerges from loss. Nothing heals memory. Make your meaning._
+
+[The Meaning Generator](http://meaning-generator.com/) - by [Osk Studio](http://osk.co/)
