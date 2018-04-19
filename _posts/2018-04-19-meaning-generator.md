@@ -6,8 +6,8 @@ link: http://meaning-generator.com/
 authorName: Eric Rösch
 authorUrl: https://rsch.neocities.org
 authorGithub: ente3000
-imgWidth: 1920
-imgHeight: 949
+imgWidth: 418
+imgHeight: 207
 ---
 
 _Civilization emerges from loss. Nothing heals memory. Make your meaning._
