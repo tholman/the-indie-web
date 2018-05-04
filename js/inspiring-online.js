@@ -61,6 +61,9 @@ function paginate() {
   loading = true;
   loader.className = "loader loading";
   page++;
+
+  console.log("Loading: ", document.location.origin + '/' + page)
+
   $.ajax({
     url: document.location.origin + '/' + page,
     type: 'GET',
