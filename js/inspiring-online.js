@@ -62,7 +62,7 @@ function paginate() {
   loader.className = "loader loading";
   page++;
   $.ajax({
-    url: '/' + page,
+    url: document.location.origin + '/' + page,
     type: 'GET',
     success: function(data) {
       eval(data.split(splitString)[1]);
@@ -109,7 +109,7 @@ function renderInitialTile() {
     <ul>
       <li><a href="https://github.com/tholman/inspiring-online/graphs/contributors">Contributors</a></li>
       <li><a href="https://github.com/tholman/inspiring-online#contributing">Join in?</a></li>
-      <li><a href="http://twitter.com/NspiringOnline">Twitter</a></li>
+      <li><a href="https://twitter.com/NspiringOnline">Twitter</a></li>
       <li><a href="https://github.com/tholman/inspiring-online#inspiring-online">About</a></li>
       <li><a href="/feed.xml">RSS</a></li>
     </ul>`
