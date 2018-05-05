@@ -62,10 +62,8 @@ function paginate() {
   loader.className = "loader loading";
   page++;
 
-  console.log("Loading: ", document.location.origin + '/' + page)
-
   $.ajax({
-    url: document.location.origin + '/' + page,
+    url: '/' + page + '/',
     type: 'GET',
     success: function(data) {
       eval(data.split(splitString)[1]);
