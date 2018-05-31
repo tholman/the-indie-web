@@ -11,6 +11,6 @@ imgWidth: 1074
 imgHeight: 1106
 ---
 
-_A rediculously detailed CSS drawing. Woah._
+_A ridiculously detailed CSS drawing. Woah._
 
 [Pure CSS Francine](http://diana-adrianne.com/purecss-francine/) - by [Diana Smith](http://diana-adrianne.com/)
