@@ -10,6 +10,7 @@ authorGithub: tholman
 remoteImage: true
 imgWidth: 720
 imgHeight: 426
+siteDown: true
 ---
 
 _Get weird with your own flavor._
