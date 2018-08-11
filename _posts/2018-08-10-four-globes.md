@@ -7,8 +7,8 @@ link: http://raluca-nicola.net/four-globes/
 authorName: Tim Holman
 authorUrl: http://tholman.com
 authorGithub: tholman
-imgWidth: 
-imgHeight: 
+imgWidth: 600
+imgHeight: 600
 ---
 
 _A beautiful Andy Warhol esque web experiment._
