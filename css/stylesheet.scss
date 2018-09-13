@@ -91,6 +91,10 @@ a {
   &.title-anchor {
     // text-decoration: none;
   }
+
+  &:visited {
+    color: #888
+  }
 }
 
 ul {
