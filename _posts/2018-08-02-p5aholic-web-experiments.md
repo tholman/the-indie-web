@@ -9,6 +9,7 @@ authorUrl: http://tholman.com
 authorGithub: tholman
 imgWidth: 1006
 imgHeight: 604
+siteDown: true
 ---
 
 _Incredible web experiments with canvas and P5.js_

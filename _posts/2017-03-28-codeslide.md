@@ -4,7 +4,7 @@ title: CodeSlide
 date: 2017-03-28 14:51:25
 type: Coding
 image: codeslide.png
-link: http://thejameskyle.com/spectacle-code-slide/
+link: https://jamiebuilds.github.io/spectacle-code-slide/
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
@@ -16,4 +16,4 @@ _A presentation of code that lets you present code._
 
 
 
-[CodeSlide](http://thejameskyle.com/spectacle-code-slide/) - by [James Kyle](http://thejameskyle.com/)
+[CodeSlide](https://jamiebuilds.github.io/spectacle-code-slide/) - by [James Kyle](http://thejameskyle.com/)
