@@ -10,6 +10,7 @@ authorUrl:
 authorGithub: TJScalzo
 imgWidth: 576
 imgHeight: 660
+siteDown: true
 ---
 
 _A showcase of generative art pieces paired with stories of personal history and origin._

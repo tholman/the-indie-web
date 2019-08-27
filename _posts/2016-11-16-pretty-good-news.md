@@ -10,6 +10,7 @@ authorGithub: tholman
 remoteImage: true
 imgWidth: 1194
 imgHeight: 610
+siteDown: true
 ---
 
 _Some nice news, every time you open a new tab._

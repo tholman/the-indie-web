@@ -10,6 +10,7 @@ authorUrl:
 authorGithub: TJScalzo
 imgWidth: 700
 imgHeight: 325
+siteDown: true
 ---
 
 _Your very own online magic 8 ball!_

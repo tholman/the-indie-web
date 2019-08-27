@@ -10,6 +10,7 @@ authorGithub: Synj24
 authorUrl: http://matthewdarylgregory.com/
 imgWidth: 339
 imgHeight: 230
+siteDown: true
 ---
 
 _Create stuff like its 1987!_
