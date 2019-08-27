@@ -4,7 +4,7 @@ title: General Relativity
 date: 2017-11-20 09:39:50
 type: Resource
 image: general-relativity.png
-link: http://spark.sciencemag.org/generalrelativity/
+link: https://vis.sciencemag.org/generalrelativity/
 authorName: Tim Scalzo
 authorUrl:
 authorGithub: TJScalzo
@@ -16,4 +16,4 @@ _A super-quick, super-painless guide to the theory that conquered the universe._
 
 
 
-[General Relativity](http://spark.sciencemag.org/generalrelativity/) - by [Science Magazine](http://www.sciencemag.org)
+[General Relativity](https://vis.sciencemag.org/generalrelativity/) - by [Science Magazine](http://www.sciencemag.org)
