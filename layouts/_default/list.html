@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>{{ $.Site.Title }}</title>
+
+    <!-- META -->
+    <meta charset="utf-8">
+    <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
+    <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000">
+    <meta name="description" content="A simple blog for inspiring and creative online (and occasionally offline) work.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OTHER -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+
+    <link href="/css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    {{ partial "header.html" . }}
+    
+      <div class="wrapper">
+
+
+      {{ $pages := .Pages }}
+        {{ if .IsHome }}
+          {{ $pages = .Site.RegularPages }}
+        {{ end }}
+        {{ $paginator := .Paginate $pages }}
+        {{ if gt $paginator.TotalPages 0 }}
+        {{ range $index, $page := $paginator.Pages }}
+
+        <article>
+          <div class="inner-wrapper">
+            <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
+            <div class="category"><a href="{{ .Params.Category }}">{{ .Params.Category }}</a></div>
+            {{ if .Truncated }}
+              {{ .Summary }}
+            {{ else }}
+              {{ .Content }}
+            {{ end }}
+            {{ if .Truncated }}
+              <a href="{{ .RelPermalink }}" class="read-more">
+                {{ if .Params.More }}
+                  {{ .Params.More }}
+                {{ else }}
+                  Read More
+                {{ end }}
+              </a>
+            {{ end }}
+          </div>
+          {{ if .Truncated }}
+            <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ .Params.Category }}"></canvas>
+          {{ end }}
+        </article>
+
+        {{ end }}
+      {{ end }}
+
+      <div class="pagination">
+        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+          {{ if .Paginator.HasPrev }}
+            <a  href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}">prev</a>
+          {{ else }}
+            <span></span>
+          {{ end }}
+        {{ end }}
+
+        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+          {{ if .Paginator.HasNext }}
+            <a  href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">next</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>

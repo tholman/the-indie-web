@@ -1,0 +1,19 @@
+baseURL: https://inspiring.online
+languageCode: en-us
+title: Inspiring Online
+permalinks:
+  posts: /:slug
+  category: /:slug
+  tags: /tag/:slug
+
+  # tags: /:tag
+paginate: 6
+paginatePath: ''
+
+taxonomies:
+  category: category
+  tag: tags
+
+outputFormats:
+  rss:
+    baseName: feed
