@@ -8,7 +8,7 @@ imgHeight: 286
 imgWidth: 440
 link: https://bellwoods.xyz/
 title: Bellwoods
-category: generative-art
+category: art
 ---
 
 _A minimalistic, relaxing generative experience in your browser._

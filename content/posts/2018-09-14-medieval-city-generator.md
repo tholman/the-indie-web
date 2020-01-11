@@ -8,7 +8,7 @@ imgHeight: 466
 imgWidth: 490
 link: https://watabou.itch.io/medieval-fantasy-city-generator
 title: Medieval City Generator
-category: generative-art
+category: games
 ---
 
 _Play around with this cool generative city generator._

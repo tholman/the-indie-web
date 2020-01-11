@@ -8,7 +8,7 @@ imgHeight: 444
 imgWidth: 412
 link: https://www.thedoodlelibrary.com/
 title: The doodle library
-category: Resource
+category: resource
 ---
 
 _An expanding collection of reusable simple drawings and doodles in a vector (SVG) format._

@@ -8,7 +8,7 @@ imgHeight: 382
 imgWidth: 414
 link: https://pissang.github.io/little-big-city/
 title: Little Big City
-category: generative-art
+category: art
 ---
 
 _A neat little globe from anywhere in the world._
