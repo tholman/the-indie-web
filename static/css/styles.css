@@ -6,14 +6,16 @@
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Montserrat', sans-serif;
+html,
+body {
+  font-family: "Montserrat", sans-serif;
   padding: 0px;
   margin: 0px;
 }
 
-h1, h2 {
-  font-family: 'Playfair Display', serif;
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
   padding: 0px;
   margin: 0px;
 }
@@ -28,7 +30,7 @@ code {
 header {
   position: fixed;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -75,7 +77,6 @@ article {
   max-width: 400px;
   margin: auto;
   padding: 45px 30px 40px;
-  border-bottom: 1px dashed #ddd;
 }
 
 .other-links {
@@ -126,7 +127,7 @@ blockquote:before {
   height: 100px;
   line-height: 180px;
   vertical-align: top;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   top: 50%;
   right: 0;
   transform: translate(-50%, -50%);
@@ -168,7 +169,7 @@ blockquote:before {
   display: flex;
   justify-content: space-between;
   padding: 20px 15px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 18px;
 }
 
@@ -190,4 +191,49 @@ blockquote:before {
   z-index: -1;
   pointer-events: none;
   width: 100%;
+}
+
+.zigzag {
+  position: relative;
+  height: 16px;
+  z-index: 1;
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.slide-up {
+  margin-top: -16px;
+}
+
+.zigzag:before,
+.zigzag:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.zigzag:before {
+  height: 12px;
+  top: 110%;
+  background: linear-gradient(-135deg, #ddd 8px, transparent 0) 0 8px,
+    linear-gradient(135deg, #ddd 8px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 16px 16px;
+  margin-top: -16px;
+}
+
+.zigzag:after {
+  height: 16px;
+  top: 100%;
+  background: linear-gradient(-135deg, white 8px, transparent 0) 0 8px,
+    linear-gradient(135deg, white 8px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 16px 16px;
+  margin-top: -16px;
 }

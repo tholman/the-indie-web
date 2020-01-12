@@ -1,32 +1,32 @@
 ---
 date: "2020-01-10T12:00:00Z"
-title: '“Please touch the artwork” brings more puzzling to abstract art.'
+title: '“Please, Touch the Artwork” brings more puzzling to abstract art.'
 category: games
 more: Is it out yet?
 tags: [art, games, generative]
 ---
 
-Belgian games studio, creatively named, [Studio Waterzooi](http://www.studiowaterzooi.com/) have been hard at work on their first tile: _Please Touch the Artwork._ 
+Belgian game studio, creatively named [Studio Waterzooi](http://www.studiowaterzooi.com/), have been hard at work on their first title: _Please, Touch the Artwork._
 
-Slated for release on IOS, The Google Play store, itch.io and more. 
+Slated for release on iOS, The Google Play store, itch.io, and more.
 
 I have to say, it looks like a wonderful combination of abstract art and a calming, zen gameplay with some puzzling twists.
 
 {{< youtube emnB9sydZuc >}}
 
-Looking at the trailer, we can see that every piece of the game, right down to the minimalistic main character has been inspired by different pieces of art.
+Looking at the trailer, we can see that every piece of the game, right down to the minimalistic main character, has been inspired by different pieces of art.
 
 <!--more-->
 
-Sadly, the game isn't quite complete just yet, but has a planned release date of early 2020. The easiest way to stay notified, is to follow the studio's[twitter account](https://twitter.com/StudioWaterzooi)
+Sadly, the game isn't quite complete just yet, but has a planned release date of early 2020. The easiest way to stay notified, is to follow the studio's [twitter account](https://twitter.com/StudioWaterzooi).
 
-What else do we know. Well, there are a few more things. This tweet...
+What else do we know? Well, there are a few more things. This tweet...
 
 {{< twitter 1159202412965638145 >}}
 
-... gives a great glimpse into how some of the puzzles will work, as you piece together some of [Piet Mondrians](https://en.wikipedia.org/wiki/Piet_Mondrian) masterpieces. With a gold esqe 'par' system, to provide you a challenge, if thats your type of thing.
+...gives a great glimpse into how some of the puzzles will work, as you piece together some of [Piet Mondrian's](https://en.wikipedia.org/wiki/Piet_Mondrian) masterpieces. There's a gold esqe 'par' system to provide you a challenge, if thats your type of thing.
 
-The studio's [Instagram](https://www.instagram.com/studiowaterzooi/) also is showing off bits and pieces of the game, as it comes along.
+The studio's [Instagram](https://www.instagram.com/studiowaterzooi/) is also showing off bits and pieces of the game, as it comes along.
 
 {{< instagram Bwg6OkiI2xS >}}
 

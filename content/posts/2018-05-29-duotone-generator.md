@@ -8,7 +8,7 @@ imgHeight: 304
 imgWidth: 472
 link: https://duotones.co/
 title: Duotone Generator
-category: Resource
+category: resource
 ---
 
 _A nifty tool to apply duotone effects to your images._

@@ -8,7 +8,7 @@ imgHeight: 516
 imgWidth: 565
 link: http://dnomadb.github.io/
 title: Elevation Lines
-category: Coding
+category: code
 ---
 
 _Elevations of the world._
