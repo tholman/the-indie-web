@@ -8,7 +8,7 @@ imgHeight: 296
 imgWidth: 344
 link: http://drawing.zone/
 title: Drawing Zone
-category: Resource
+category: resource
 ---
 
 _Neat canvas drawing tool._

@@ -8,7 +8,7 @@ imgHeight: 486
 imgWidth: 488
 link: https://tenori-off.glitch.me/
 title: Tenori-Off
-category: Musical
+category: audio
 ---
 
 _A musical sequencer, with some machine learning love._

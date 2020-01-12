@@ -8,7 +8,7 @@ imgHeight: 270
 imgWidth: 408
 link: http://soccerpattern.com/
 title: World Cup in Pattern
-category: Beautiful
+category: design
 ---
 
 _Stunning site exploring the various jerseys and patterns of world cups past._
