@@ -8,7 +8,7 @@ imgHeight: 252
 imgWidth: 682
 link: https://jackrugile.com/lost-without-you/
 title: Lost Without You
-category: Beautiful
+category: art
 ---
 
 _Reunite two friends before time runs out in this beautifully polished game._

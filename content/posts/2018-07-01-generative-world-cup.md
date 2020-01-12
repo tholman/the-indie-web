@@ -8,7 +8,7 @@ imgHeight: 600
 imgWidth: 1236
 link: http://zehfernandes.com/generativeworldcup2018/
 title: Generative World Cup
-category: Beautiful
+category: art
 ---
 
 _Generative world cup posters._

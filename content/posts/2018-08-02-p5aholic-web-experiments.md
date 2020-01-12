@@ -8,7 +8,7 @@ imgHeight: 604
 imgWidth: 1006
 link: http://p5aholic.me/series-of-web-design-experiments/day1/
 title: P5aholic web experiments
-category: Beautiful
+category: art
 ---
 
 _Incredible web experiments with canvas and P5.js_

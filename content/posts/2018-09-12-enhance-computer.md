@@ -8,7 +8,7 @@ imgHeight: 162
 imgWidth: 654
 link: https://www.enhance.computer/
 title: Enhance Computer
-category: WideWeirdWeb
+category: weird wide web
 ---
 
 _Be the crime stopping mastermind you always wanted to be._
