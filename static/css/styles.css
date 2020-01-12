@@ -18,9 +18,12 @@ h1, h2 {
   margin: 0px;
 }
 
-/**
- *  Inspiring Online
- */
+code {
+  background: #eee;
+  padding: 3px 4px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
 
 header {
   position: fixed;
