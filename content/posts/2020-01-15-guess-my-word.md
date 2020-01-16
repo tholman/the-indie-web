@@ -1,6 +1,6 @@
 ---
 date: "2020-01-15T12:00:00Z"
-title: Who would have thought guessing words in a dictionary could be fun?
+title: Who would have thought trying to guess words in a dictionary could be fun?
 category: games
 more: Can I compete with my friends?
 tags: [games]
