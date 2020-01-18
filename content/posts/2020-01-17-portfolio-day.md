@@ -1,7 +1,7 @@
 ---
 date: "2020-01-17T12:00:00Z"
 title: "PortfolioDay has come and gone on twitter, here are a few favorites to brighten up your feed today."
-category: person
+category: amazing people
 more: More, I need more!
 tags: [twitter]
 ---

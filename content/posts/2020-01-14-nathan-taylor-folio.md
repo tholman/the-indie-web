@@ -1,7 +1,7 @@
 ---
 date: "2020-01-14T12:00:00Z"
 title: This folio defines interactive design and development.
-category: person
+category: amazing people
 more: Any highlights?
 tags: [folio]
 ---
