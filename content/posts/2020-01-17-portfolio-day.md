@@ -1,0 +1,41 @@
+---
+date: "2020-01-17T12:00:00Z"
+title: "#PortfolioDay has come and gone on twitter, here are a few favorites to brighten up your twitter feed."
+category: person
+more: More, I need more!
+tags: [twitter]
+---
+
+This week saw [#PortfolioDay](https://twitter.com/hashtag/PortfolioDay) shoot up on twitter, filling my feed with a marvelous array of talent.
+
+It felt fitting to share a few of my favorites new follows, all people who will provide your twitter feed with a fresh boost of color, and a delightful pop of positivity.
+
+Australian Artist [Milly Que](https://www.millyque.com/)'s illustrations are just a stunning breath of fresh air.
+
+{{< twitter 1217098950303305735 >}}
+
+[Geneva Bowers](https://www.genevab.com/) manages to bring life and a special sparkle of wonder into all of her work!
+
+{{< twitter 1217193582920073226 >}}
+
+[Cassandra Jean](http://cassandrajeanart.blogspot.com/)'s color palettes give such mysterious energy to each and every artwork, it's like you can feel them coming to life.
+
+{{< twitter 1217445523600433152 >}}
+
+<!--more-->
+
+[Mamomiji](https://www.instagram.com/maomomiji/)'s food art look so incredible. I want to reach into my screen and eat it all.
+
+{{< twitter 1217779256882651136 >}}
+
+[Rob Fichman](https://robfichman.com/about)'s animations are some of the most delightfully satisfying gifs out there, he's also studying video game development.
+
+{{< twitter 1217220101763731458 >}}
+
+[Eddie H.Hinestroza](https://eddiehernandez9655.artstation.com/) environment scenes really pull you in, there's just so much detail and life in every square inch, they just pull you away to another place.
+
+{{< twitter 1217307828152610816 >}}
+
+Really, there are so so so many more amazing folio's out there, I really recommend checking out the hashtag ([#PortfolioDay](https://twitter.com/hashtag/PortfolioDay)) and crawling through them, find a few new artists, and watch as they grow and evolve their work over the coming years!
+
+➶ [#PortfolioDay on Twitter](https://twitter.com/hashtag/PortfolioDay)
