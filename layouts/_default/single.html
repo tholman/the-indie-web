@@ -23,7 +23,7 @@
       <article>
         <div class="inner-wrapper">
           <h1>{{ .Title }}</h1>
-           <div class="category"><a href="{{ .Params.Category }}">{{ .Params.Category }}</a></div>
+           <div class="category"><a href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
           {{ .Content }}
         </div>
         <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ .Params.Category }}"></canvas>
