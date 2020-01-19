@@ -2,7 +2,7 @@
 
   console.log("Checking out the code? You can find this project on GitHub too! https://github.com/tholman/inspiring-online")
 
-  const categories = ['code']
+  const categories = ['code', 'games']
 
   const size = window.innerWidth
   const canvii = document.querySelectorAll('canvas')
