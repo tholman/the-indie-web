@@ -1,6 +1,6 @@
 ---
 date: "2020-01-20T12:00:00Z"
-title: Want to know what the web is capable of, look no further!
+title: Want to know what the web is capable of? Here you go!
 category: amazing people
 more: "I'm not weirded out enough already"
 tags: [demoscene, art]
