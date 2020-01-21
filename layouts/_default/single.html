@@ -26,7 +26,9 @@
            <div class="category"><a href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
           {{ .Content }}
         </div>
-        <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ .Params.Category }}"></canvas>
+        {{ if .Truncated }}
+          <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ .Params.Category }}"></canvas>
+        {{ end }}
         <div class="zigzag slide-up"></div>
         <div class="other-links">
           - See an error? More to add? <a href="https://github.com/tholman/inspiring-online/blob/master/content/{{.File.Path}}" target="_blank">Edit & submit a PR.</a><br>
