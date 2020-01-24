@@ -6,7 +6,7 @@ more: "How are they made?"
 tags: [throwback thursday, tonejs]
 ---
 
-Its throwback Thursday,and this project is still just as beautiful and fun as it is the day it came into the world!
+Its throwback Thursday, and this project is still just as beautiful and fun as it is the day it came into the world!
 
 Berlin Based developer, [Martin Wecke](https://martinwecke.de/) has created a fantastic minimal set of [browser based instruments](https://martinwecke.de/%F0%9F%8E%B5/) that are both aesthetically beautiful, and simple to use!
 
