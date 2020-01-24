@@ -1,5 +1,5 @@
 ---
-date: "2020-01-23T12:00:01Z"
+date: "2020-01-24T12:00:01Z"
 title: Marvin, a space aged variable font for the modern web.
 category: typography
 more: "Any other special details?"
