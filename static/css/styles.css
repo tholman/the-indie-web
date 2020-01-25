@@ -160,6 +160,7 @@ blockquote:before {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .pagination {
