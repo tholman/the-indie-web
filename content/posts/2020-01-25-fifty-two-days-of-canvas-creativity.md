@@ -1,5 +1,5 @@
 ---
-date: "2020-01-23T12:00:00Z"
+date: "2020-01-25T09:00:00Z"
 title: Fifty-Two weeks of canvas creativity!
 category: code
 more: "How could I do something like this?"
