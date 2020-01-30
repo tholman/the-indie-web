@@ -12,7 +12,7 @@ For those unfamiliar with #PlotterTwitter, it's a place for people to show off t
 
 And so we are here, a little recap of some of the best works in January's #PlotterTwitter!
 
-Netpraxis(https://twitter.com/netpraxis) has created some very nice patterns using [Moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern). Which are complex patterns that emerge by overlaying two patterns on top of each other. They can look endlessly complex, and simple at the same time.
+Netpraxis has created some very nice patterns using [Moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern). Which are complex patterns that emerge by overlaying two patterns on top of each other. They can look endlessly complex, and simple at the same time.
 
 {{< twitter 1212354990963970048 >}}
 
