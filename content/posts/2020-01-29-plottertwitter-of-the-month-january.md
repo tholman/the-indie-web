@@ -1,6 +1,6 @@
 ---
 date: "2020-01-29T09:00:00Z"
-title: "The best of #plottertwitter from January 2020."
+title: "The best of #PlotterTwitter from January 2020."
 category: art
 more: "More. Give me more."
 tags: [code, generative art, plotter]
