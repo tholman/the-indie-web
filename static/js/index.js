@@ -39,22 +39,28 @@
       image.onload = () => {
         const fillPattern = context.createPattern(image, "repeat");
         context.fillStyle = fillPattern;
+        context.globalAlpha = 1 // This resets the alpha if it's changed below
         drawTriangle(j)
       }
 
       image.src = `/assets/${category}.png`
 
       context.globalCompositeOperation = 'multiply';
-      if( i % 2 === 0 ) {
-        const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
-        fillGradient.addColorStop(0, categories[categories.indexOf(category) + 1]);
-        fillGradient.addColorStop(0.75, "#fff");
-        context.fillStyle = fillGradient;
+      if( size > 750 ) {
+        if( i % 2 === 0 ) {
+          const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
+          fillGradient.addColorStop(0, categories[categories.indexOf(category) + 1]);
+          fillGradient.addColorStop(0.75, "#fff");
+          context.fillStyle = fillGradient;
+        } else {
+          const fillGradient = context.createLinearGradient(size/2, 0, size, 0);
+          fillGradient.addColorStop(0.25, "#fff");
+          fillGradient.addColorStop(1, categories[categories.indexOf(category) + 1]);
+          context.fillStyle = fillGradient;
+        }
       } else {
-        const fillGradient = context.createLinearGradient(size/2, 0, size, 0);
-        fillGradient.addColorStop(0.25, "#fff");
-        fillGradient.addColorStop(1, categories[categories.indexOf(category) + 1]);
-        context.fillStyle = fillGradient;
+        context.globalAlpha = .15
+        context.fillStyle = categories[categories.indexOf(category) + 1]
       }
 
       drawTriangle(i)
