@@ -64,4 +64,15 @@
       drawTriangle(i)
     }
   }
+
+  for( var t = 0; t < categories.length; t++ ) {
+    if( t % 2 === 0 ) {
+      const links = document.getElementsByClassName(categories[t])
+      for( var r = 0; r < links.length; r++ ) {
+        links[r].style.color = categories[t + 1]
+        // The code below is in case the text overlaps too much with the triangle
+        links[r].style.textShadow = "-1px 0 5px rgba(255,255,255,0.75), 0 1px 5px rgba(255,255,255,0.75), 1px 0 5px rgba(255,255,255,0.75), 0 -1px 5px rgba(255,255,255,0.75)"
+      }
+    }
+  }
 })()

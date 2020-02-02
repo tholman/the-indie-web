@@ -37,7 +37,7 @@
         <article>
           <div class="inner-wrapper">
             <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
-            <div class="category"><a href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
+            <div class="category"><a class="{{ anchorize .Params.Category }}" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
             {{ if .Truncated }}
               {{ .Summary }}
             {{ else }}
