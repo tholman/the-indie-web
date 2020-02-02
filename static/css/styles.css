@@ -138,7 +138,7 @@ blockquote:before {
 .category {
   text-transform: capitalize;
   letter-spacing: 0.8px;
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   color: #888;
   font-weight: bolder;

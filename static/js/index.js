@@ -2,7 +2,7 @@
 
   console.log("Checking out the code? You can find this project on GitHub too! https://github.com/tholman/inspiring-online")
 
-  const categories = ['code', 'games']
+  const categories = ['code', '#00abaf', 'games', '#faa000']
 
   const size = window.innerWidth
   const canvii = document.querySelectorAll('canvas')
@@ -43,6 +43,21 @@
       }
 
       image.src = `/assets/${category}.png`
+
+      context.globalCompositeOperation = 'multiply';
+      if( i % 2 === 0 ) {
+        const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
+        fillGradient.addColorStop(0, categories[categories.indexOf(category) + 1]);
+        fillGradient.addColorStop(0.75, "#fff");
+        context.fillStyle = fillGradient;
+      } else {
+        const fillGradient = context.createLinearGradient(size/2, 0, size, 0);
+        fillGradient.addColorStop(0.25, "#fff");
+        fillGradient.addColorStop(1, categories[categories.indexOf(category) + 1]);
+        context.fillStyle = fillGradient;
+      }
+
+      drawTriangle(i)
 
     } else {
       context.fillStyle = '#f1f1f1'
