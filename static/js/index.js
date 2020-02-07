@@ -2,7 +2,15 @@
 
   console.log("Checking out the code? You can find this project on GitHub too! https://github.com/tholman/inspiring-online")
 
-  const categories = ['code', '#00abaf', 'games', '#faa000']
+  const categories = ['art', '#fa0faf',
+                      'code', '#00abaf',
+                      'games', '#faa000',
+                      'sounds', '#6102f1',
+                      'resource', '#aa150a',
+                      'aesthetic', '#fa90af',
+                      'typography', '#178fff',
+                      'take-my-money', '#119f55',
+                      'amazing-people', '#00ea5f']
 
   var oldWidth = 0
   const canvii = document.querySelectorAll('canvas')
