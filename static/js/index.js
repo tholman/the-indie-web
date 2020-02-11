@@ -17,7 +17,6 @@
 
   function drawCanvii() {
     const size = window.innerWidth
-    const dpr = window.devicePixelRatio;
 
     if( size !== oldWidth ) {
       for( var i = 0; i < canvii.length; i++ ) {
@@ -32,9 +31,8 @@
           var color = "#888"
         }
 
-        canvas.width = size * dpr
-        canvas.height = size * dpr
-        context.scale(dpr, dpr);
+        canvas.width = size
+        canvas.height = size
 
         function draw() {
           context.fillRect(0, 0, size, size)
@@ -64,109 +62,99 @@
 
         context.clearRect(0, 0, canvas.width, canvas.height)
 
-        //if( categories.indexOf(category) !== -1 ) {
-          if( size > 650 ) {
-            if( i % 2 === 0 ) {
-              const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
-              fillGradient.addColorStop(0.05, color);
-              fillGradient.addColorStop(0.85, "#fff");
-              context.fillStyle = fillGradient;
-            } else {
-              const fillGradient = context.createLinearGradient(size/3, 0, size, 0);
-              fillGradient.addColorStop(0.05, "#fff");
-              fillGradient.addColorStop(0.85, color);
-              context.fillStyle = fillGradient;
-            }
-          } else {
-            context.globalAlpha = .1
-            context.fillStyle = color
-          }
-
-          draw()
-
-          const miniCanvas = document.createElement('canvas');
-          const miniContext = miniCanvas.getContext('2d');
-
-          miniCanvas.width = size * dpr
-          miniCanvas.height = size * dpr
-          miniContext.scale(dpr, dpr);
-
-          miniContext.lineJoin = 'round';
-
+        if( size > 650 ) {
           if( i % 2 === 0 ) {
-            miniContext.transform(1.2, 0, 0, 1.2, -size/15, -75)
+            const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
+            fillGradient.addColorStop(0.05, color);
+            fillGradient.addColorStop(0.8, "#fff");
+            context.fillStyle = fillGradient;
           } else {
-            miniContext.transform(1.2, 0, 0, 1.2, size/15, -75)
+            const fillGradient = context.createLinearGradient(size/3, 0, size, 0);
+            fillGradient.addColorStop(0.05, "#fff");
+            fillGradient.addColorStop(0.8, color);
+            context.fillStyle = fillGradient;
           }
+        } else {
+          context.globalAlpha = .1
+          context.fillStyle = color
+        }
+        draw()
 
-          var line, /* dot, */
-              odd = false,
-              lines = [],
-              gap = size / 20;
-  
-          for( var y = gap / 2; y <= size; y += gap ) {
-            odd = !odd;
-            line = [];
-            for( var x = gap / 4; x <= size; x += gap ) {
-              //dot = {x: x + (odd ? gap/2 : 0), y: y};
-              line.push({
-                x: x + (Math.random()*.8 - .5) * gap + (odd ? gap/2 : 0),
-                y: y + (Math.random()*.8 - .75) * gap
-              });
-            }
-            lines.push(line);
+        const miniCanvas = document.createElement('canvas');
+        const miniContext = miniCanvas.getContext('2d');
+
+        miniCanvas.width = size
+        miniCanvas.height = size
+
+        miniContext.lineJoin = 'round';
+
+        if( i % 2 === 0 ) {
+          miniContext.transform(1.2, 0, 0, 1.2, -size/15, -75)
+        } else {
+          miniContext.transform(1.2, 0, 0, 1.2, size/15, -75)
+        }
+
+        var line, /* dot, */
+            odd = false,
+            lines = [],
+            gap = size / 20;
+
+        for( var y = gap / 2; y <= size; y += gap ) {
+          odd = !odd;
+          line = [];
+          for( var x = gap / 4; x <= size; x += gap ) {
+            //dot = {x: x + (odd ? gap/2 : 0), y: y};
+            line.push({
+              x: x + (Math.random()*.8 - .5) * gap + (odd ? gap/2 : 0),
+              y: y + (Math.random()*.8 - .5) * gap
+            });
           }
+          lines.push(line);
+        }
 
-          function drawTriangle(pointA, pointB, pointC) {
-            miniContext.beginPath();
-            miniContext.moveTo(pointA.x, pointA.y);
-            miniContext.lineTo(pointB.x, pointB.y);
-            miniContext.lineTo(pointC.x, pointC.y);
-            miniContext.lineTo(pointA.x, pointA.y);
-            miniContext.closePath();
-            const centerX = (pointA.x + pointB.x + pointC.x) / 3;
-            const centerY = (pointA.y + pointB.y + pointC.y) / 3;
-            var p = context.getImageData(centerX, centerY, 1, 1).data; 
+        function drawTriangle(pointA, pointB, pointC) {
+          miniContext.beginPath();
+          miniContext.moveTo(pointA.x, pointA.y);
+          miniContext.lineTo(pointB.x, pointB.y);
+          miniContext.lineTo(pointC.x, pointC.y);
+          miniContext.lineTo(pointA.x, pointA.y);
+          miniContext.closePath();
+          const centerX = (pointA.x + pointB.x + pointC.x) / 3;
+          const centerY = (pointA.y + pointB.y + pointC.y) / 3;
+          var p = context.getImageData(centerX, centerY, 1, 1).data; 
 
-            if( size > 650 ) {
-              miniContext.strokeStyle = '#f1f1f1'
-              miniContext.fillStyle = "rgb("+p[0]+","+p[1]+","+p[2]+")"
-            } else {
-              miniContext.strokeStyle = '#fff'
-              miniContext.fillStyle = "rgba("+p[0]+","+p[1]+","+p[2]+", 0.1)"
-            }
-            miniContext.stroke();
-            miniContext.fill();
+          if( size > 650 ) {
+            miniContext.strokeStyle = '#f1f1f1'
+            miniContext.fillStyle = "rgb("+p[0]+","+p[1]+","+p[2]+")"
+          } else {
+            miniContext.strokeStyle = '#fff'
+            miniContext.fillStyle = "rgba("+p[0]+","+p[1]+","+p[2]+", 0.1)"
           }
-  
-          var dotLine;
-          odd = true;
-  
-          for( var y = 0; y < lines.length - 1; y++ ) {
-            odd = !odd;
-            dotLine = [];
-            for( var x = 0; x < lines[y].length; x++ ) {
-              dotLine.push(odd ? lines[y][x]   : lines[y+1][x]);
-              dotLine.push(odd ? lines[y+1][x] : lines[y][x]);
-            }
-            for( var z = 0; z < dotLine.length - 2; z++ ) {
-              drawTriangle(dotLine[z], dotLine[z+1], dotLine[z+2]);
-            }
+          miniContext.stroke();
+          miniContext.fill();
+        }
+
+        var dotLine;
+        odd = true;
+
+        for( var y = 0; y < lines.length - 1; y++ ) {
+          odd = !odd;
+          dotLine = [];
+          for( var x = 0; x < lines[y].length; x++ ) {
+            dotLine.push(odd ? lines[y][x]   : lines[y+1][x]);
+            dotLine.push(odd ? lines[y+1][x] : lines[y][x]);
           }
+          for( var z = 0; z < dotLine.length - 2; z++ ) {
+            drawTriangle(dotLine[z], dotLine[z+1], dotLine[z+2]);
+          }
+        }
 
-          const fillPattern = context.createPattern(miniCanvas, "no-repeat");
-          context.fillStyle = fillPattern;
-          
-          context.globalAlpha = 1
-          draw();
-          clearTriangle(i);
-
-        /* } else {
-          context.fillStyle = '#888'
-          context.globalAlpha = .15
-          draw();
-          clearTriangle(i);
-        } */
+        const fillPattern = context.createPattern(miniCanvas, "no-repeat");
+        context.fillStyle = fillPattern;
+        
+        context.globalAlpha = 1
+        draw();
+        clearTriangle(i);
       }
       oldWidth = size
     }
@@ -174,12 +162,11 @@
 
   drawCanvii()
 
-  var resizeId // This ensures new patterns aren't drawn until resizing ends
+  var resizeId // This ensures new canvii aren't drawn until resizing ends
   window.addEventListener('resize', function() {
     clearTimeout(resizeId)
     resizeId = setTimeout(drawCanvii, 100)
   })
-  //window.onresize = drawCanvii
 
   for( var t = 0; t < categories.length; t++ ) {
     if( t % 2 === 0 ) {
