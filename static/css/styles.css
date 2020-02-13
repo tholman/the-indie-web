@@ -198,6 +198,10 @@ blockquote:before {
   width: 100%;
 }
 
+canvas {
+  opacity: 0.5;
+}
+
 .zigzag {
   position: relative;
   height: 16px;

@@ -16,7 +16,8 @@
   const canvii = document.querySelectorAll('canvas')
 
   function drawCanvii() {
-    const size = window.innerWidth
+    const dpr = window.devicePixelRatio;
+    const size = window.innerWidth * dpr
 
     if( size !== oldWidth ) {
       for( var i = 0; i < canvii.length; i++ ) {
@@ -62,15 +63,15 @@
 
         context.clearRect(0, 0, canvas.width, canvas.height)
 
-        if( size > 650 ) {
+        if( size > 1300 ) {
           if( i % 2 === 0 ) {
             const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
-            fillGradient.addColorStop(0.05, color);
+            fillGradient.addColorStop(0, color);
             fillGradient.addColorStop(0.8, "#fff");
             context.fillStyle = fillGradient;
           } else {
-            const fillGradient = context.createLinearGradient(size/3, 0, size, 0);
-            fillGradient.addColorStop(0.05, "#fff");
+            const fillGradient = context.createLinearGradient(size/1.8, 0, size, 0);
+            fillGradient.addColorStop(0, "#fff");
             fillGradient.addColorStop(0.8, color);
             context.fillStyle = fillGradient;
           }
@@ -80,6 +81,8 @@
         }
         draw()
 
+        const isLeft = i % 2 === 0
+
         const miniCanvas = document.createElement('canvas');
         const miniContext = miniCanvas.getContext('2d');
 
@@ -88,22 +91,17 @@
 
         miniContext.lineJoin = 'round';
 
-        if( i % 2 === 0 ) {
-          miniContext.transform(1.2, 0, 0, 1.2, -size/15, -75)
-        } else {
-          miniContext.transform(1.2, 0, 0, 1.2, size/15, -75)
-        }
-
-        var line, /* dot, */
+        var line,
             odd = false,
             lines = [],
-            gap = size / 20;
+            gap = size / 16;
+
 
         for( var y = gap / 2; y <= size; y += gap ) {
           odd = !odd;
           line = [];
-          for( var x = gap / 4; x <= size; x += gap ) {
-            //dot = {x: x + (odd ? gap/2 : 0), y: y};
+
+          for( var x =  -2 * gap; x <= size + gap * 2; x += gap ) {
             line.push({
               x: x + (Math.random()*.8 - .5) * gap + (odd ? gap/2 : 0),
               y: y + (Math.random()*.8 - .5) * gap
@@ -119,16 +117,24 @@
           miniContext.lineTo(pointC.x, pointC.y);
           miniContext.lineTo(pointA.x, pointA.y);
           miniContext.closePath();
-          const centerX = (pointA.x + pointB.x + pointC.x) / 3;
+          
+
+          let centerX = (pointA.x + pointB.x + pointC.x) / 3;
           const centerY = (pointA.y + pointB.y + pointC.y) / 3;
+          if( centerX < 0 ) {
+            centerX = 0
+          } else if (centerX > size) {
+            centerX = size -1
+          }
+
           var p = context.getImageData(centerX, centerY, 1, 1).data; 
 
-          if( size > 650 ) {
+          if( size > 1300 ) {
             miniContext.strokeStyle = '#f1f1f1'
             miniContext.fillStyle = "rgb("+p[0]+","+p[1]+","+p[2]+")"
           } else {
             miniContext.strokeStyle = '#fff'
-            miniContext.fillStyle = "rgba("+p[0]+","+p[1]+","+p[2]+", 0.1)"
+            miniContext.fillStyle = "rgba("+p[0]+","+p[1]+","+p[2]+", 0.05)"
           }
           miniContext.stroke();
           miniContext.fill();
