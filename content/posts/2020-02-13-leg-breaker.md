@@ -20,8 +20,8 @@ If you're not the gaming type, you can watch some great playthroughs online, I'v
 
 {{< youtube wZEbr8rMbDg >}}
 
-Now, for some extra nice chat about the game, if you're not convinced... one of the big difficulties of making a game is scoping it correctly. Leg breaker doesn't fall trap to some of these faults, it perfectly fits within its means.
+Now, for some extra nice chat about the game, if you're not convinced... one of the big difficulties in game development is propperly managing the scope of the project, keeping it fun, while keeping the gameplay challenging. Leg breaker does this wonderfully, keeping fully within its means, while keeping you coming back for more.
 
-All art is of the handcrafted pixel variety, and the sounds, perfectly molded to send a chill of pain straight down your spine on each and every jump you make.
+All art is of the handcrafted pixel variety, and the sounds, perfectly molded to send a chill of pain up down your spine on each and every jump you make.
 
 ➶ [Leg Breaker](https://almbkn.itch.io/legbreaker)
