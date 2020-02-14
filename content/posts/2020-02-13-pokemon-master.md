@@ -10,7 +10,7 @@ At this point in our lives, Poke'mon is one of, and will always be one of the be
 
 For me, I fell off in the last few years... BUT!
 
-{{ twitter 1227158062290489344 }}
+{{< twitter 1227158062290489344 >}}
 
 That doesn't make this amazing quiz, [POKEMON MASTER](https://weichiachang.github.io/pokemon-master/#/game) any less interesting.
 
