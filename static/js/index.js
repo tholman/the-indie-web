@@ -25,6 +25,7 @@
         const canvas = canvii[i]
         const category = canvas.dataset.category
         const context = canvas.getContext('2d')
+        const isLeft = i % 2 === 0
 
         if( categories.indexOf(category) !== -1 ) {
           var color = categories[categories.indexOf(category) + 1]
@@ -44,7 +45,7 @@
 
           context.strokeStyle = '#f1f1f1'
 
-          if( iterator % 2 === 0 ) {
+          if( isLeft ) {
             context.moveTo(0, 0)
             context.lineTo(size/2, size/2)
             context.lineTo(0, size)
@@ -64,7 +65,7 @@
         context.clearRect(0, 0, canvas.width, canvas.height)
 
         if( size > 1300 ) {
-          if( i % 2 === 0 ) {
+          if( isLeft ) {
             const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
             fillGradient.addColorStop(0, color);
             fillGradient.addColorStop(0.8, "#fff");
@@ -80,8 +81,6 @@
           context.fillStyle = color
         }
         draw()
-
-        const isLeft = i % 2 === 0
 
         const miniCanvas = document.createElement('canvas');
         const miniContext = miniCanvas.getContext('2d');
