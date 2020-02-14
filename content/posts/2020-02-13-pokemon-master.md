@@ -1,6 +1,6 @@
 ---
 date: "2020-02-13T09:00:00Z"
-title: "Are you the best, that's ever been, like no one was before?."
+title: "Are you the best, that's ever been, like no one was before?"
 category: games
 more: "And the tech?"
 tags: [vue, "open source"]
