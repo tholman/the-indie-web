@@ -16,7 +16,7 @@
     {{ end -}}
 
     <!-- OTHER -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display&display=swap" rel="stylesheet">
 
     <link href="/css/styles.css" rel="stylesheet">
   </head>
@@ -25,7 +25,6 @@
     {{ partial "header.html" . }}
 
       <div class="wrapper">
-
 
       {{ $pages := .Pages }}
         {{ if .IsHome }}
@@ -38,7 +37,7 @@
         <article>
           <div class="inner-wrapper">
             <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
-            <div class="category"><a href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
+            <div class="category"><a class="{{ anchorize .Params.Category }}" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
             {{ if .Truncated }}
               {{ .Summary }}
             {{ else }}
@@ -55,7 +54,7 @@
             {{ end }}
           </div>
           {{ if .Truncated }}
-            <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ .Params.Category }}"></canvas>
+            <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ anchorize .Params.Category }}"></canvas>
           {{ end }}
           <div class="zigzag"></div>
         </article>
