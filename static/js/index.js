@@ -4,10 +4,10 @@
 
   const categories = ['art', '#fa0faf',
                       'code', '#00abaf',
-                      'games', '#faa000',
+                      'games', '#fa7500',
                       'sounds', '#6102f1',
                       'resource', '#aa150a',
-                      'aesthetic', '#fa90af',
+                      'aesthetic', '#fa709f',
                       'typography', '#178fff',
                       'take-my-money', '#119f55',
                       'amazing-people', '#00ea5f']
@@ -40,7 +40,7 @@
           context.fillRect(0, 0, size, size)
         }
 
-        function clearTriangle(iterator) {
+        function clearTriangle() {
           context.beginPath()
 
           context.strokeStyle = '#f1f1f1'
@@ -73,11 +73,11 @@
           } else {
             const fillGradient = context.createLinearGradient(size/1.8, 0, size, 0);
             fillGradient.addColorStop(0, "#fff");
-            fillGradient.addColorStop(0.8, color);
+            fillGradient.addColorStop(1, color);
             context.fillStyle = fillGradient;
           }
         } else {
-          context.globalAlpha = .1
+          context.globalAlpha = .25
           context.fillStyle = color
         }
         draw()
@@ -100,7 +100,7 @@
           odd = !odd;
           line = [];
 
-          for( var x =  -2 * gap; x <= size + gap * 2; x += gap ) {
+          for( var x = gap * -2; x <= size + gap * 2; x += gap ) {
             line.push({
               x: x + (Math.random()*.8 - .5) * gap + (odd ? gap/2 : 0),
               y: y + (Math.random()*.8 - .5) * gap
@@ -159,7 +159,7 @@
         
         context.globalAlpha = 1
         draw();
-        clearTriangle(i);
+        clearTriangle();
       }
       oldWidth = size
     }
