@@ -64,7 +64,7 @@
 
         context.clearRect(0, 0, canvas.width, canvas.height)
 
-        if( size > 1300 ) {
+        if( size > (650 * dpr) ) {
           if( isLeft ) {
             const fillGradient = context.createLinearGradient(0, 0, size/2, 0);
             fillGradient.addColorStop(0, color);
@@ -128,7 +128,7 @@
 
           var p = context.getImageData(centerX, centerY, 1, 1).data; 
 
-          if( size > 1300 ) {
+          if( size > (650 * dpr) ) {
             miniContext.strokeStyle = '#f1f1f1'
             miniContext.fillStyle = "rgb("+p[0]+","+p[1]+","+p[2]+")"
           } else {
