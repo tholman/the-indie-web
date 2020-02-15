@@ -6,7 +6,7 @@ more: "More please."
 tags: [microcode, bot]
 ---
 
-This is a true gem in the realm of what I'm tagging in Inspiring.Online as [microcode](https://inspiring.online/tag/microcode/). [bbcmicrobot](https://twitter.com/bbcmicrobot) is am amazing tweet-bot, if you @ it some BASIC code, it will reply with an animated rendering of the result.
+This is a true gem in the realm of [microcode](https://inspiring.online/tag/microcode/). [BBC Micro Bot](https://twitter.com/bbcmicrobot) is am amazing tweet-bot, with a simple premise. @ it some BASIC code, and it will reply with an animated rendering of the result.
 
 This project is fairly fresh, but already yielding fantastic results. I many ways can show us all how such a small amount of code can result in something so beautiful and animated.
 
