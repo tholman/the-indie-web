@@ -45,6 +45,5 @@ This has to be the [Dragon Curve](https://en.wikipedia.org/wiki/Dragon_curve)
 {{< twitter 1227301710407831557 >}}
 
 Really, the whole account is worth the follow. I can tell right now, we're just watching the tipping point of what will be a marvelous collection of beautiful code!
-https://twitter.com/bbcmicrobot/
 
 ➶ [BBCMicroBot](https://twitter.com/bbcmicrobot/)
