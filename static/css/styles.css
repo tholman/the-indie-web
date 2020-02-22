@@ -65,6 +65,10 @@ header a {
   margin-top: 50px;
 }
 
+.wrapper img {
+  max-width: 100%;
+}
+
 article {
   position: relative;
 }
