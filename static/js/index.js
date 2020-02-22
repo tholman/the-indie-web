@@ -165,7 +165,7 @@
     }
   }
 
-  drawCanvii()
+  window.onload = drawCanvii
 
   var resizeId // This ensures new canvii aren't drawn until resizing ends
   window.addEventListener('resize', function() {
