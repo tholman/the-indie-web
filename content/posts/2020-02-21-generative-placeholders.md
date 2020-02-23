@@ -3,7 +3,7 @@ date: "2020-02-21T09:00:00Z"
 title: "Generative placeholder images for your next project!"
 category: resource
 more: "What's happening behind the scenes"
-tags: [art, generative, glitch]
+tags: [art, generative, glitch, open source]
 ---
 
 When I think of placeholder images, we will always think of the forever wonderful [placekitten](https://placekitten.com/) and [placepuppy](http://place-puppy.com/). This project though, adds a wonderful piece of randomness, art and joy that we've come to know and love from generative art.
