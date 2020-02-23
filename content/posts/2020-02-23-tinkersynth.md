@@ -1,6 +1,6 @@
 ---
 date: "2020-02-23T09:00:00Z"
-title: "Create your own art through twisting and tinkering with this machine's wacky controls."
+title: "Create your own art by tinkering with this machine's wacky controls."
 category: art
 more: "More about the artworks and code"
 tags: [generative art, plotter, code, open source]
