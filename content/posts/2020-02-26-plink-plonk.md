@@ -10,13 +10,13 @@ Debugging tools are better than ever, but some things still remain hidden to the
 
 Accurately named `plink-plonk.js` by developer [Tom Hicks](http://tomhicks.github.io), [this small snippet](https://gist.github.com/tomhicks/6cb5e827723c4eaef638bf9f7686d2d8) of JavaScript is a clever and simpleway to create sounds from the browser whenever the web page your on modifies itself in any way (for single-page apps, this will be a lot!)
 
-Here's a quick video of the script, which you can activate by pasting into your console (not always the best idea, if you can't understand all the code).
+Here's a quick video of the script, which you can activate by pasting it into your console (not always the best idea, if you can't understand all the code).
 
 {{< tweet 1232852862776020992 >}}
 
-The simplicity of the script, is based in both the power of the web audio api and the mutation observer api.
+The simplicity of the script, is based in both the power of the Web Audio API and the Mutation Observer API.
 
-So how does this work, lets break it apart!
+So how does this work? Lets break it apart!
 
 <!--more-->
 
