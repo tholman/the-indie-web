@@ -12,6 +12,8 @@ Accurately named `plink-plonk.js` by developer [Tom Hicks](http://tomhicks.githu
 
 Here's a quick video of the script, which you can activate by pasting into your console (not always the best idea, if you can't understand all the code).
 
+{{< tweet 1232852862776020992 >}}
+
 The simplicity of the script, is based in both the power of the web audio api and the mutation observer api.
 
 So how does this work, lets break it apart!
