@@ -8,7 +8,7 @@ tags: [audio, "bits'n'pieces"]
 
 Debugging tools are better than ever, but some things still remain hidden to the un-observant eye... this small script is a delightful way to hear what webpages are doing behind the scenes.
 
-Accurately named `plink-plonk.js` by developer [Tom Hicks](http://tomhicks.github.io), this is a clever and simple script that will create sounds from the browser whenever the web page your own modifies itself in any way (for single-page apps, this will be a lot!)
+Accurately named `plink-plonk.js` by developer [Tom Hicks](http://tomhicks.github.io), [this small snippet](https://gist.github.com/tomhicks/6cb5e827723c4eaef638bf9f7686d2d8) of JavaScript is a clever and simpleway to create sounds from the browser whenever the web page your on modifies itself in any way (for single-page apps, this will be a lot!)
 
 Here's a quick video of the script, which you can activate by pasting into your console (not always the best idea, if you can't understand all the code).
 
