@@ -27,6 +27,19 @@ code {
   border-radius: 2px;
 }
 
+pre {
+  line-height: 22px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+pre code {
+  background: none;
+  border: none;
+}
+
 header {
   position: fixed;
   width: 100%;
