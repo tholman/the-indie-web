@@ -1,6 +1,6 @@
 ---
 date: "2020-02-26T09:00:00Z"
-title: "Beep beep bloop bloop...listen your webpages in action!"
+title: "Beep beep bloop bloop - listen your webpage in action!"
 category: code
 more: "Explain it to me"
 tags: [audio, "bits'n'pieces"]
