@@ -32,5 +32,5 @@ And as a final cool bonus, when your item arrives it includes the code that was 
 
 What a treat!
 
-➶ [KnitYak](https://knityak.com/)
+➶ [KnitYak](https://knityak.com/)  
 ➶ [KnitYak on Twitter](https://twitter.com/knityak)
