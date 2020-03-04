@@ -1,3 +1,10 @@
-<div class="amp-embed-fail">
-	Sadly we can't embed Pen's in AMP just yet, but you can visit it <a href="https://codepen.io/pen/{{ .Get 0 }}">here!</a>
-</div>
+{{ $tab := "result" }}
+
+<amp-iframe
+  width="300"
+  height="300"
+  layout="responsive"
+  sandbox="allow-scripts allow-same-origin"
+  src="https://codepen.io/tholman/embed/{{ .Get 0 }}?height=300&theme-id=24246&default-tab={{ or (.Get 1) $tab }}"
+>
+</amp-iframe>
