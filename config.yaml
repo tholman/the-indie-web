@@ -1,4 +1,4 @@
-baseURL: https://inspiring.online
+baseURL: https://inspiring.online/
 languageCode: en-us
 title: Inspiring Online
 permalinks:
@@ -13,6 +13,11 @@ paginatePath: ''
 taxonomies:
   category: category
   tag: tags
+
+outputs:
+  page:
+    - HTML
+    - AMP
 
 outputFormats:
   rss:

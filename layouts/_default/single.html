@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title>{{ .Title }} | {{ $.Site.Title }}</title>
 
@@ -12,6 +12,7 @@
     {{ range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
+
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display&display=swap" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
