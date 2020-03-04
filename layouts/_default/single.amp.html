@@ -18,8 +18,9 @@
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "{{ .Title }} | {{ $.Site.Title }}"
+        "@type": "BlogPosting",
+        "headline": "{{ .Title }} | {{ $.Site.Title }}",
+        "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05" }}
       }
     </script>
 
@@ -45,7 +46,7 @@
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
     <script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   </head>
   <body>
 
@@ -64,6 +65,6 @@
         </div>
       </article>
     </div>
-
+    {{ partial "analytics.amp.html" . }}
   </body>
 </html>
