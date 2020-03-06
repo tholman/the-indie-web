@@ -8,7 +8,7 @@ tags: [code, generative art, plotter]
 
 February has come and gone, and since it's a leap year, 29 days have gone with it. Twenty-nine wonderful days of my favorite Twitter hashtag, [#PlotterTwitter](https://twitter.com/search?q=plottertwitter&src=typed_query).
 
-As with [January](https://inspiring.online/the-best-of-plottertwitter-from-january-2020./) here's another round-up of amazing artists & pen plottings, alongside any other commentary/algorithm I can spot within the works!
+As with [January]({{< ref "2020-01-29-plottertwitter-of-the-month-january.md" >}}), here's another round-up of amazing artists & pen plottings, alongside any other commentary/algorithm I can spot within the works!
 
 Straversi printed off an elevation map of SF in brilliant detail, using this fantastic [open source tool](https://anvaka.github.io/peak-map/#7.68/47.727/-122.574) that was built on top of [Mapbox](https://www.mapbox.com/about/maps/).
 
