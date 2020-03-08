@@ -172,13 +172,4 @@
     clearTimeout(resizeId)
     resizeId = setTimeout(drawCanvii, 100)
   })
-
-  for( var t = 0; t < categories.length; t++ ) {
-    if( t % 2 === 0 ) {
-      const links = document.getElementsByClassName(categories[t])
-      for( var r = 0; r < links.length; r++ ) {
-        links[r].style.color = categories[t + 1]
-      }
-    }
-  }
 })()
