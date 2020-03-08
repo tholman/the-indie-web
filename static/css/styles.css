@@ -2,6 +2,18 @@
  *  Inspiring Online
  */
 
+:root {
+  --art: #fa0faf;
+  --code: #00abaf;
+  --games: #fa7500;
+  --sounds: #6102f1;
+  --resource: #aa150a;
+  --aesthetic: #fa709f;
+  --typography: #178fff;
+  --take-my-money: #119f55;
+  --amazing-people: #00ea5f;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -177,6 +189,42 @@ blockquote:before {
                 0 1px 5px rgba(255,255,255,0.5),
                 1px 0 5px rgba(255,255,255,0.5),
                 0 -1px 5px rgba(255,255,255,0.5);
+}
+
+.category a.art {
+  color: var(--art);
+}
+
+.category a.code {
+  color: var(--code);
+}
+
+.category a.games {
+  color: var(--games);
+}
+
+.category a.sounds {
+  color: var(--sounds);
+}
+
+.category a.resource {
+  color: var(--resource);
+}
+
+.category a.aesthetic {
+  color: var(--aesthetic);
+}
+
+.category a.typography {
+  color: var(--typography);
+}
+
+.category a.take-my-money {
+  color: var(--take-my-money);
+}
+
+.category a.amazing-people {
+  color: var(--amazing-people);
 }
 
 .read-more {
