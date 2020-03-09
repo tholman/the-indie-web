@@ -23,32 +23,32 @@ So how does this work? Lets break it down!
 
 Firstly, the script creates an [Audio Context](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), which the browser will use to create audio on the fly.
 
-```
+```js {linenos=inline,linenostart=10}
 const audioCtx = new AudioContext()
 ```
 
 Then, it makes a [Mutation Observer](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)!
 
-```
+```java {linenos=inline,linenostart=11}
 const observer = new MutationObserver(..
 ```
 
 The Mutation Observer will call its callback every time a mutation happens within its applied elements. In this script, you can see those elements defined in the final lines.
 
-```
+```js {linenos=inline,linenostart=25}
 observer.observe(document, {
   attributes: true,
   childList: true,
   subtree: true,
   characterData: true,
-}) 
+})
 ```
 
 Here, it applies to `document` (the whole webpage) and will trigger when any of `attributes`, `childList`, `subTree` & `characterData` properties change... which covers pretty much any change.
 
 The final block of code manages the creation of the audio.
 
-```
+```js {linenos=inline,linenostart=12}
 const oscillator = audioCtx.createOscillator()
 
 oscillator.connect(audioCtx.destination)
