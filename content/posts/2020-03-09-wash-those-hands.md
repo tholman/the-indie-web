@@ -1,6 +1,6 @@
 ---
 date: "2020-03-09T11:00:00Z"
-title: Wash those hands! Creatives types are showing up to each you good hygiene.
+title: Wash those hands! Creatives types are showing up to teach you good hygiene.
 category: resource
 more: "One more?"
 tags: [art, roundup]
