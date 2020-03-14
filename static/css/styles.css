@@ -41,15 +41,20 @@ code {
 
 pre {
   line-height: 22px;
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(0, 0, 0, 0.05) !important;
   border-radius: 3px;
   border: 1px solid #ddd;
   padding: 10px;
+  overflow-x: scroll;
 }
 
 pre code {
   background: none;
   border: none;
+}
+
+.highlight pre code {
+  padding: 0;
 }
 
 header {

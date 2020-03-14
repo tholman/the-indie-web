@@ -20,7 +20,7 @@ Here, we have [Sierpiński's Triangle](https://en.wikipedia.org/wiki/Sierpi%C5%8
 
 {{< twitter 1226924794077159425 >}}
 
-This is a great instance of a beautiful and beloved [staple](https://10print.org/) in the world of generative code: `10 PRINT CHR$(205.5+RND(1)); : GOTO 10` The randomization of two characters shows so much complexity and beauty!
+This is a great instance of a beautiful and beloved [staple](https://10print.org/) in the world of generative code: {{< highlight basic >}}10 PRINT CHR$(205.5+RND(1)); : GOTO 10{{< / highlight >}} The randomization of two characters shows so much complexity and beauty!
 
 {{< twitter 1228093563143180288 >}}
 

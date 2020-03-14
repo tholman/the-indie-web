@@ -22,3 +22,8 @@ outputs:
 outputFormats:
   rss:
     baseName: feed
+
+markup:
+  highlight:
+    style: monokailight
+    guessSyntax: true
