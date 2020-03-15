@@ -33,7 +33,7 @@ h2 {
 }
 
 code {
-  background: #eee;
+  background: #fafafa;
   padding: 3px 4px;
   border: 1px solid #ddd;
   border-radius: 2px;
@@ -41,7 +41,7 @@ code {
 
 pre {
   line-height: 22px;
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: #fafafa;
   border-radius: 3px;
   border: 1px solid #ddd;
   padding: 10px;
