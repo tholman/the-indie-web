@@ -40,10 +40,6 @@ Rev Dan Catt created a grid of vase patterns with beautiful blue ink. The overla
 
 {{< twitter 1226991889292972033 >}}
 
-Arjan van der Meij plotted a series of hands, counting up in 10 bits. Super nerdy, and super unique!
-
-{{< twitter 1226995121566158853 >}}
-
 Franz Jungreitmayr created a digital bee. Is it hand-drawn or is it done with a plotter?
 
 {{< twitter 1228968332885479425 >}}

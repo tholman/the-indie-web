@@ -8,11 +8,7 @@ tags: [vue, "open source"]
 
 At this point in our lives Pokémon is, and will always be, one of the best-selling and most popular games in existance... but everyone's attention fades with time. Still, a huge community of people continue to stick with the game and follow it through its many stages.
 
-For me, I fell off in the last few years... BUT!
-
-{{< twitter 1227158062290489344 >}}
-
-That doesn't make this amazing quiz, [Pokémon Master](https://weichiachang.github.io/pokemon-master/#/game), any less interesting and fun.
+For me, I fell off in the last few years... BUT, that doesn't make this amazing quiz, [Pokémon Master](https://weichiachang.github.io/pokemon-master/#/game), any less interesting and fun.
 
 The idea is simple. If you've ever played the beloved **"WHO'S THAT POKÉMON"** game, well then you know all the rules. See the Pokémon. Guess the Pokémon. There's added complexity in that, although the Pokémon isn't shaded as a silhouette, it could literally be any Pokémon ever --- not just the easy to guess ones.
 
