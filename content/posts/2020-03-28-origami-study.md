@@ -1,6 +1,6 @@
 ---
 date: "2020-03-28T11:00:00Z"
-title: Origami with JavaScript, an amazing study of color and folds.
+title: Origami with JavaScript. An amazing study of color and folds.
 category: art
 more: "More like this?"
 tags: [code, generative art, dat.gui]
