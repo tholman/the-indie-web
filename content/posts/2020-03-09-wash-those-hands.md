@@ -14,11 +14,7 @@ Over the past few weeks I've spotted a lot of very helpful and creative projects
 
 We've learned that washing your hands to the tune of Happy Birthday (some people say twice) is a great way to get the correct amount of time to have truly clean hands. *Wash Your Lyrics* allows you to provide a song, and with the tempo and lyrics to that song, it will give you the step by step guide to washing your hands with it!
 
-{{< twitter 1236765463339831296 >}}
-
 We've also got some stats on what songs people have been picking! I can't say there are too many surprises there!
-
-{{< tweet-nothread 1237179563609935875 >}}
 
 This next site has perhaps the most glorious domain name, and to match it, a fantastic application. [Do Not Touch Your Face](https://donottouchyourface.com/) is amazing.
 
