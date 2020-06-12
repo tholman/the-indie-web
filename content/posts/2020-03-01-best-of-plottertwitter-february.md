@@ -18,6 +18,8 @@ Joseph Wilk is doing some amazing work, hooking the axidraw up to an airbrush. W
 
 {{< twitter 1224711611165872131 >}}
 
+<!--more-->
+
 Michelle Chandra created some spirographic patterns that remind me of the Mystify screensaver on my old Windows PC. The white ink on black paper is stunning.
 
 {{< twitter 1224778336003428352 >}}
@@ -33,8 +35,6 @@ Sladix plotted [reaction diffusion](https://en.wikipedia.org/wiki/Reaction%E2%80
 Neil Jenkins plotted [archimedian spirals](http://mathworld.wolfram.com/ArchimedeanSpiral.html) with images behind them, creating intricate mesmerizing plots!
 
 {{< twitter 1226423559381143552 >}}
-
-<!--more-->
 
 Rev Dan Catt created a grid of vase patterns with beautiful blue ink. The overlapping patterns really make them pop off the page.
 

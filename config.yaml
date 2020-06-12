@@ -7,7 +7,7 @@ permalinks:
   tags: /tag/:slug
 
   # tags: /:tag
-paginate: 6
+paginate: 9
 paginatePath: ''
 
 taxonomies:
