@@ -264,15 +264,23 @@ blockquote:before {
     margin-top: 30px;
     font-size: 13px;
     align-items: flex-start;
+    flex-direction: row;
+  }
+
+  a.extra {
+    display: block;
+    margin-top: 0;
+    margin-left: 10px;
   }
 
   .content {
     width: 100%;
-    padding: 20px 30px 20px;
+    padding: 20px 20px 20px;
   }
 
   .meta-items {
     text-align: left;
+    display: flex;
   }
 
   article {
