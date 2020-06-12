@@ -8,16 +8,14 @@
     <meta charset="utf-8">
     <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
     <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000">
-    <meta name="description" content="A simple blog for inspiring and creative online (and occasionally offline) work.">
+    <meta name="description" content="A hotspot for hyping indie creations on the web.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{ range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-    <!-- OTHER -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
   </head>
 
@@ -35,9 +33,21 @@
         {{ range $index, $page := $paginator.Pages }}
 
         <article>
-          <div class="inner-wrapper">
-            <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
-            <div class="category"><a class="{{ anchorize .Params.Category }}" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
+            <div class="header">
+              <div class="meta">
+                <span class="date">{{ dateFormat "Jan 2 2006" .Params.Date }}</span>
+                <div class="meta-items">
+                  <a class="extra" href="{{ anchorize .Params.Category | absURL }}">#{{ .Params.Category }}</a>
+                  {{ range .Params.tags }}
+                    <a class="extra" href="/tag/{{ . | urlize }}">#{{ . }}</a>
+                  {{ end }}
+                </div>
+              </div>
+                <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
+              <div>
+            </div>
+            </div>
+            <div class="content">
             {{ if .Truncated }}
               {{ .Summary }}
             {{ else }}
@@ -53,10 +63,6 @@
               </a>
             {{ end }}
           </div>
-          {{ if .Truncated }}
-            <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ anchorize .Params.Category }}"></canvas>
-          {{ end }}
-          <div class="zigzag"></div>
         </article>
 
         {{ end }}
@@ -65,7 +71,7 @@
       <div class="pagination">
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           {{ if .Paginator.HasPrev }}
-            <a  href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}">prev</a>
+            <a  href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}">☜</a>
           {{ else }}
             <span></span>
           {{ end }}
@@ -73,7 +79,7 @@
 
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           {{ if .Paginator.HasNext }}
-            <a  href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">next</a>
+            <a  href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">☞</a>
           {{ end }}
         {{ end }}
       </div>

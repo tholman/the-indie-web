@@ -2,13 +2,15 @@
 date: "2020-03-09T11:00:00Z"
 title: Wash those hands! Creatives types are showing up to teach you good hygiene.
 category: resource
-more: "One more?"
+more: "Lets see em?"
 tags: [art, roundup]
 ---
 
 In the grips of the current COVID--19 climate, we're all understandably in the midst of looking at our current hygienic ways, and ideally improving it for the better of all of us!
 
 Over the past few weeks I've spotted a lot of very helpful and creative projects popping up within the personal hygiene realm, and I'd love to highlight them!
+
+<!--more-->
 
 [Wash Your Lyrics](https://washyourlyrics.com/) by [William Gibson](https://twitter.com/neoncloth) is one of my favorite examples.
 
@@ -23,8 +25,6 @@ Enable your webcam, go through a little configuration, and you'll have an amazin
 {{< twitter 1235318321630892035 >}}
 
 *Do Not Touch Your Face* uses [TensorFlow](https://www.tensorflow.org/js) to train an AI to recognize when you're touching your face. It always blows me away seeing how far and wide the world of JavaScript has spread and what we're able to do with it now.
-
-<!--more-->
 
 This last memory technique is very effective. Digital artist [CACHEFLOWE](https://twitter.com/cacheflowe) made this catchy tune, which has been stuck inside my head since the first time I heard it.
 

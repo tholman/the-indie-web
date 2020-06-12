@@ -13,29 +13,32 @@
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
   </head>
   <body>
 
     {{ partial "header.html" . }}
     <div class="wrapper">
-      <article>
-        <div class="inner-wrapper">
-          <h1>{{ .Title }}</h1>
-           <div class="category"><a class="{{ anchorize .Params.Category }}" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
-          {{ .Content }}
-        </div>
-        {{ if .Truncated }}
-          <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ anchorize .Params.Category }}"></canvas>
-        {{ end }}
-        <div class="zigzag slide-up"></div>
-        <div class="other-links">
-          - See an error? More to add? <a href="https://github.com/tholman/inspiring-online/blob/master/content/{{.File.Path}}" target="_blank">Edit & submit a PR.</a><br>
-          - Support me in the form of <a href="https://www.buymeacoffee.com/tholman" target="_blank">a coffee?</a> <!--or <a href="">Sponsor me on GitHub?</a>-->
-        </div>
-      </article>
+        <article>
+            <div class="header">
+              <div class="meta">
+                <span class="date">{{ dateFormat "Jan 2 2006" .Params.Date }}</span>
+                <div class="meta-items">
+                  <a class="extra" href="{{ anchorize .Params.Category | absURL }}">#{{ .Params.Category }}</a>
+                  {{ range .Params.tags }}
+                    <a class="extra" href="/tag/{{ . | urlize }}">#{{ . }}</a>
+                  {{ end }}
+                </div>
+              </div>
+                <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
+              <div>
+            </div>
+            </div>
+            <div class="content">
+              {{ .Content }}
+          </div>
+        </article>
     </div>
 
     <script src="/js/index.js" async></script>

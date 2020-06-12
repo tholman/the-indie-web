@@ -1,33 +1,21 @@
-/**
- *  Inspiring Online
- */
-
-:root {
-  --art: #fa0faf;
-  --code: #00abaf;
-  --games: #fa7500;
-  --sounds: #6102f1;
-  --resource: #aa150a;
-  --aesthetic: #fa709f;
-  --typography: #178fff;
-  --take-my-money: #119f55;
-  --amazing-people: #00ea5f;
-}
-
 * {
   box-sizing: border-box;
 }
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: source code pro;
+  /*font-family: "Montserrat", sans-serif;*/
   padding: 0px;
   margin: 0px;
 }
 
 h1,
-h2 {
-  font-family: "Playfair Display", serif;
+h2,
+header {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  /*font-family: "Playfair Display", serif;*/
   padding: 0px;
   margin: 0px;
 }
@@ -60,7 +48,6 @@ pre code {
 header {
   position: fixed;
   width: 100%;
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -70,16 +57,16 @@ header {
   top: 0;
   justify-content: space-between;
   z-index: 2;
+  background: blue;
 }
 
 header a {
-  color: #333;
-  font-weight: normal;
+  color: white;
+  font-weight: bolder;
   text-decoration: none;
+  letter-spacing: 0.5px;
   padding: 4px 8px;
-  border: 1px solid;
-  background: white;
-  opacity: 0.95;
+  text-transform: uppercase;
 }
 
 .links a {
@@ -87,12 +74,11 @@ header a {
   font-style: normal;
   vertical-align: top;
   padding: 4px 8px;
-  height: 35px;
   display: inline-block;
 }
 
 .wrapper {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .wrapper img {
@@ -108,7 +94,7 @@ article {
 }
 
 .inner-wrapper {
-  max-width: 440px;
+  max-width: 680px;
   margin: auto;
   padding: 45px 30px 40px;
 }
@@ -127,14 +113,78 @@ article {
   color: #888;
 }
 
+article .header {
+  background: #f9f9f9;
+  color: blue;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 article h1 {
-  font-size: 2.6rem;
-  line-height: 2.8rem;
-  text-indent: -15px;
-  padding-bottom: 20px;
-  width: calc(100% + 15px);
-  color: #444;
+  font-size: 3.3rem;
+  line-height: 3.4rem;
+  color: inherit;
   text-decoration: none;
+  max-width: 540px;
+  border-left: 8px solid;
+  padding-left: 30px;
+}
+
+.meta {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-transform: uppercase;
+  max-width: 235px;
+  width: 100%;
+}
+
+.date {
+  background: blue;
+  color: white;
+  font-weight: bolder;
+  padding: 11px 15px;
+}
+
+.meta-items {
+  text-align: right;
+}
+
+.content {
+  max-width: 780px;
+  margin: auto;
+  padding-left: 270px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+a.extra {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: blue;
+  font-weight: bolder;
+  padding: 8px 12px;
+  display: inline-block;
+  border: 3px solid;
+  text-decoration: none;
+}
+
+a.read-more:before {
+  font-family: auto;
+  content: "☞";
+}
+
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 article p {
@@ -177,150 +227,56 @@ blockquote:before {
   pointer-events: none;
 }
 
-.category {
-  text-transform: capitalize;
-  letter-spacing: 0.8px;
-  font-size: 14px;
-  font-style: italic;
-  color: #888;
-  font-weight: bolder;
-  margin: 7px 0px;
-}
-
-.category a {
-  color: inherit;
-  text-decoration: none;
-  text-shadow: -1px 0 5px rgba(255,255,255,0.5),
-                0 1px 5px rgba(255,255,255,0.5),
-                1px 0 5px rgba(255,255,255,0.5),
-                0 -1px 5px rgba(255,255,255,0.5);
-}
-
-.category a.art {
-  color: var(--art);
-}
-
-.category a.code {
-  color: var(--code);
-}
-
-.category a.games {
-  color: var(--games);
-}
-
-.category a.sounds {
-  color: var(--sounds);
-}
-
-.category a.resource {
-  color: var(--resource);
-}
-
-.category a.aesthetic {
-  color: var(--aesthetic);
-}
-
-.category a.typography {
-  color: var(--typography);
-}
-
-.category a.take-my-money {
-  color: var(--take-my-money);
-}
-
-.category a.amazing-people {
-  color: var(--amazing-people);
-}
-
-.read-more {
-  border: 1px solid;
-  padding: 8px 15px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
 .pagination {
   width: 100%;
-  max-width: 400px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   padding: 20px 15px;
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
 }
 
 .pagination a {
-  color: #333;
-  font-weight: normal;
+  display: inline-block;
   text-decoration: none;
-  padding: 4px 8px;
-  border: 1px solid;
-  background: white;
-  opacity: 0.95;
+  font-size: 40px;
+  padding: 10px;
+  color: blue;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-family: auto;
+  text-shadow: 0px 0px 1px;
 }
 
-.canvas-effect {
-  position: absolute;
-  left: 0;
-  top: 280px;
-  transform: translateY(-50%);
-  z-index: -1;
-  pointer-events: none;
-  width: 100%;
-}
+@media only screen and (max-width: 700px) {
+  article .header {
+    flex-direction: column-reverse;
+    padding: 30px 20px;
+  }
 
-canvas {
-  opacity: 0.5;
-}
+  article h1 {
+    border: none;
+    padding: 0;
+  }
 
-.zigzag {
-  position: relative;
-  height: 16px;
-  z-index: 1;
-  max-width: 400px;
-  width: 90%;
-  margin: auto;
-  display: block;
-}
+  .meta {
+    max-width: none;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 13px;
+    align-items: flex-start;
+  }
 
-.slide-up {
-  margin-top: -16px;
-}
+  .content {
+    width: 100%;
+    padding: 20px 30px 20px;
+  }
 
-.zigzag:before,
-.zigzag:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
+  .meta-items {
+    text-align: left;
+  }
 
-.zigzag:before {
-  height: 12px;
-  top: 110%;
-  background: linear-gradient(-135deg, #ddd 8px, transparent 0) 0 8px,
-    linear-gradient(135deg, #ddd 8px, transparent 0) 0 8px;
-  background-position: top left;
-  background-repeat: repeat-x;
-  background-size: 16px 16px;
-  margin-top: -16px;
-}
-
-.zigzag:after {
-  height: 16px;
-  top: 100%;
-  background: linear-gradient(-135deg, white 8px, transparent 0) 0 8px,
-    linear-gradient(135deg, white 8px, transparent 0) 0 8px;
-  background-position: top left;
-  background-repeat: repeat-x;
-  background-size: 16px 16px;
-  margin-top: -16px;
+  article {
+    border-bottom: 1px dashed blue;
+    padding-bottom: 10px;
+  }
 }

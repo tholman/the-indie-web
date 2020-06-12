@@ -8,6 +8,8 @@ tags: [code, generative art, dat.gui]
 
 If you've ever sat and tried to figure out the math behind geometric folds? It's an incredibly tricky process! With this [Origami Study](https://yuinchien.com/projects/origami/) [Yuin Chien](https://yuinchien.com/) has created a beautiful digital representation of the folds, and colors of origami.
 
+<!--more-->
+
 In her own words, the project is:
 
 > A series of visual study exploring origami compositions and colors, hoping to give forms to personal memories and poetic imagination.
@@ -18,7 +20,6 @@ Yuin has written a little about the [process on her blog](https://yuinchien.com/
 
 You'll also notice some nifty controls in the top right corner, allowing you to add extra folds, and play with the fillings! These are built with an amazingly versatile interface tool, called [Dat.Gui](http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage) which is always good to have in your back pocket for all your upcoming projects!
 
-<!--more-->
 
 If you've not checked out [Yuin Chien's Website](https://yuinchien.com) or [Store](https://store.yuinchien.com/) yet, all of her projects are really worth exploring, covering all a lot of really fun topics, from generative art to typography.
 
