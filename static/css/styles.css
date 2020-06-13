@@ -20,6 +20,23 @@ header {
   margin: 0px;
 }
 
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active, a:visited:active {
+  color: red;
+}
+
+.content a:visited:not(.read-more) {
+  color: purple;
+}
+
 code {
   background: #fafafa;
   padding: 3px 4px;
@@ -63,7 +80,6 @@ header {
 header a {
   color: white;
   font-weight: bolder;
-  text-decoration: none;
   letter-spacing: 0.5px;
   padding: 4px 8px;
   text-transform: uppercase;
@@ -74,11 +90,10 @@ header a {
   font-style: normal;
   vertical-align: top;
   padding: 4px 8px;
-  display: inline-block;
 }
 
 .wrapper {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .wrapper img {
@@ -87,10 +102,6 @@ header a {
 
 article {
   position: relative;
-}
-
-.title {
-  text-decoration: none;
 }
 
 .inner-wrapper {
@@ -115,7 +126,6 @@ article {
 
 article .header {
   background: #f9f9f9;
-  color: blue;
   padding: 60px;
   display: flex;
   justify-content: center;
@@ -125,11 +135,13 @@ article .header {
 article h1 {
   font-size: 3.3rem;
   line-height: 3.4rem;
-  color: inherit;
-  text-decoration: none;
   max-width: 540px;
   border-left: 8px solid;
   padding-left: 30px;
+}
+
+.title {
+  font-size: 3.3rem;
 }
 
 .meta {
@@ -165,12 +177,10 @@ article h1 {
 a.extra {
   margin-top: 10px;
   text-transform: uppercase;
-  color: blue;
   font-weight: bolder;
   padding: 8px 12px;
   display: inline-block;
   border: 3px solid;
-  text-decoration: none;
 }
 
 a.read-more:before {
@@ -180,9 +190,7 @@ a.read-more:before {
 
 .read-more {
   display: inline-block;
-  text-decoration: none;
   font-size: 20px;
-  color: blue;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -235,21 +243,29 @@ blockquote:before {
   padding: 20px 15px;
 }
 
-.pagination a {
+.prev, .next {
   display: inline-block;
-  text-decoration: none;
   font-size: 40px;
   padding: 10px;
-  color: blue;
   font-weight: bolder;
   margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.prev:before {
   font-family: auto;
-  text-shadow: 0px 0px 1px;
+  content: "☜";
+}
+
+.next:after {
+  font-family: auto;
+  content: "☞";
 }
 
 @media only screen and (max-width: 700px) {
   article .header {
     flex-direction: column-reverse;
+    align-items: flex-start;
     padding: 30px 20px;
   }
 
@@ -264,13 +280,22 @@ blockquote:before {
     margin-top: 30px;
     font-size: 13px;
     align-items: flex-start;
-    flex-direction: row;
+    flex-flow: row wrap;
+  }
+
+  .meta .date {
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
   a.extra {
     display: block;
     margin-top: 0;
-    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  a.extra:not(:last-child) {
+    margin-right: 10px;
   }
 
   .content {
@@ -281,10 +306,16 @@ blockquote:before {
   .meta-items {
     text-align: left;
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -10px;
   }
 
-  article {
+  article:not(:only-child) {
     border-bottom: 1px dashed blue;
     padding-bottom: 10px;
+  }
+
+  .pagination a {
+    font-size: 32px;
   }
 }
