@@ -122,6 +122,18 @@ article {
   border-radius: 0;
   border: 1px solid #ddd;
   color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  vertical-align: top;
+}
+
+.minimise span {
+  position: absolute;
+  bottom: 2px;
+  width: 8px;
+  left: 3px;
+  height: 2px;
+  background: black;
+  transform: translateY(-0.5px);
 }
 
 .content {
