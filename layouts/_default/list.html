@@ -38,7 +38,7 @@
               <article >
                 
                 <div class="header">
-                   {{ .Params.Category }}
+                   <a class="category" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
                     <div>
                       <button class="minimise"><span></span></button>
                       <!-- <button class="expand">expand</button> -->
@@ -48,7 +48,6 @@
 
                 <div class="meta">
                   <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
-                    <a class="item" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
                     {{ range .Params.tags }}
                       <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
                     {{ end }}
@@ -80,8 +79,8 @@
                 {{ range after 3 $paginator.Pages }}
             <article>
 
-              <div class="header">
-                 {{ .Params.Category }}
+            <div class="header">
+                 <a class="category" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
                   <div>
                     <button class="minimise"><span></span></button>
                     <!-- <button class="expand">expand</button> -->
@@ -91,7 +90,6 @@
 
               <div class="meta">
                 <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
-                  <a class="item" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
                   {{ range .Params.tags }}
                     <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
                   {{ end }}
