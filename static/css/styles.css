@@ -10,6 +10,56 @@ body {
   margin: 0px;
   -webkit-font-smoothing: none;
   image-rendering: pixelated;
+      background-image: linear-gradient(
+      0deg,
+      transparent 9%,
+      rgba(255, 255, 255, 0.2) 10%,
+      rgba(255, 255, 255, 0.2) 12%,
+      transparent 13%,
+      transparent 29%,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0) 31%,
+      transparent 32%,
+      transparent 49%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 51%,
+      transparent 52%,
+      transparent 69%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 71%,
+      transparent 72%,
+      transparent 89%,
+      rgba(255, 255, 255, 0) 90%,
+      rgba(255, 255, 255, 0) 91%,
+      transparent 92%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 9%,
+      rgba(255, 255, 255, 0.2) 10%,
+      rgba(255, 255, 255, 0.2) 12%,
+      transparent 13%,
+      transparent 29%,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0) 31%,
+      transparent 32%,
+      transparent 49%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 51%,
+      transparent 52%,
+      transparent 69%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 71%,
+      transparent 72%,
+      transparent 89%,
+      rgba(255, 255, 255, 0) 90%,
+      rgba(255, 255, 255, 0) 91%,
+      transparent 92%,
+      transparent
+    );
+  background-size: 45px 45px;
+  background-position: -3px 6px;
 }
 
 body:after {
@@ -24,6 +74,17 @@ body:after {
   pointer-events: none;
   transform: translateZ(0);
 }
+
+/*Maybe grid is better here*/
+/*body:before {
+  content: "";
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  transform: translateZ(0);
+}*/
 
 h1,
 h2,
