@@ -19,27 +19,32 @@
   <body>
 
     {{ partial "header.html" . }}
-    <div class="wrapper">
-        <article>
-            <div class="header">
-              <div class="meta">
-                <span class="date">{{ dateFormat "Jan 2 2006" .Params.Date }}</span>
-                <div class="meta-items">
-                  <a class="extra" href="{{ anchorize .Params.Category | absURL }}">#{{ .Params.Category }}</a>
-                  {{ range .Params.tags }}
-                    <a class="extra" href="/tag/{{ . | urlize }}">#{{ . }}</a>
-                  {{ end }}
-                </div>
-              </div>
-                <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
-              <div>
-            </div>
-            </div>
-            <div class="content">
-              {{ .Content }}
+    <div class="single-item">
+
+      <article>
+        <div class="header">
+           {{ .Params.Category }}
+            <div>
+              <!-- <button class="minimise">_</button> -->
+              <!-- <button class="expand">expand</button> -->
+              <button class="close">✕</button>
           </div>
-        </article>
+        </div>
+
+        <div class="meta">
+          <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
+            <a class="item" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
+            {{ range .Params.tags }}
+              <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        </div>
+
+      <div class="content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
     </div>
+  </article>
+
 
     <script src="/js/index.js" async></script>
     {{ partial "analytics.html" . }}

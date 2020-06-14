@@ -214,5 +214,12 @@ a.item {
   transform: translateX(calc(25% - 10px));
 }
 
+.single-item {
+  display: flex;
+  justify-content: center;
+  alignment-baseline: center;
+  padding: 20px;
+}
+
 @media only screen and (max-width: 700px) {
 }

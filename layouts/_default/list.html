@@ -24,62 +24,59 @@
 
       <div class="wrapper">
 
+        {{ $pages := .Pages }}
+          {{ if .IsHome }}
+            {{ $pages = .Site.RegularPages }}
+          {{ end }}
+          {{ $paginator := .Paginate $pages }}
+          
+          <div class="main-grid">
 
+            {{ range first 3 $paginator.Pages }}
 
-      {{ $pages := .Pages }}
-        {{ if .IsHome }}
-          {{ $pages = .Site.RegularPages }}
-        {{ end }}
-        {{ $paginator := .Paginate $pages }}
-        
-
-        <div class="main-grid">
-
-          {{ range first 3 $paginator.Pages }}
-          <div class="article-wrap">
-            
-            <article >
-            
-              <div class="header">
-                 {{ .Params.Category }}
-                  <div>
-                    <!-- <button class="minimise">_</button> -->
-                    <!-- <button class="expand">expand</button> -->
-                    <button class="close">✕</button>
+            <div class="article-wrap">
+              <article >
+                
+                <div class="header">
+                   {{ .Params.Category }}
+                    <div>
+                      <!-- <button class="minimise">_</button> -->
+                      <!-- <button class="expand">expand</button> -->
+                      <button class="close">✕</button>
+                  </div>
                 </div>
-              </div>
 
-              <div class="meta">
-                <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
-                  <a class="item" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
-                  {{ range .Params.tags }}
-                    <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
+                <div class="meta">
+                  <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
+                    <a class="item" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
+                    {{ range .Params.tags }}
+                      <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </div>
+
+                <div class="content">
+                  <h1>{{ .Title }}</h1>
+                  {{ if .Truncated }}
+                    {{ .Summary }}
+                  {{ else }}
+                    {{ .Content }}
                   {{ end }}
-              </div>
-
-            <div class="content">
-              <h1>{{ .Title }}</h1>
-            {{ if .Truncated }}
-              {{ .Summary }}
-            {{ else }}
-              {{ .Content }}
-            {{ end }}
-            {{ if .Truncated }}
-              <a href="{{ .RelPermalink }}" class="read-more">
-                {{ if .Params.More }}
-                  {{ .Params.More }}
-                {{ else }}
-                  Read More
-                {{ end }}
-              </a>
-            {{ end }}
+                  {{ if .Truncated }}
+                    <a href="{{ .RelPermalink }}" class="read-more">
+                      {{ if .Params.More }}
+                        {{ .Params.More }}
+                      {{ else }}
+                        Read More
+                      {{ end }}
+                    </a>
+                  {{ end }}
+                </div>
+            </article>
           </div>
-        </article>
+        {{ end }}
       </div>
-{{ end }}
-</div>
 
-<div class="secondary-set">
+      <div class="secondary-set">
                 {{ range after 3 $paginator.Pages }}
             <article>
 
