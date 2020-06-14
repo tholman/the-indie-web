@@ -54,12 +54,35 @@ blockquote {
 }
 
 header {
-  display: none;
+  position: sticky;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  top: 0;
+  z-index: 2;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+}
+
+.icon img {
+  max-width: 50px;
+  padding-bottom: 6px;
 }
 
 .main-grid {
   display: flex;
-  padding: 50px;
+  padding: 10px 30px;
   justify-content: center;
 }
 
