@@ -8,13 +8,13 @@ tags: [code, generative art, dat.gui]
 
 If you've ever sat and tried to figure out the math behind geometric folds? It's an incredibly tricky process! With this [Origami Study](https://yuinchien.com/projects/origami/) [Yuin Chien](https://yuinchien.com/) has created a beautiful digital representation of the folds, and colors of origami.
 
-<!--more-->
-
 In her own words, the project is:
 
 > A series of visual study exploring origami compositions and colors, hoping to give forms to personal memories and poetic imagination.
 
 {{< tweet-nothread 1220036189396201474 >}}
+
+<!--more-->
 
 Yuin has written a little about the [process on her blog](https://yuinchien.com/origami-study/) and also shown off some stunning renderings, showing off how quickly the complexity of the folded shapes grows as you fold more and more.
 

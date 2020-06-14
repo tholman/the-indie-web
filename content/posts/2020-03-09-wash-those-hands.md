@@ -10,11 +10,11 @@ In the grips of the current COVID--19 climate, we're all understandably in the m
 
 Over the past few weeks I've spotted a lot of very helpful and creative projects popping up within the personal hygiene realm, and I'd love to highlight them!
 
-<!--more-->
-
 [Wash Your Lyrics](https://washyourlyrics.com/) by [William Gibson](https://twitter.com/neoncloth) is one of my favorite examples.
 
 We've learned that washing your hands to the tune of Happy Birthday (some people say twice) is a great way to get the correct amount of time to have truly clean hands. *Wash Your Lyrics* allows you to provide a song, and with the tempo and lyrics to that song, it will give you the step by step guide to washing your hands with it!
+
+<!--more-->
 
 We've also got some stats on what songs people have been picking! I can't say there are too many surprises there!
 

@@ -4,18 +4,18 @@
 
 html,
 body {
-  font-family: source code pro;
-  /*font-family: "Montserrat", sans-serif;*/
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(90deg, #54b2f0, hotpink);
   padding: 0px;
   margin: 0px;
+  -webkit-font-smoothing: none;
+  image-rendering: pixelated;
 }
 
 h1,
 h2,
 header {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  /*font-family: "Playfair Display", serif;*/
   padding: 0px;
   margin: 0px;
 }
@@ -41,250 +41,151 @@ pre code {
   border: none;
 }
 
+blockquote {
+  border-left: 2px dotted blue;
+  margin-left: 10px;
+  padding-left: 18px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
 .highlight pre code {
   padding: 0;
 }
 
 header {
-  position: fixed;
-  width: 100%;
-  font-weight: bold;
+  display: none;
+}
+
+.main-grid {
   display: flex;
-  align-items: center;
-  padding: 15px 10px;
-  font-size: 18px;
-  letter-spacing: 0px;
-  top: 0;
-  justify-content: space-between;
-  z-index: 2;
-  background: blue;
+  padding: 50px;
+  justify-content: center;
 }
 
-header a {
-  color: white;
-  font-weight: bolder;
-  text-decoration: none;
-  letter-spacing: 0.5px;
-  padding: 4px 8px;
-  text-transform: uppercase;
-}
-
-.links a {
-  font-weight: bold;
-  font-style: normal;
-  vertical-align: top;
-  padding: 4px 8px;
-  display: inline-block;
-}
-
-.wrapper {
-  margin-top: 60px;
-}
-
-.wrapper img {
-  max-width: 100%;
+.main-grid article {
+  max-width: 360px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 article {
+  background: #bfbfbf;
+  border-color: #dfdfdf grey grey #dfdfdf;
+  border-style: solid;
+  border-width: 1px;
   position: relative;
 }
 
-.title {
-  text-decoration: none;
-}
-
-.inner-wrapper {
-  max-width: 680px;
-  margin: auto;
-  padding: 45px 30px 40px;
-}
-
-.other-links {
-  padding: 20px 30px 30px;
-  max-width: 440px;
-  margin: auto;
-  color: #666;
+.header {
+  background: linear-gradient(90deg, hotpink, #54b2f0);
+  color: white;
+  padding: 3px 3px 3px 7px;
   font-size: 12px;
-  font-style: italic;
-  line-height: 1.25rem;
-}
-
-.other-links a {
-  color: #888;
-}
-
-article .header {
-  background: #f9f9f9;
-  color: blue;
-  padding: 60px;
+  border-bottom: 1px solid grey;
+  font-weight: bold;
+  letter-spacing: 0.4px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-article h1 {
-  font-size: 3.3rem;
-  line-height: 3.4rem;
-  color: inherit;
-  text-decoration: none;
-  max-width: 540px;
-  border-left: 8px solid;
-  padding-left: 30px;
-}
-
-.meta {
-  padding-right: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  text-transform: uppercase;
-  max-width: 235px;
-  width: 100%;
-}
-
-.date {
-  background: blue;
-  color: white;
-  font-weight: bolder;
-  padding: 11px 15px;
-}
-
-.meta-items {
-  text-align: right;
+.header button {
+  padding: 0;
+  font-size: 11px;
+  font-weight: bold;
+  width: 16px;
+  height: 16px;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .content {
-  max-width: 780px;
-  margin: auto;
-  padding-left: 270px;
-  padding-right: 20px;
-  padding-bottom: 60px;
-  padding-top: 30px;
-}
-
-a.extra {
-  margin-top: 10px;
-  text-transform: uppercase;
-  color: blue;
-  font-weight: bolder;
-  padding: 8px 12px;
-  display: inline-block;
-  border: 3px solid;
-  text-decoration: none;
-}
-
-a.read-more:before {
-  font-family: auto;
-  content: "☞";
-}
-
-.read-more {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 20px;
-  color: blue;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-article p {
-  line-height: 1.5rem;
-}
-
-article ol {
-  padding-left: 20px;
-}
-
-article ol li {
-  padding-left: 5px;
-}
-
-blockquote {
-  margin-left: 0;
-  margin-right: 0;
-  padding: 5px 20px;
-  margin-top: 1.3rem;
-  margin-bottom: 1.3rem;
-  font-style: italic;
-  border: 2px dashed #888;
-  opacity: 0.8;
-  position: relative;
-}
-
-blockquote:before {
-  content: "”";
-  position: absolute;
-  font-size: 210px;
-  width: 170px;
-  height: 100px;
-  line-height: 180px;
-  vertical-align: top;
-  font-family: "Playfair Display", serif;
-  top: 50%;
-  right: 0;
-  transform: translate(-50%, -50%);
-  opacity: 0.1;
-  pointer-events: none;
-}
-
-.pagination {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 15px;
-}
-
-.pagination a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 40px;
+  background: white;
   padding: 10px;
-  color: blue;
-  font-weight: bolder;
-  margin-top: 20px;
-  font-family: auto;
-  text-shadow: 0px 0px 1px;
+  border-top: 1px solid #e2e2e2;
+  font-family: monospace;
+  line-height: 18px;
+  font-size: 15px;
+}
+
+.content h1 {
+  line-height: 19px;
+  font-size: 18px;
+}
+
+.article-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.content:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+  background-image: radial-gradient(black 10%, transparent 0),
+    radial-gradient(black 10%, transparent 0);
+  background-position: 0 0, 3px 2px;
+  background-size: 6px 6px;
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content img {
+  width: 100%;
+}
+
+article {
+  max-width: 450px;
+}
+
+.meta {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 2px;
+  text-transform: lowercase;
+  display: flex;
+  background: #eee;
+  color: #333;
+}
+
+.item {
+  border-right: 1px solid #ddd;
+  padding: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.item {
+  color: #555;
+}
+
+.item:last-child {
+  border-right: 0;
+}
+
+.secondary-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondary-set article {
+  margin-top: -10px;
+}
+
+.secondary-set article:nth-child(odd) {
+  transform: translateX(calc(-25% + 10px));
+}
+
+.secondary-set article:nth-child(even) {
+  transform: translateX(calc(25% - 10px));
 }
 
 @media only screen and (max-width: 700px) {
-  article .header {
-    flex-direction: column-reverse;
-    padding: 30px 20px;
-  }
-
-  article h1 {
-    border: none;
-    padding: 0;
-  }
-
-  .meta {
-    max-width: none;
-    padding: 0;
-    margin-top: 30px;
-    font-size: 13px;
-    align-items: flex-start;
-    flex-direction: row;
-  }
-
-  a.extra {
-    display: block;
-    margin-top: 0;
-    margin-left: 10px;
-  }
-
-  .content {
-    width: 100%;
-    padding: 20px 20px 20px;
-  }
-
-  .meta-items {
-    text-align: left;
-    display: flex;
-  }
-
-  article {
-    border-bottom: 1px dashed blue;
-    padding-bottom: 10px;
-  }
 }

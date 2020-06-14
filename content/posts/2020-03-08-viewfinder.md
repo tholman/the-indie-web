@@ -10,9 +10,9 @@ Game developer and student [Matt Stark](https://matt.stark.scot) has come up wit
 
 At its core, the idea is that each picture you take with your camera contains a world within it. You can then place the photograph within your view... and step right into that world!
 
-<!--more-->
-
 {{< tweet 1193850868757618689 >}}
+
+<!--more-->
 
 Mark tweeted a brief summary of what's going down behind the scenes in his own words:
 
