@@ -215,7 +215,7 @@ a.item {
 }
 
 .secondary-set article {
-  margin-top: -10px;
+  margin-top: 20px;
 }
 
 .secondary-set article:nth-child(odd) {
