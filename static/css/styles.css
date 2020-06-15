@@ -227,6 +227,14 @@ article {
   transform: translateY(-0.5px);
 }
 
+.buttons {
+  display: flex;
+}
+
+.buttons > * {
+  margin-left: 3px;
+}
+
 .expand span {
   position: absolute;
   top: 2px;
