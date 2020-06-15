@@ -345,6 +345,38 @@ a.item {
   padding: 20px;
 }
 
+.pagination {
+  padding: 60px;
+  font-size: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 4px 12px;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px black;
+  font-family: var(--fontFamilyMonospace);
+  letter-spacing: 1px;
+  animation: openShut 1000ms linear infinite alternate;
+  height: 38px;
+  vertical-align: top;
+}
+
+@keyframes openShut {
+  from {
+    letter-spacing: 1px;
+    font-size: 22px;
+  }
+  to {
+    letter-spacing: 4px;
+    font-size: 23px;
+  }
+}
+
 @media only screen and (max-width: 700px) {
 }
 

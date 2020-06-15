@@ -120,7 +120,7 @@
       <div class="pagination">
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           {{ if .Paginator.HasPrev }}
-            <a  href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}">☜</a>
+            <a  href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}"><<< back</a>
           {{ else }}
             <span></span>
           {{ end }}
@@ -128,7 +128,7 @@
 
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           {{ if .Paginator.HasNext }}
-            <a  href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">☞</a>
+            <a  href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">more >>></a>
           {{ end }}
         {{ end }}
       </div>
