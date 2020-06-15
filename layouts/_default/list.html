@@ -48,7 +48,7 @@
                 <div class="meta">
                   <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
                     {{ range .Params.tags }}
-                      <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
+                      <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
                     {{ end }}
                 </div>
 
@@ -90,7 +90,7 @@
               <div class="meta">
                 <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
                   {{ range .Params.tags }}
-                    <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
+                    <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
                   {{ end }}
               </div>
 

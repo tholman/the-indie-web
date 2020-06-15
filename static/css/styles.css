@@ -334,5 +334,9 @@ a.item {
     :root {
       --fontFamilyMonospace: "Courier New";
     }
+
+    .content h1 {
+      -webkit-font-smoothing: antialiased;
+    }
   }
 }
