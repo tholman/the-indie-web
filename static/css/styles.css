@@ -1,3 +1,7 @@
+:root {
+  --fontFamilyMonospace: "Courier";
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +14,7 @@ body {
   margin: 0px;
   -webkit-font-smoothing: none;
   image-rendering: pixelated;
-      background-image: linear-gradient(
+  background-image: linear-gradient(
       0deg,
       transparent 9%,
       rgba(255, 255, 255, 0.2) 10%,
@@ -75,6 +79,11 @@ body:after {
   transform: translateZ(0);
 }
 
+twitter-widget,
+iframe {
+  -webkit-font-smoothing: auto;
+}
+
 /*Maybe grid is better here*/
 /*body:before {
   content: "";
@@ -137,7 +146,7 @@ header {
 }
 
 .category {
-  font-family: monospace;
+  font-family: var(--fontFamilyMonospace);
   text-decoration: none;
   color: white;
   font-weight: bolder;
@@ -222,12 +231,13 @@ article {
   background: white;
   padding: 10px;
   border-top: 1px solid #e2e2e2;
-  font-family: monospace;
+  font-family: var(--fontFamilyMonospace);
   line-height: 18px;
   font-size: 15px;
 }
 
 .content h1 {
+  letter-spacing: 0.6px;
   line-height: 19px;
   font-size: 18px;
 }
@@ -317,4 +327,12 @@ a.item {
 }
 
 @media only screen and (max-width: 700px) {
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    :root {
+      --fontFamilyMonospace: "Courier New";
+    }
+  }
 }
