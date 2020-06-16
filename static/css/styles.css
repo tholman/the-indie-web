@@ -104,9 +104,8 @@ header {
 
 code {
   background: #fafafa;
-  padding: 3px 4px;
+  padding: 0px 4px;
   border: 1px solid #ddd;
-  border-radius: 2px;
 }
 
 pre {
