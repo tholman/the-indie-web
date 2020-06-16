@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="content">
-                  <h1>{{ .Title }}</h1>
+                  <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
                   {{ if .Truncated }}
                     {{ .Summary }}
                   {{ else }}
@@ -95,7 +95,8 @@
               </div>
 
             <div class="content">
-              <h1>{{ .Title }}</h1>
+              <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
+
             {{ if .Truncated }}
               {{ .Summary }}
             {{ else }}
@@ -112,6 +113,7 @@
             {{ end }}
           </div>
         </article>
+
 {{ end }}
 </div>
 
