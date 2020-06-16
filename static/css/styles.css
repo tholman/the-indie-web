@@ -164,10 +164,13 @@ header {
   font-size: 15px;
   text-shadow: 1px 1px 0px black;
   color: white;
+    max-width: 80px;
+    text-align: center;
 }
 
 .icon img {
-  max-width: 50px;
+  height: 44px;
+  width: auto;
   padding-bottom: 6px;
 }
 
@@ -202,6 +205,15 @@ article {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: baseline;
+}
+
+.links .icon {
+  margin-left: 20px;
 }
 
 .header button {
@@ -437,7 +449,7 @@ a.item {
 
 }
 
-/* Weird safari hacks 
+/* Weird safari hacks */
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) and (stroke-color: transparent) {
     :root {
