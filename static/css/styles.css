@@ -216,6 +216,11 @@ article {
   margin-left: 25px;
 }
 
+.plain a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .header button {
   padding: 0;
   font-size: 11px;
@@ -265,6 +270,7 @@ article {
   line-height: 18px;
   font-size: 15px;
   letter-spacing: 0.4px;
+  position: relative;
 }
 
 .content h1 {
@@ -273,12 +279,29 @@ article {
   font-size: 18px;
 }
 
+.cover-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cover-link:hover ~ a {
+  /* TODO: Maybe some hover effect */
+}
+
+/*TODO: Cool wavy effect*/
+a.read-more {
+  font-weight: bold;
+}
+
 .article-wrap {
   position: relative;
   z-index: 1;
 }
 
-.content:after {
+article:after {
   content: "";
   position: absolute;
   width: 100%;

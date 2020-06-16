@@ -34,44 +34,36 @@
             {{ range first 3 $paginator.Pages }}
 
             <div class="article-wrap">
-              <article >
-                
+              <article class="simple">
                 <div class="header">
-                   <a class="category" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
-                    <div class="buttons">
-                      <button class="minimise"><span></span></button>
-                      <button class="expand"><span></span></button>
-                      <button class="close">✕</button>
+                  <a class="category" href="{{ anchorize .Params.Category | absURL }}">
+                    {{ .Params.Category }}
+                    </a>
+                  <div class="buttons">
+                    <button class="minimise"><span></span></button>
+                    <button class="expand"><span></span></button>
+                    <button class="close">✕</button>
                   </div>
                 </div>
 
                 <div class="meta">
                   <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
-                    {{ range .Params.tags }}
-                      <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
-                    {{ end }}
+                  {{ range .Params.tags }}
+                  <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
+                  {{ end }}
                 </div>
 
-                <div class="content">
-                  <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
-                  {{ if .Truncated }}
-                    {{ .Summary }}
-                  {{ else }}
-                    {{ .Content }}
-                  {{ end }}
-                  {{ if .Truncated }}
-                    <a href="{{ .RelPermalink }}" class="read-more">
-                      {{ if .Params.More }}
-                        {{ .Params.More }}
-                      {{ else }}
-                        Read More
-                      {{ end }}
-                    </a>
-                  {{ end }}
+                <div class="content plain">
+                  <a href="{{ .RelPermalink }}" class="cover-link"></a>
+                  <a href="{{ .RelPermalink }}"><h1>{{ .Title }}</h1></a>
+                  {{ .Summary }}
+                  <a href="{{ .RelPermalink }}" class="read-more">
+                    {{ if .Params.More }} {{ .Params.More }} {{ else }} Read More {{ end }}
+                  </a>
                 </div>
-            </article>
-          </div>
-        {{ end }}
+              </article>
+            </div>
+          {{ end }}
       </div>
 
       <div class="secondary-set">
