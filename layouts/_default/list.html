@@ -1,130 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
   <head>
     <title>{{ $.Site.Title }}</title>
 
     <!-- META -->
-    <meta charset="utf-8">
-    <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
-    <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000">
-    <meta name="description" content="A hotspot for hyping indie creations on the web.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ $.Site.Title }}"
+    />
+    <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000" />
+    <meta
+      name="description"
+      content="A hotspot for hyping indie creations on the web."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {{ range .AlternativeOutputFormats -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    {{ range .AlternativeOutputFormats -}} {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}}
 
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet" />
   </head>
 
   <body>
     {{ partial "header.html" . }}
 
-      <div class="wrapper">
+    <div class="wrapper">
+      {{ $pages := .Pages }} {{ if .IsHome }} {{ $pages = .Site.RegularPages }}
+      {{ end }} {{ $paginator := .Paginate $pages }}
 
-        {{ $pages := .Pages }}
-          {{ if .IsHome }}
-            {{ $pages = .Site.RegularPages }}
-          {{ end }}
-          {{ $paginator := .Paginate $pages }}
-          
-          <div class="main-grid">
+      <div class="main-grid">
+        {{ range first 3 $paginator.Pages }}
 
-            {{ range first 3 $paginator.Pages }}
-
-            <div class="article-wrap">
-              <article class="simple">
-                <div class="header">
-                  <a class="category" href="{{ anchorize .Params.Category | absURL }}">
-                    {{ .Params.Category }}
-                    </a>
-                  <div class="buttons">
-                    <button class="minimise"><span></span></button>
-                    <button class="expand"><span></span></button>
-                    <button class="close">✕</button>
-                  </div>
-                </div>
-
-                <div class="meta">
-                  <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
-                  {{ range .Params.tags }}
-                  <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
-                  {{ end }}
-                </div>
-
-                <div class="content plain">
-                  <a href="{{ .RelPermalink }}" class="cover-link"></a>
-                  <a href="{{ .RelPermalink }}"><h1>{{ .Title }}</h1></a>
-                  {{ .Summary }}
-                  <a href="{{ .RelPermalink }}" class="read-more">
-                    {{ if .Params.More }} {{ .Params.More }} {{ else }} Read More {{ end }}
-                  </a>
-                </div>
-              </article>
+        <div class="article-wrap">
+          <article class="simple">
+            <div class="header">
+              <a
+                class="category"
+                href="{{ anchorize .Params.Category | absURL }}"
+              >
+                {{ .Params.Category }}
+              </a>
+              <div class="buttons">
+                <button class="minimise"><span></span></button>
+                <button class="expand"><span></span></button>
+                <button class="close">✕</button>
+              </div>
             </div>
-          {{ end }}
+
+            <div class="meta">
+              <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
+              {{ range .Params.tags }}
+              <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
+              {{ end }}
+            </div>
+
+            <div class="content plain">
+              <a href="{{ .RelPermalink }}" class="cover-link"></a>
+              <a href="{{ .RelPermalink }}"><h1>{{ .Title }}</h1></a>
+              {{ .Summary }}
+              <a href="{{ .RelPermalink }}" class="read-more">
+                {{ if .Params.More }} {{ .Params.More }} {{ else }} Read More {{ end }}
+              </a>
+            </div>
+          </article>
+        </div>
+        {{ end }}
       </div>
 
       <div class="secondary-set">
-                {{ range after 3 $paginator.Pages }}
-            <article>
+        {{ range after 3 $paginator.Pages }}
+        <article class="simple">
+          <div class="header">
+            <a
+              class="category"
+              href="{{ anchorize .Params.Category | absURL }}"
+            >
+              {{ .Params.Category }}
+            </a>
+            <div class="buttons">
+              <button class="minimise"><span></span></button>
+              <button class="expand"><span></span></button>
+              <button class="close">✕</button>
+            </div>
+          </div>
 
-            <div class="header">
-                 <a class="category" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
-                  <div class="buttons">
-                    <button class="minimise"><span></span></button>
-                    <button class="expand"><span></span></button>
-                    <button class="close">✕</button>
-                </div>
-              </div>
-
-              <div class="meta">
-                <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
-                  {{ range .Params.tags }}
-                    <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
-                  {{ end }}
-              </div>
-
-            <div class="content">
-              <a href="{{ .RelPermalink }}" class="title"><h1>{{ .Title }}</h1></a>
-
-            {{ if .Truncated }}
-              {{ .Summary }}
-            {{ else }}
-              {{ .Content }}
+          <div class="meta">
+            <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
+            {{ range .Params.tags }}
+            <a class="item" href="/tag/{{ . | urlize }}">{{ . | urlize }}</a>
             {{ end }}
-            {{ if .Truncated }}
-              <a href="{{ .RelPermalink }}" class="read-more">
-                {{ if .Params.More }}
-                  {{ .Params.More }}
-                {{ else }}
-                  Read More
-                {{ end }}
-              </a>
-            {{ end }}
+          </div>
+
+          <div class="content plain">
+            <a href="{{ .RelPermalink }}" class="cover-link"></a>
+            <a href="{{ .RelPermalink }}"><h1>{{ .Title }}</h1></a>
+            {{ .Summary }}
+            <a href="{{ .RelPermalink }}" class="read-more">
+              {{ if .Params.More }} {{ .Params.More }} {{ else }} Read More {{ end }}
+            </a>
           </div>
         </article>
 
-{{ end }}
-</div>
-
-
+        {{ end }}
+      </div>
 
       <div class="pagination">
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-          {{ if .Paginator.HasPrev }}
-            <a  href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}"><<< back</a>
-          {{ else }}
-            <span></span>
-          {{ end }}
-        {{ end }}
-
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-          {{ if .Paginator.HasNext }}
-            <a  href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">more >>></a>
-          {{ end }}
-        {{ end }}
+        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }} {{ if .Paginator.HasPrev }}
+        <a
+          href="{{.Paginator.Prev.URL}}"
+          title="{{ .Site.Data.l10n.pagination.newer }}"
+          ><<< back</a
+        >
+        {{ else }}
+        <span></span>
+        {{ end }} {{ end }} {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }} {{ if .Paginator.HasNext }}
+        <a
+          href="{{.Paginator.Next.URL}}"
+          title="{{ .Site.Data.l10n.pagination.older }}"
+          >more >>></a
+        >
+        {{ end }} {{ end }}
       </div>
     </div>
 
