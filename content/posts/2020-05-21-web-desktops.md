@@ -1,6 +1,6 @@
 ---
 date: "2020-05-21T11:00:00Z"
-title: The web desktops are a true nostalgia bomb.
+title: These web desktops are a true nostalgia bomb.
 category: resource
 more: "My favorites are..."
 tags: [nostalgia]
@@ -8,7 +8,7 @@ tags: [nostalgia]
 
 ![A blast from the past](<https://tiw.accelerator.net/computers.png;resize(450,400,fit)/quantize(20)/quality(20).png>)
 
-[Simone's Computer](https://simone.computer/#/webdesktops) is a huge wonderfully well-curated collection of web-based desktop experiences for your delighted and complete nostalgia.
+[Simone's Wen Desktops](https://simone.computer/#/webdesktops) is a huge wonderfully well-curated collection of web-based desktop experiences for your delighted and complete nostalgia.
 
 <!--more-->
 
@@ -24,4 +24,4 @@ And I couldn't end the article without mentioning [The Restart Page](http://www.
 
 The site creator, [Simone Marzulli](https://simone.computer/#/) (who also has a wonderful web desktop inspired homepage!) has open-sourced the collections [code on GitHub](https://github.com/syxanash/awesome-web-desktops), allowing you to contribute your own creations or any others you may come across!
 
-➶ [Simone's Computer](https://simone.computer/#/webdesktops)
+➶ [Simone's Web Desktops](https://simone.computer/#/webdesktops)
