@@ -163,8 +163,8 @@ header {
   font-size: 15px;
   text-shadow: 1px 1px 0px black;
   color: white;
-    max-width: 80px;
-    text-align: center;
+  max-width: 80px;
+  text-align: center;
 }
 
 .icon img {
@@ -207,8 +207,8 @@ article {
 }
 
 .links {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 
 .links .icon {
@@ -276,6 +276,7 @@ article {
   letter-spacing: 0.6px;
   line-height: 19px;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .cover-link {
@@ -293,6 +294,8 @@ article {
 /*TODO: Cool wavy effect*/
 a.read-more {
   font-weight: bold;
+  display: block;
+  margin-top: 10px;
 }
 
 .article-wrap {
@@ -433,7 +436,7 @@ a.item {
     margin-top: 25px;
   }
 
-  .main-grid .article-wrap:nth-child(even), {
+  .main-grid .article-wrap:nth-child(even) {
     transform: translateX(calc(-25% + 10px));
   }
 
@@ -444,7 +447,6 @@ a.item {
 
 /*TODO: Clean up*/
 @media only screen and (max-width: 720px) {
-
   .wrapper {
     padding: 20px;
   }
@@ -463,12 +465,12 @@ a.item {
     width: 100%;
   }
 
-  .wrapper .main-grid article, .wrapper .secondary-set article {
+  .wrapper .main-grid article,
+  .wrapper .secondary-set article {
     max-width: 100%;
-    margin-left: 0; 
+    margin-left: 0;
     margin-right: 0;
   }
-
 }
 
 /* Weird safari hacks */
