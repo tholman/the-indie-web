@@ -8,7 +8,7 @@ tags: [nostalgia]
 
 ![A blast from the past](<https://tiw.accelerator.net/computers.png;resize(450,400,fit)/quantize(20)/quality(20).png>)
 
-[Simone's Wen Desktops](https://simone.computer/#/webdesktops) is a huge wonderfully well-curated collection of web-based desktop experiences for your delighted and complete nostalgia.
+[Simone's Web Desktops](https://simone.computer/#/webdesktops) is a huge wonderfully well-curated collection of web-based desktop experiences for your delighted and complete nostalgia.
 
 <!--more-->
 
