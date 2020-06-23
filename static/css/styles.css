@@ -228,9 +228,16 @@ article {
   height: 16px;
   border-radius: 0;
   border: 1px solid #ddd;
+  background: #f9f9f9;
   color: rgba(0, 0, 0, 0.9);
   position: relative;
   vertical-align: top;
+  cursor: pointer;
+  outline: 0;
+}
+
+.header button:hover {
+  background: #eee;
 }
 
 .minimise span {
@@ -241,6 +248,30 @@ article {
   height: 2px;
   background: black;
   transform: translateY(-0.5px);
+}
+
+.close span {
+  display: block;
+  transform: scale(0.8);
+}
+
+.close span:before,
+.close span:after {
+  transform: rotate(-45deg);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  height: 2px;
+  width: 14px;
+  margin-left: -7px;
+  background-color: black;
+  margin-top: -1px;
+}
+
+.close span:after {
+  transform: rotate(-135deg);
 }
 
 .buttons {
@@ -330,6 +361,11 @@ article:after {
 
 article {
   max-width: 450px;
+}
+
+article.closed {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .meta {
