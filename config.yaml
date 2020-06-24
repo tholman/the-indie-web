@@ -1,13 +1,12 @@
-baseURL: https://inspiring.online
+baseURL: https://theindieweb.com
 languageCode: en-us
-title: Inspiring Online
+title: The Indie Web
 permalinks:
   posts: /:slug
   category: /:slug
   tags: /tag/:slug
 
-  # tags: /:tag
-paginate: 6
+paginate: 10
 paginatePath: ''
 
 taxonomies:
@@ -17,7 +16,6 @@ taxonomies:
 outputs:
   page:
     - HTML
-    - AMP
 
 outputFormats:
   rss:

@@ -14,11 +14,12 @@ In her own words, the project is:
 
 {{< tweet-nothread 1220036189396201474 >}}
 
+<!--more-->
+
 Yuin has written a little about the [process on her blog](https://yuinchien.com/origami-study/) and also shown off some stunning renderings, showing off how quickly the complexity of the folded shapes grows as you fold more and more.
 
 You'll also notice some nifty controls in the top right corner, allowing you to add extra folds, and play with the fillings! These are built with an amazingly versatile interface tool, called [Dat.Gui](http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage) which is always good to have in your back pocket for all your upcoming projects!
 
-<!--more-->
 
 If you've not checked out [Yuin Chien's Website](https://yuinchien.com) or [Store](https://store.yuinchien.com/) yet, all of her projects are really worth exploring, covering all a lot of really fun topics, from generative art to typography.
 

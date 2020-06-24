@@ -10,6 +10,8 @@ Another week of quarantine, and I have to say, I am missing the weird oddities o
 
 That said, [Kids Creative Agency](https://www.thekids.eu/en/) has risen to the occasion, with this super simple, yet elegant site, aptly named [I miss the office ](https://imisstheoffice.eu/).
 
+<!--more-->
+
 {{< twitter 1247819762295595008 >}}
 
 Honestly, their own words describe it best.
@@ -17,8 +19,6 @@ Honestly, their own words describe it best.
 > Providing you with the soothing tones of modern office life to help you focus when working from home.
 
 The site really hits the nail on the head, from the occasional cough, the water cooler all the way to the scanner, slowly buzzing away.
-
-<!--more-->
 
 If you're looking for more office magic, here is a neat little [slack bot](https://github.com/tholman/office-simulator) built by [yours truly](http://tholman.com).
 

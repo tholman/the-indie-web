@@ -13,30 +13,38 @@
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
   </head>
   <body>
 
     {{ partial "header.html" . }}
-    <div class="wrapper">
+    <div class="single-item">
+
       <article>
-        <div class="inner-wrapper">
-          <h1>{{ .Title }}</h1>
-           <div class="category"><a class="{{ anchorize .Params.Category }}" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a></div>
-          {{ .Content }}
-        </div>
-        {{ if .Truncated }}
-          <canvas class="canvas-effect" width="50vw" height="50vw" data-category="{{ anchorize .Params.Category }}"></canvas>
-        {{ end }}
-        <div class="zigzag slide-up"></div>
-        <div class="other-links">
-          - See an error? More to add? <a href="https://github.com/tholman/inspiring-online/blob/master/content/{{.File.Path}}" target="_blank">Edit & submit a PR.</a><br>
-          - Support me in the form of <a href="https://www.buymeacoffee.com/tholman" target="_blank">a coffee?</a> <!--or <a href="">Sponsor me on GitHub?</a>-->
-        </div>
-      </article>
+
+        <div class="header">
+             <a class="category" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
+              <div>
+                <button class="minimise"><span></span></button>
+                <button class="expand"><span></span></button>
+                <button class="close"></button>
+            </div>
+          </div>
+
+          <div class="meta">
+            <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
+              {{ range .Params.tags }}
+                <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
+              {{ end }}
+          </div>
+
+      <div class="content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
     </div>
+  </article>
+
 
     <script src="/js/index.js" async></script>
     {{ partial "analytics.html" . }}

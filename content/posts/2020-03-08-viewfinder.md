@@ -12,6 +12,8 @@ At its core, the idea is that each picture you take with your camera contains a 
 
 {{< tweet 1193850868757618689 >}}
 
+<!--more-->
+
 Mark tweeted a brief summary of what's going down behind the scenes in his own words:
 
 > When the player takes a photo I duplicate the environment, make it greyscale and slice the meshes to remove anything outside the photo. When they place it into the world I slice the environment's meshes to make a hole for the photo.
@@ -25,8 +27,6 @@ Something super neat to notice in this example is how the crates that are cut in
 {{< tweet 1218583432789463041 >}}
 
 These are the dibs and dabs of detail that make a game captivating and truly enjoyable.
-
-<!--more-->
 
 Conceptually, it's been wonderful to see the ideas expand upon each other as Matt shares his experiments on Twitter.
 
