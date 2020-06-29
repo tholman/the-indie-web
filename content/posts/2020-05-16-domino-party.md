@@ -4,11 +4,12 @@ title: There ain't no party like a domino party.
 category: code
 more: "Let me play with the dominoes."
 tags: [webgl]
+image: https://tiw.accelerator.net/dominoes.png;resize(450,400,fit)/quantize(32)/quality(20).png
 ---
 
 _If only you could reset real-life dominoes with the click of a button_
 
-![Domino mario takes a spill](<https://tiw.accelerator.net/dominoes.png;resize(450,400,fit)/quantize(32)/quality(20).png>)
+![Domino mario takes a spill](https://tiw.accelerator.net/dominoes.png;resize(450,400,fit)/quantize(32)/quality(20).png)
 
 This is probably the most fun you can have with dominoes without leaving your browser.
 

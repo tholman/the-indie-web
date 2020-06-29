@@ -16,9 +16,7 @@ If you're anything like me you'll know how to get the ball straight to the parki
 
 Indie developer [Aaron Demeter](https://twitter.com/aarondemeter) launched [Lee Carvello’s Putting Challenge](https://aaron-demeter.itch.io/lee-carvallos-putting-challenge) on itch.io this week with all the fanfare such a title deserves, but if you're unfamiliar with the Simpsons reference, I'll point you to this [recap](https://en.wikipedia.org/wiki/Marge_Be_Not_Proud) based on one of the writers real life experiences.
 
-The Simpsons showrunner at the time, Bill Oakley has also [tweeted out the link](https://twitter.com/thatbilloakley/status/1271893517212610560), which of course gives it extra clout.
-
-{{< twitter 1271893517212610560 >}}
+The Simpsons showrunner at the time, Bill Oakley has also tweeted out the link which of course gives it extra clout.
 
 The game is super true to the original, and if you're a sucker for those details I'm sure you'll want to compare it side by site with the real thing.
 

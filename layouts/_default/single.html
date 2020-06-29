@@ -1,50 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>{{ .Title }} | {{ $.Site.Title }}</title>
 
-    <meta charset="utf-8">
-    <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
-    <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000">
-    <meta name="description" content="A simple blog for inspiring and creative online (and occasionally offline) work.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ $.Site.Title }}"
+    />
+    <link rel="mask-icon" href="safari-tab-icon.svg" color="#000000" />
+    <meta
+      name="description"
+      content="A simple blog for inspiring and creative online (and occasionally offline) work."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {{ range .AlternativeOutputFormats -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    {{ range .AlternativeOutputFormats -}} {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />
+    ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}}
 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
-    <link href="/css/styles.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css/styles.css" rel="stylesheet" />
   </head>
   <body>
-
     {{ partial "header.html" . }}
     <div class="single-item">
-
       <article>
-
         <div class="header">
-             <a class="category" href="{{ anchorize .Params.Category | absURL }}">{{ .Params.Category }}</a>
-              <div>
-                <button class="minimise"><span></span></button>
-                <button class="expand"><span></span></button>
-                <button class="close"><span></span></button>
-            </div>
+          <a class="category" href="{{ anchorize .Params.Category | absURL }}">
+            {{ .Params.Category }}</a>
+          <div>
+            <button class="minimise"><span></span></button>
+            <button class="expand"><span></span></button>
+            <button class="close"><span></span></button>
           </div>
+        </div>
 
-          <div class="meta">
-            <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
-              {{ range .Params.tags }}
-                <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
-              {{ end }}
-          </div>
+        <div class="meta">
+          <span class="item">{{ dateFormat "1.2.2006" .Date }}</span>
+          {{ range .Params.tags }}
+          <a class="item" href="/tag/{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+        </div>
 
-      <div class="content">
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
+        <div class="content">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+      </article>
     </div>
-  </article>
-
 
     <script src="/js/index.js" async></script>
     {{ partial "analytics.html" . }}

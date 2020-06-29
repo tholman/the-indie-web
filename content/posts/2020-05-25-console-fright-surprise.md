@@ -4,9 +4,10 @@ title: A scary fright in your developer console!
 category: code
 more: "Whats the secret source"
 tags: [pranks]
+image: https://tiw.accelerator.net/console-spider.png;resize(450,400,fit)/quantize(20)/quality(20).png
 ---
 
-![A Spidery Suprise](<https://tiw.accelerator.net/console-spider.png;resize(450,400,fit)/quantize(20)/quality(20).png>)
+![A Spidery Suprise](https://tiw.accelerator.net/console-spider.png;resize(450,400,fit)/quantize(20)/quality(20).png)
 
 I know its there to catch the bugs, but nope, nope nope.
 

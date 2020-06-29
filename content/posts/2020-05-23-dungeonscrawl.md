@@ -4,9 +4,10 @@ title: Take your tabletop gaming to the next level with this stunning dungeon cr
 category: resource
 more: "Show me how it works!"
 tags: [rpg]
+image: https://tiw.accelerator.net/dungeon-crawl-2.png;resize(450,400,fit)/quantize(20)/quality(20).png
 ---
 
-![Beautiful Dungeons](<https://tiw.accelerator.net/dungeon-crawl-2.png;resize(450,400,fit)/quantize(20)/quality(20).png>)
+![Beautiful Dungeons](https://tiw.accelerator.net/dungeon-crawl-2.png;resize(450,400,fit)/quantize(20)/quality(20).png)
 
 Sometimes you can really tell when a project comes straight from the heart, designed to scratch an itch that was otherwise impossible to scratch...
 
