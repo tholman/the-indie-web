@@ -2,7 +2,7 @@
 date: "2020-05-28T11:00:00Z"
 title: MonoLisa is a new hyper readable monospace font for your ide
 category: typography
-more: "Whats the secret source"
+more: "Who, what, why"
 tags: [font]
 image: https://tiw.accelerator.net/mona-lisa.png;resize(450,400,fit)/quantize(20)/quality(20).png
 ---
