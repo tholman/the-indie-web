@@ -1,7 +1,7 @@
 ## Inspiring Online
 [An online blog about inspiring work](https://inspiring.online), both online and off. Built and managed by [Tim Holman](http://tholman.com)
 
-I am to hype up neat and new creations on the web, interesting code and design, art, typography, and really just all things that catch my eye. Providing a resource that can be both inspiring, and educational.
+I aim to hype up neat and new creations on the web, interesting code and design, art, typography, and really just all things that catch my eye. Providing a resource that can be both inspiring, and educational.
 
 The blog itself is open source (which you can tell, reading this readme)... I'm aiming to make it easy for people to contribute, from fixing spelling mistakes, to making their own posts. 
 
