@@ -4,7 +4,7 @@ title: Repurposed checkboxes into a fully functional pixelized display board
 category: aesthetic
 more: "How does it work"
 tags: [code]
-image: https://tiw.accelerator.net/checkbox.png;resize(450,400,fit)/quantize(20)/quality(20).png
+image: https://tiw.accelerator.net/checkbox.png
 ---
 
 _Your life, only checkboxier._
