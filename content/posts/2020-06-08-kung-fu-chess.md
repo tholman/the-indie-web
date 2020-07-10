@@ -1,6 +1,7 @@
 ---
 date: "2020-06-08T13:00:00Z"
-title: Kung Fu Chess adds a real time element to an much loved classic
+title: Kung Fu Chess adds a real time element to a much loved classic
+aliases: /kung-fu-chess-adds-a-real-time-element-to-an-much-loved-classic
 description: Mastering chess where all your pieces moving at once can be quite the challenge, but really really fun at the same time.
 category: games
 more: "What are the rules"
