@@ -1,7 +1,7 @@
 ---
 date: "2020-06-13T13:00:00Z"
 title: GitHub has added profiles, here are the most creative ones so far!
-description: todododododo
+description: A collection of creative GitHub profiles based on the recent readme updates.
 category: code
 more: "How do I make my own?"
 tags: [git]

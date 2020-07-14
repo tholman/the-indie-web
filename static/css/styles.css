@@ -82,6 +82,7 @@ body:after {
 twitter-widget,
 iframe {
   -webkit-font-smoothing: auto;
+  padding: 20px;
 }
 
 /*Maybe grid is better here*/
