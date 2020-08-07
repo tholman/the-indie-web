@@ -1,7 +1,7 @@
 ---
 date: "2020-07-03T13:00:00Z"
 title: A handy script to reverse your codes indentation, for a harder life
-description: Backwards indentation is rarely explored, but maybe its time we gave it a look.
+description: Backwards indentation is rarely explored, but maybe it's time we gave it a look.
 category: code
 more: "Oh dear..."
 tags: [git]
