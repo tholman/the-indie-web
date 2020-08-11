@@ -23,3 +23,6 @@ Corey, who's no stranger to icon sets, has another side project that I can't go 
 ![Memeojis](<https://tiw.accelerator.net/system-uicons-2.png;resize(450,400,fit)/quantize(20)/quality(20).png>)
 
 The original System Uicons SVG's are available to download and remix if you feel, with a nifty and simple search tool to make the set easier to use. And then, the final icing on the cake, the whole project is [open sourced on GitHub](https://github.com/CoreyGinnivan/system-uicons) so you can follow along for more additions, and submit your own!
+
+➶ [System UIcons](https://systemuicons.com/)  
+➶ [Corey on Twitter](https://twitter.com/CoreyGinnivan)
